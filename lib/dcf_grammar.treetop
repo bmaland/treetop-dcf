@@ -1,0 +1,43 @@
+grammar Dcf
+  rule paragraphs
+    (paragraph eol?)*
+  end
+
+  rule paragraph
+    (field eol?)+
+  end
+
+  rule field
+    attribute separator value white*
+  end
+
+  rule attribute
+     [A-Za-z0-9/\\@;,=<>()\.\-\[\]{}_\+]+
+  end
+
+  rule value
+    eol? valid_value_symbols (eol white+ valid_value_symbols)*
+    {
+      def text_value
+        # I don't really like this, but it works for the files I'm parsing, so..
+        super.strip.gsub(/[\r\n] */, ' ')
+      end
+    }
+  end
+
+  rule valid_value_symbols
+    [A-Za-z0-9/\\@:;,=<>()\.\-\[\]{}_\+ ]+
+  end
+
+  rule separator
+    ':' white*
+  end
+
+  rule eol
+    "\r\n" / [\n\r]
+  end
+
+  rule white
+    [ \t]
+  end
+end
