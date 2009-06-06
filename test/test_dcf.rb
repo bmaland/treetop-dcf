@@ -113,26 +113,15 @@ EOF
 
   should "parse file with UTF-8 data" do
     sample = <<EOF
-Package: DoE.base
-Title: Full factorials, orthogonal arrays and base utilities for DoE
-        packages
-Version: 0.2
-Depends: R(>= 2.7.1)
-Date: 2009-05-26
-Author: Ulrike Groemping
-Maintainer: Ulrike Groemping <groemping@bht-berlin.de>
-Description: This package creates full factorial experiments and
-        experiments based on orthogonal arrays for (industrial)
-        experiments. Additionally, it provides some utility functions
-        used also by other DoE packages.
-License: GPL (>= 2)
-LazyLoad: yes
-LazyData: yes
 Encoding: latin1
 Packaged: Tue May 26 10:40:31 2009; Grömping
 Repository: CRAN
 Date/Publication: 2009-05-26 09:23:28
 EOF
-    #assert_not_nil Dcf.parse(sample)
+    sample = (RUBY_VERSION =~ /1.9/) ? sample.force_encoding("binary") : sample
+    match = (RUBY_VERSION =~ /1.9/) ? "Grömping".force_encoding("binary") : "Grömping"
+    parse = Dcf.parse(sample).first
+    assert_not_nil parse
+    assert_equal "Tue May 26 10:40:31 2009; #{match}", parse["Packaged"]
   end
 end
