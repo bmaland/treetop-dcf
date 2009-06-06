@@ -1,6 +1,11 @@
+# -*- coding: utf-8 -*-
 require File.dirname(__FILE__) + '/helper'
 
 class TestDcfParser < Test::Unit::TestCase
+  should "not accept spaces in keys" do
+    assert_nil Dcf.parse("As df: Value\n")
+  end
+
   should "parse a description file" do
     description = <<EOF
 Package: RSQLite
@@ -104,5 +109,30 @@ EOF
     assert_equal "R (>= 2.2.1), cgh, tilingArray, aCGH, cghMCR, papply, GDD, " +
                  "waveslim, cluster, snapCGH, Hmisc",
                  parse["Depends"]
+  end
+
+  should "parse file with UTF-8 data" do
+    sample = <<EOF
+Package: DoE.base
+Title: Full factorials, orthogonal arrays and base utilities for DoE
+        packages
+Version: 0.2
+Depends: R(>= 2.7.1)
+Date: 2009-05-26
+Author: Ulrike Groemping
+Maintainer: Ulrike Groemping <groemping@bht-berlin.de>
+Description: This package creates full factorial experiments and
+        experiments based on orthogonal arrays for (industrial)
+        experiments. Additionally, it provides some utility functions
+        used also by other DoE packages.
+License: GPL (>= 2)
+LazyLoad: yes
+LazyData: yes
+Encoding: latin1
+Packaged: Tue May 26 10:40:31 2009; Grömping
+Repository: CRAN
+Date/Publication: 2009-05-26 09:23:28
+EOF
+    #assert_not_nil Dcf.parse(sample)
   end
 end
