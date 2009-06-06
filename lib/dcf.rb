@@ -1,9 +1,10 @@
 require "rubygems"
 require "treetop"
-require File.join(File.dirname(__FILE__), "dcf_grammar")
+require "dcf_grammar"
 
 module Dcf
-  # Returns an array of { attr => val } hashes
+  # @param [String] input
+  # @return [Array, nil] An array of { attr => val } hashes or nil if failure
   def self.parse(input)
     parse = DcfParser.new.parse(input)
     return if parse.nil?
