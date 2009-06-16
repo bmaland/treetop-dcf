@@ -113,15 +113,18 @@ EOF
 
   should "parse file with UTF-8 data" do
     sample = <<EOF
+Author: Vincent Goulet, Sébastien Auclair, Christophe Dutang, Xavier
+        Milhaud, Tommy Ouellet, Louis-Philippe Pouliot, Mathieu Pigeon
 Encoding: latin1
 Packaged: Tue May 26 10:40:31 2009; Grömping
 Repository: CRAN
 Date/Publication: 2009-05-26 09:23:28
 EOF
-    sample = (RUBY_VERSION =~ /1.9/) ? sample.force_encoding("binary") : sample
-    match = (RUBY_VERSION =~ /1.9/) ? "Grömping".force_encoding("binary") : "Grömping"
+    sample = (RUBY_VERSION =~ /1.9/) ? sample.force_encoding("utf-8") : sample
+    match = (RUBY_VERSION =~ /1.9/) ? "Grömping".force_encoding("utf-8") : "Grömping"
     parse = Dcf.parse(sample).first
     assert_not_nil parse
+    assert_match "Sébastien Auclair", parse["Author"]
     assert_equal "Tue May 26 10:40:31 2009; #{match}", parse["Packaged"]
   end
 end
