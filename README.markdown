@@ -28,3 +28,7 @@ for the [R Foundation for Statistical
 Computing](http://www.r-project.org/foundation/main.html). (CRAN uses DCF for
 package information, and we needed a parser written in Ruby.) Therefore, a big
 thanks goes out to both the R Foundation and Google.
+
+## Author
+
+Bjørn Arild Mæland <bjorn.maeland at gmail.com>

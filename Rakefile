@@ -11,7 +11,7 @@ begin
     s.email = "bjorn.maeland@gmail.com"
     s.homepage = "http://github.com/Chrononaut/treetop-dcf"
     s.description = "Easy to use parser for Debian Control Files."
-    s.authors = ["Bjørn Arild Mæland"]
+    s.authors = ["Bjorn Arild Maeland"]
     s.files = "lib/*.*"
     s.add_dependency('treetop', '>= 1.2.5')
   end
