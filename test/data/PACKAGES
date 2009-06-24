@@ -1,0 +1,7775 @@
+Package: aaMI
+Version: 1.0-1
+Depends: R (>= 2.0.0)
+
+Package: abind
+Version: 1.1-0
+Depends: R (>= 1.5.0)
+
+Package: AcceptanceSampling
+Version: 1.0-1
+Depends: methods, R(>= 2.4.0), stats
+Imports: graphics
+
+Package: accuracy
+Version: 1.32
+Imports: methods
+Suggests: Zelig
+
+Package: acepack
+Version: 1.3-2.2
+
+Package: aCGH.Spline
+Version: 1.0
+Depends: rJava
+
+Package: actuar
+Version: 1.0-2
+Depends: R (>= 2.6.0)
+
+Package: ada
+Version: 2.0-1
+Depends: R(>= 2.0.1),rpart
+
+Package: adabag
+Version: 1.1
+Depends: R (>= 2.4.0), rpart, mlbench
+
+Package: ADaCGH
+Version: 1.3-13
+Depends: R (>= 2.2.1), cgh, tilingArray, aCGH, cghMCR, papply, GDD,
+        waveslim, cluster, snapCGH, Hmisc
+Suggests: Rmpi, GLAD, DNAcopy, rsprng
+
+Package: adapt
+Version: 1.0-4
+
+Package: AdaptFit
+Version: 0.2-2
+Depends: SemiPar, MASS, nlme, cluster
+
+Package: ade4
+Version: 1.4-11
+Suggests: waveslim, splancs, MASS, maptools, spdep, pixmap, ape,
+        tripack, ade4TkGUI
+
+Package: ade4TkGUI
+Version: 0.2-5
+Depends: ade4 (>= 1.4-3), tcltk
+Suggests: tkrplot, pixmap
+
+Package: adegenet
+Version: 1.2-3
+Depends: methods
+Suggests: ade4, genetics, hierfstat, spdep, tripack, ape
+
+Package: adehabitat
+Version: 1.8.3
+Depends: R (>= 2.7.0), ade4
+Suggests: gpclib, sp, spatstat, MASS, tkrplot, shapefiles, CircStats
+
+Package: adimpro
+Version: 0.7.2
+Depends: R (>= 2.6.0), grDevices
+
+Package: adk
+Version: 1.0
+
+Package: adlift
+Version: 0.9-6
+Depends: EbayesThresh
+
+Package: AdMit
+Version: 1-01.02
+Depends: mvtnorm
+Suggests: coda
+
+Package: ads
+Version: 1.2-9
+Suggests: spatstat
+
+Package: AER
+Version: 1.1-3
+Depends: R (>= 2.5.0), stats, car, lmtest, sandwich, strucchange,
+        survival, zoo
+Imports: stats
+Suggests: boot, dynlm, foreign, ineq, KernSmooth, lattice, MASS,
+        mlogit, nlme, nnet, np, plm, pscl, quantreg, ROCR,
+        sampleSelection, systemfit, tseries, urca
+
+Package: afc
+Version: 1.0
+
+Package: agce
+Version: 1.2
+Depends: nlme
+
+Package: agreement
+Version: 1.0-1
+Depends: R (>= 2.7.0), stats, utils, tools
+
+Package: agricolae
+Version: 1.0-7
+Suggests: akima, klaR, SuppDists, corpcor
+
+Package: agsemisc
+Version: 1.1-3
+Depends: R (>= 1.8.0), lattice, grid
+Suggests: MASS
+
+Package: AIGIS
+Version: 1.0
+Depends: R (>= 2.5.1), gpclib (>= 1.4)
+
+Package: AIS
+Version: 1.0
+Depends: R (>= 2.1.0)
+Suggests: R2HTML
+
+Package: akima
+Version: 0.5-2
+
+Package: AlgDesign
+Version: 1.0-10
+
+Package: allelic
+Version: 0.1
+
+Package: alphahull
+Version: 0.1
+Depends: tripack
+
+Package: alr3
+Version: 1.1.7
+
+Package: ALS
+Version: 0.0.3
+Depends: nnls (>= 1.1), Iso
+
+Package: amap
+Version: 0.8-3
+Suggests: Biobase
+
+Package: amei
+Version: 1.0-1
+
+Package: Amelia
+Version: 1.2-2
+Depends: R (>= 2.0.0), foreign, utils
+Suggests: tcltk
+
+Package: AMORE
+Version: 0.2-11
+
+Package: anacor
+Version: 0.9-8
+Depends: rgl, scatterplot3d, fda, colorspace, car
+Imports: graphics, stats
+
+Package: analogue
+Version: 0.6-8
+Depends: R (>= 2.5.0), stats, graphics, vegan, lattice, MASS
+
+Package: AnalyzeFMRI
+Version: 1.1-10
+Depends: tcltk
+
+Package: anapuce
+Version: 2.1
+
+Package: Animal
+Version: 1.02
+
+Package: animation
+Version: 1.0-4
+Depends: MASS
+
+Package: anm
+Version: 1.0-8
+Depends: R (>= 1.4), clim.pact, xtable
+
+Package: aod
+Version: 1.1-31
+Depends: R (>= 2.0.0), methods, stats
+Suggests: MASS, nlme, boot
+
+Package: ape
+Version: 2.3-1
+Depends: R (>= 2.6.0)
+Imports: gee, nlme, lattice
+Suggests: gee
+
+Package: aplpack
+Version: 1.2.1
+Depends: R (>= 2.6.0), tcltk
+
+Package: apsrtable
+Version: 0.7-4
+Depends: R (>= 2.8.0), methods
+
+Package: apTreeshape
+Version: 1.4-1
+Depends: R (>= 2.0.0)
+Suggests: ape, quantreg, Bhat
+
+Package: AquaEnv
+Version: 0.7
+Depends: minpack.lm, deSolve, seacarb
+
+Package: archetypes
+Version: 1.0
+Depends: nnls (>= 1.1)
+Suggests: MASS, vcd
+
+Package: ArDec
+Version: 1.2-3
+Depends: stats, methods
+
+Package: argosfilter
+Version: 0.6
+
+Package: arm
+Version: 1.2-9
+Depends: methods, R (>= 2.6.0), MASS, Matrix (>= 0.999375-10), lme4 (>=
+        0.999375-16), R2WinBUGS
+Suggests: car, foreign
+
+Package: aroma.apd
+Version: 0.1.6
+Depends: R (>= 2.2.0), R.oo, R.utils, R.huge, affxparser
+
+Package: aroma.core
+Version: 1.1.2
+Depends: R (>= 2.6.0), R.methodsS3 (>= 1.0.3), R.oo (>= 1.4.5), R.utils
+        (>= 1.1.6), R.cache (>= 0.1.7), R.filesets (>= 0.5.1), R.rsp
+        (>= 0.3.4), matrixStats (>= 0.1.4), digest (>= 0.3.1),
+        aroma.light (>= 1.12.2)
+Imports: affxparser (>= 1.10.1), geneplotter (>= 1.16.0), RColorBrewer
+        (>= 1.0-2)
+Suggests: EBImage (>= 2.2.0), Cairo (>= 1.3-5), sfit (>= 0.1.5),
+        expectile (>= 0.2.3), GLAD (>= 1.12.0), DNAcopy (>= 1.18.0),
+        HaarSeg (>= 0.0.2)
+
+Package: arrayImpute
+Version: 1.3
+Depends: RGtk2,cairoDevice,impute,matlab,quantreg,gnm,nlme
+
+Package: arrayMissPattern
+Version: 1.3
+Depends: RGtk2, cairoDevice, spatstat
+
+Package: ars
+Version: 0.4
+Depends: R (>= 2.4.0)
+
+Package: arules
+Version: 1.0-0
+Depends: R (>= 2.7.0), stats, methods, Matrix (>= 0.999375-9)
+Imports: stats, Matrix
+Suggests: pmml
+
+Package: arulesNBMiner
+Version: 0.1-0
+Depends: arules (>= 0.6-6), rJava (>= 0.6-0)
+Imports: methods
+
+Package: arulesSequences
+Version: 0.1-8
+Depends: R (>= 2.7.0), methods, arules (>= 0.6-6)
+Imports: arules
+OS_type: unix
+
+Package: ascii
+Version: 0.1.3
+Depends: R (>= 2.7), proto, methods, utils
+Imports: proto, methods
+Suggests: survival, Hmisc, xtable, R2HTML
+
+Package: ash
+Version: 1.0-11
+
+Package: aspace
+Version: 1.2
+Depends: R (>= 2.0.1), adehabitat, ade4, gpclib, sp, maptools
+
+Package: aspect
+Version: 0.8-1
+
+Package: assist
+Version: 2.0
+Depends: R (>= 1.7.0), nlme
+
+Package: aster
+Version: 0.7-7
+Depends: R (>= 2.4.1), trust
+
+Package: asuR
+Version: 0.08-24
+Depends: MASS, lattice, grid, methods, lme4
+Suggests: car
+
+Package: asympTest
+Version: 0.1.0
+Depends: R (>= 1.8.0)
+
+Package: asypow
+Version: 1.2.2
+Depends: R (>= 2.2.0), stats
+
+Package: audio
+Version: 0.1-3
+Depends: R (>= 2.0.0)
+
+Package: automap
+Version: 1.0-0
+Depends: R (>= 2.4.0), methods, sp (>= 0.9-4), gstat (>= 0.9-58)
+Imports: lattice
+
+Package: aws
+Version: 1.6
+Depends: R (>= 2.5.0), methods
+
+Package: aylmer
+Version: 1.0-3
+Depends: methods, Brobdingnag, partitions
+
+Package: BACCO
+Version: 1.1-4
+Bundle: BACCO
+Contains: emulator calibrator approximator
+Depends: R (>= 2.0.0), mvtnorm, adapt, stats
+
+Package: backfitRichards
+Version: 0.5.0
+Depends: R (>= 2.0.0), richards (>= 0.5), methods
+
+Package: backtest
+Version: 0.3-0
+Depends: R (>= 2.3.0), methods, grid, lattice
+
+Package: BaM
+Version: 0.96
+Depends: R (>= 1.4.1), bayesm, coda, MASS, stats, mice, survival,
+        foreign,nnet
+
+Package: BAMD
+Version: 1.2
+
+Package: BARD
+Version: 1.03
+Depends: digest
+Imports: spdep, iplots
+Suggests: snow, rgenoud, rJava
+
+Package: bark
+Version: 0.1-0
+
+Package: BAS
+Version: 0.3
+Depends: R (>= 2.6)
+
+Package: bayesCGH
+Version: 0.6
+Depends: snapCGH, methods
+
+Package: bayesclust
+Version: 2.1
+
+Package: bayescount
+Version: 0.9.0-7
+Depends: R (>= 2.6), runjags (>= 0.9.2), coda, lattice, stats, utils
+
+Package: BayesDA
+Version: 1.0-0
+Depends: stats, R (>= 2.2.0)
+Suggests: MCMCpack
+
+Package: bayesGARCH
+Version: 1-00.04
+Depends: mvtnorm, coda
+
+Package: bayesm
+Version: 2.2-2
+Depends: R (>= 2.5.1)
+
+Package: bayesmix
+Version: 0.6-1
+Depends: R (>= 2.6), coda
+
+Package: bayesSurv
+Version: 0.6-1
+Depends: R (>= 2.0.0), survival, coda, smoothSurv
+
+Package: BayesTree
+Version: 0.3-1
+Depends: nnet
+
+Package: BayesValidate
+Version: 0.0
+Depends: R (>= 2.0.1)
+
+Package: BayesX
+Version: 0.2
+Depends: akima, shapefiles
+Imports: sp, colorspace, coda, splines
+Suggests: spdep
+
+Package: BayHaz
+Version: 0.1-3
+Depends: R (>= 1.8.0), splines
+Suggests: coda
+
+Package: BAYSTAR
+Version: 0.1-2
+Depends: R (>= 2.5.0), mvtnorm
+
+Package: BB
+Version: 2009.6-1
+Depends: R (>= 2.6.1), numDeriv
+Suggests: setRNG
+
+Package: bbmle
+Version: 0.9.0
+Depends: R (>= 2.0.0), methods, stats, graphics
+Suggests: aod, emdbook, Hmisc, nlme
+
+Package: BCE
+Version: 1.3
+Depends: R (>= 2.01), limSolve
+
+Package: Bchron
+Version: 2.1
+Depends: coda, hdrcde
+
+Package: bcp
+Version: 2.1.1
+Depends: methods, stats, graphics
+Suggests: nws
+
+Package: beanplot
+Version: 1.1
+Suggests: vioplot, lattice
+
+Package: bear
+Version: 2.3.1
+Depends: R (>= 2.8.0), reshape, nlme, sciplot, plotrix, ICSNP
+
+Package: benchden
+Version: 1.0.1
+
+Package: bentcableAR
+Version: 0.2.1
+
+Package: betaper
+Version: 1.0-0
+Depends: vegan
+
+Package: betareg
+Version: 1.2
+
+Package: bethel
+Version: 0.2
+Depends: R (>= 2.5.0)
+
+Package: BGSIMD
+Version: 1.0
+
+Package: Bhat
+Version: 0.9-08
+
+Package: BHH2
+Version: 1.0.2
+Depends: R (>= 2.0.0)
+
+Package: BiasedUrn
+Version: 1.03
+
+Package: biclust
+Version: 0.8.1
+Depends: MASS, grid, vcd, colorspace
+Imports: methods
+
+Package: bicreduc
+Version: 0.4-7
+
+Package: bifactorial
+Version: 1.4.1
+Depends: mvtnorm,multcomp,lattice,graphics,methods
+
+Package: biglm
+Version: 0.7
+Depends: DBI, methods
+Suggests: RSQLite, RODBC
+
+Package: bigmemory
+Version: 3.9
+Depends: methods, stats, utils
+Suggests: biglm
+
+Package: bim
+Version: 1.01-5
+Depends: stats,qtl
+
+Package: binarySimCLF
+Version: 1.0
+
+Package: bindata
+Version: 0.9-14
+Depends: adapt, e1071, mvtnorm
+
+Package: binGroup
+Version: 0.3-2
+
+Package: binMto
+Version: 0.0-3
+Depends: mvtnorm
+
+Package: binom
+Version: 1.0-5
+Depends: lattice
+Suggests: polynom, tcltk
+
+Package: binomSamSize
+Version: 0.1-2
+Depends: binom
+
+Package: Biodem
+Version: 0.1
+
+Package: BiodiversityR
+Version: 1.2
+Depends: R (>= 2.7.0), vegan (>= 1.8-6)
+Suggests: MASS, mgcv, cluster, Rcmdr (>= 1.3-14), car, RODBC, rpart,
+        effects, multcomp, ellipse, maptree, sp, splancs, spatial,
+        akima, nnet
+
+Package: BioIDMapper
+Version: 1.1
+Depends: R (>= 2.7.0), RCurl, XML
+
+Package: bio.infer
+Version: 1.2-3
+Depends: R (>= 2.7.0), tcltk
+
+Package: biopara
+Version: 1.5
+
+Package: biOps
+Version: 0.2.1
+
+Package: biOpsGUI
+Version: 0.1.2
+Depends: R (>= 2.4.0), RGtk2, biOps
+
+Package: bipartite
+Version: 0.92
+Depends: MASS, vegan,
+Suggests: fields, sna, spam
+
+Package: BiplotGUI
+Version: 0.0-4.1
+Depends: R (>= 2.7.0), deldir, rgl (>= 0.79), tcltk, tcltk2 (>= 1.0-7),
+        tkrplot (>= 0.0-18)
+Imports: colorspace, KernSmooth, MASS
+OS_type: windows
+
+Package: birch
+Version: 1.1-3
+Depends: ellipse
+
+Package: bise
+Version: 1.0
+Depends: R (>= 1.9)
+
+Package: bit
+Version: 1.0-2
+
+Package: bitops
+Version: 1.0-4.1
+
+Package: bivpois
+Version: 0.50-3
+Depends: R (>= 2.0.1)
+
+Package: BLCOP
+Version: 0.2.2
+Depends: methods, RUnit, MASS, quadprog, corpcor, sn
+
+Package: blighty
+Version: 3.0-1
+Depends: utils
+
+Package: blockmodeling
+Version: 0.1.7
+Imports: stats
+Suggests: sna, Matrix
+
+Package: blockrand
+Version: 1.1
+
+Package: blockTools
+Version: 0.3
+Depends: MASS, gtools, xtable
+
+Package: BMA
+Version: 3.10
+Depends: survival, leaps
+Suggests: MASS, rrcov, forward
+
+Package: bmd
+Version: 0.1
+Depends: R (>= 2.6.0), drc
+
+Package: BMN
+Version: 1.0
+Depends: R (>= 2.6.0)
+
+Package: bnlearn
+Version: 1.4.1
+Depends: R (>= 2.8.0), utils
+Suggests: snow, graph, Rgraphviz (>= 1.20.3)
+
+Package: boa
+Version: 1.1.7-2
+Depends: R (>= 1.7)
+
+Package: Bolstad
+Version: 0.2-14
+
+Package: boot
+Version: 1.2-37
+Priority: recommended
+Depends: R (>= 2.5.0), graphics, stats
+Suggests: survival
+
+Package: BootCL
+Version: 1.7
+
+Package: BootPR
+Version: 0.58
+Depends: zoo, combinat
+
+Package: bootRes
+Version: 0.1
+Depends: base, stats, utils
+Suggests: dplR
+
+Package: bootspecdens
+Version: 2.0
+Depends: MASS
+
+Package: bootStepAIC
+Version: 1.2-0
+Depends: R(>= 2.3.0), MASS
+
+Package: bootstrap
+Version: 1.0-22
+Depends: stats, R (>= 2.1.0)
+
+Package: bpca
+Version: 1.0.3
+Depends: R (>= 2.6.0), scatterplot3d, rgl, MASS
+
+Package: BPHO
+Version: 1.2-5
+Depends: R (>= 2.5.1)
+
+Package: bqtl
+Version: 1.0-24
+Depends: R (>= 2.6.0)
+
+Package: BradleyTerry
+Version: 0.8-7
+Depends: R (>= 1.8.0)
+Imports: brglm
+
+Package: brainwaver
+Version: 1.4
+Depends: R (>= 1.5.0), waveslim
+
+Package: brew
+Version: 1.0-3
+
+Package: brglm
+Version: 0.5-4
+Depends: R (>= 2.6.0), profileModel
+Suggests: MASS
+
+Package: Brobdingnag
+Version: 1.1-6
+Depends: R (>= 2.6.0), methods,graphics
+
+Package: bs
+Version: 1.0
+Depends: R (>= 1.8.0), nlme, methods
+
+Package: BSagri
+Version: 0.1-5
+Depends: R (>= 2.7.0), mvtnorm, multcomp, gamlss, mratios, MCPAN,
+        pairwiseCI, lattice, geepack, boot
+
+Package: BSDA
+Version: 0.1
+Depends: e1071
+
+Package: BsMD
+Version: 0.6-5.2
+Depends: R(>= 2.7.0)
+
+Package: bspec
+Version: 1.1
+
+Package: bvls
+Version: 1.2
+
+Package: ca
+Version: 0.21
+Depends: R (>= 2.0.0), rgl (>= 0.64-10)
+
+Package: cacher
+Version: 1.1
+Depends: R (>= 2.9.0)
+Imports: utils
+Suggests: digest, CodeDepends, Rgraphviz
+
+Package: cacheSweave
+Version: 0.4-3
+Depends: R (>= 2.6.0), filehash, stashR
+Imports: utils, digest
+
+Package: CADFtest
+Version: 0.1-0
+Depends: dynlm, fUnitRoots, sandwich
+
+Package: CADStat
+Version: 2.1-17
+Depends: JGR, XML, lattice, bio.infer, gdata, gmodels, car, MASS,
+        quantreg, rpart, rJava
+
+Package: Cairo
+Version: 1.4-4
+Depends: R (>= 2.4.0)
+
+Package: cairoDevice
+Version: 2.10
+Depends: R (>= 2.7.0)
+Imports: grDevices
+
+Package: CalciOMatic
+Version: 1.1-2
+Depends: cobs
+
+Package: calib
+Version: 2.0.0
+Depends: R (>= 2.7.0), stats, nlme, methods
+Imports: graphics
+
+Package: calibrate
+Version: 1.5
+Depends: R (>= 1.8.0)
+
+Package: caMassClass
+Version: 1.6
+Depends: R (>= 2.0.0), PROcess, e1071, nnet, rpart, caTools, XML,
+        digest, MASS
+
+Package: candisc
+Version: 0.5-15
+Depends: car, heplots (>= 0.8-3), graphics, stats
+Suggests: rgl
+
+Package: canvas
+Version: 0.1-0
+Depends: R (>= 2.8.1)
+
+Package: car
+Version: 1.2-14
+Depends: R (>= 2.1.1), stats, graphics
+Suggests: MASS, nnet, leaps, survival
+
+Package: CarbonEL
+Version: 0.1-4
+Depends: R (>= 2.0.0), grDevices
+
+Package: caret
+Version: 4.18
+Depends: R (>= 2.5.1), lattice
+Suggests: gbm, pls, mlbench, rpart, ellipse, ipred, klaR, randomForest,
+        gpls, pamr, kernlab, mda, mgcv, nnet, class, MASS, mboost,
+        earth (>= 2.2-3), party, ada, affy, proxy, e1071, grid,
+        elasticnet, SDDA, caTools, RWeka (>= 0.3-14), superpc,
+        penalized, sparseLDA (>= 0.1-1), spls, sda, glmnet, relaxo,
+        lars, vbmp
+
+Package: catmap
+Version: 1.6
+
+Package: caTools
+Version: 1.9
+Depends: R (>= 2.2.0), bitops
+Suggests: MASS, rpart
+
+Package: catspec
+Version: 0.93
+
+Package: cba
+Version: 0.2-6
+Depends: R (>= 2.4.1), grid, proxy
+Imports: Matrix
+Suggests: gclus, colorspace
+
+Package: CCA
+Version: 1.2
+Depends: fda, fields
+
+Package: ccems
+Version: 1.03
+Depends: odesolve,snow,PolynomF
+Suggests: nws
+
+Package: ccgarch
+Version: 0.1.4-2
+Depends: R (>= 2.6.1)
+
+Package: cclust
+Version: 0.6-15
+Depends: stats
+
+Package: CDFt
+Version: 1.0.1
+Depends: R (>= 1.8.0)
+
+Package: CDNmoney
+Version: 2007.6-1
+Depends: R (>= 2.5.0)
+Suggests: tframe (>= 2006.1-1)
+
+Package: CellularAutomaton
+Version: 1.0
+Depends: R.oo
+
+Package: cellVolumeDist
+Version: 1.1
+Depends: minpack.lm (>= 1.1-1), gplots
+
+Package: celsius
+Version: 1.0.7
+Depends: Biobase, methods
+
+Package: cem
+Version: 1.0.108
+Depends: R (>= 2.6.0), nlme, lattice, randomForest
+Suggests: Amelia(>= 1.2-0), MatchIt
+
+Package: cfa
+Version: 0.8-4
+Depends: R (>= 2.00)
+
+Package: cggd
+Version: 0.8
+Depends: R (>= 2.4.0), grDevices, graphics, stats, utils
+
+Package: cgh
+Version: 1.0-6.1
+Depends: R (>= 2.6.0)
+
+Package: cghFLasso
+Version: 0.2-1
+
+Package: CGIwithR
+Version: 0.72
+Suggests: GDD
+
+Package: ChainLadder
+Version: 0.1.2-11
+Depends: Hmisc, lattice, stats
+
+Package: changeLOS
+Version: 2.0.9-2
+Depends: R (>= 1.8.1), survival
+
+Package: cheb
+Version: 0.2
+
+Package: chemCal
+Version: 0.1-26
+Suggests: MASS
+
+Package: chemometrics
+Version: 0.4
+Depends: class, e1071, lars, MASS, mclust, nnet, pcaPP, pls, rpart,
+        robustbase, som
+
+Package: CHNOSZ
+Version: 0.8
+Depends: utils
+
+Package: choplump
+Version: 0.9-3
+Depends: R (>= 2.5.0), stats
+
+Package: chplot
+Version: 1.3.1
+Depends: ellipse, KernSmooth, lattice
+
+Package: chron
+Version: 2.3-30
+Depends: R (>= 2.4.0)
+Imports: graphics, stats
+
+Package: CHsharp
+Version: 0.2
+
+Package: cir
+Version: 1.0
+
+Package: CircStats
+Version: 0.2-3
+Depends: MASS, boot
+
+Package: circular
+Version: 0.3-8
+Depends: boot
+
+Package: clac
+Version: 0.1-2
+
+Package: classGraph
+Version: 0.7-2
+Depends: methods, graph, Rgraphviz
+Imports: methods, graph, Rgraphviz
+Suggests: Matrix
+
+Package: classifly
+Version: 0.2.3
+Depends: rggobi, rpart, MASS, nnet, class, e1071, reshape
+Suggests: randomForest
+
+Package: classInt
+Version: 0.1-11
+Depends: R (>= 2.2), grDevices, stats, class, e1071
+
+Package: climatol
+Version: 1.0.3.1
+Depends: R (>= 1.8.0)
+
+Package: clim.pact
+Version: 2.2-38
+Depends: ncdf, akima, R (>= 2.8.0)
+
+Package: clinfun
+Version: 0.8.4
+Depends: R (>= 2.0.0), graphics, stats
+Imports: mvtnorm
+Suggests: survival
+
+Package: ClinicalRobustPriors
+Version: 1.1-2
+Depends: R (>= 2.7.2)
+
+Package: clinsig
+Version: 1.0-1
+
+Package: clue
+Version: 0.3-27
+Depends: R (>= 2.7.0)
+Imports: stats, cluster, graphics, methods
+Suggests: e1071, lpSolve (>= 5.5.7), quadprog (>= 1.4-8), relations
+
+Package: clues
+Version: 0.3.2
+Depends: R (>= 2.8.1), stats
+
+Package: cluster
+Version: 1.12.0
+Priority: recommended
+Depends: R (>= 2.5.0), stats, graphics, utils
+
+Package: clusterfly
+Version: 0.2.2
+Depends: rggobi, ggplot2, e1071, cluster
+Suggests: som, mclust
+
+Package: clusterGeneration
+Version: 1.2.7
+Depends: R (>= 2.8.1), MASS
+
+Package: clusterRepro
+Version: 0.5-1.1
+Depends: R (>= 2.2.0)
+
+Package: clusterSim
+Version: 0.36-4
+Depends: ade4, cluster, R2HTML, e1071, rgl, MASS
+
+Package: clustTool
+Version: 1.6.1
+Depends: R (>= 2.2.0), mvoutlier, cluster, randomForest, tcltk, e1071,
+        rpart, class, grid, mclust02, fpc, flexclust, vegan, clue,
+        mvpart, lattice, kernlab, compositions
+
+Package: clustvarsel
+Version: 1.2
+Depends: mclust02
+
+Package: clv
+Version: 0.3-1
+Depends: cluster, class
+
+Package: clValid
+Version: 0.5-7
+Depends: R (>= 2.0), methods, cluster, kohonen, class, mclust
+Suggests: Biobase, annotate, GO, moe430a
+
+Package: cmm
+Version: 0.1
+
+Package: cmprsk
+Version: 2.2-0
+Depends: R (>= 2.6.0), survival
+
+Package: cmprskContin
+Version: 1.0
+OS_type: unix
+
+Package: cmrutils
+Version: 1.2-1
+Depends: R (>= 2.8.1), grDevices, chron
+Imports: grDevices
+
+Package: cobs
+Version: 1.2-0
+Depends: R (>= 2.5.1), SparseM,quantreg,
+        splines,grDevices,graphics,stats,utils
+
+Package: cobs99
+Version: 0.9-7
+Depends: R (>= 2.0.1)
+
+Package: CoCo
+Version: 0.1.7.5
+Bundle: CoCo
+Contains: CoCoObjects CoCoCore CoCoRaw CoCoOldData CoCoGraph CoCo
+        CoCoCg
+Depends: R (>= 2.0.0), dynamicGraph (>= 0.2.0), MASS, methods
+
+Package: cocorresp
+Version: 0.1-7
+Depends: stats, graphics, vegan
+
+Package: coda
+Version: 0.13-4
+Depends: R (>= 2.5.0), lattice
+
+Package: codetools
+Version: 0.2-2
+Priority: recommended
+Depends: R (>= 2.1)
+
+Package: coin
+Version: 1.0-5
+Depends: R (>= 2.2.0), methods, survival, mvtnorm (>= 0.8-0),
+        modeltools (>= 0.2-9)
+Suggests: multcomp, xtable, e1071, vcd
+
+Package: colorRamps
+Version: 2.3
+
+Package: colorspace
+Version: 1.0-1
+Depends: R (>= 2.0.0), methods
+Suggests: KernSmooth, MASS, kernlab, mvtnorm, vcd
+
+Package: combinat
+Version: 0.0-6
+Depends: R
+
+Package: CombMSC
+Version: 1.4.2
+Depends: R(>= 2.4.0)
+Suggests: lattice, rgl
+
+Package: ComPairWise
+Version: 1.01
+
+Package: compare
+Version: 0.2-1
+
+Package: CompetingRiskFrailty
+Version: 2.0
+
+Package: compHclust
+Version: 1.0
+
+Package: compoisson
+Version: 0.3
+Depends: stats, MASS
+
+Package: compositions
+Version: 1.01-1
+Depends: R (>= 2.2.0), rgl, tensorA, robustbase
+
+Package: compOverlapCorr
+Version: 1.0
+
+Package: concor
+Version: 1.0-0.1
+Depends: R (>= 0.99)
+
+Package: concord
+Version: 1.4-9
+
+Package: conf.design
+Version: 1.0
+
+Package: connectedness
+Version: 0.2.2
+Imports: methods
+
+Package: Containers
+Version: 1.2
+Depends: R.oo, rJava
+
+Package: contfrac
+Version: 1.1-7
+
+Package: contrast
+Version: 0.9
+Depends: R (>= 2.2.1), Design
+Suggests: lattice, nlme, Hmisc, geepack, MASS, sandwich
+
+Package: ConvCalendar
+Version: 1.0
+
+Package: ConvergenceConcepts
+Version: 0.6
+Depends: R (>= 2.5.0), tkrplot, lattice
+
+Package: convexHaz
+Version: 0.2
+Depends: R (>= 2.4)
+
+Package: copas
+Version: 0.6-2
+Depends: meta (>= 0.8)
+
+Package: copula
+Version: 0.8-7
+Depends: methods, mvtnorm, scatterplot3d, sn, adapt, pspline
+
+Package: corcounts
+Version: 1.2
+
+Package: corpcor
+Version: 1.5.2
+Depends: R (>= 2.7.0)
+
+Package: corpora
+Version: 0.3-2.1
+Depends: R (>= 2.0.0)
+
+Package: CORREP
+Version: 1.10.0
+Depends: e1071
+Suggests: cluster
+
+Package: corrgram
+Version: 0.1
+
+Package: corrperm
+Version: 1.0
+
+Package: countrycode
+Version: 0.2
+
+Package: covRobust
+Version: 1.0
+
+Package: CoxBoost
+Version: 1.1
+Depends: survival
+Suggests: snowfall
+
+Package: coxphf
+Version: 1.0-2
+Depends: R (>= 2.3.1), survival
+
+Package: coxphw
+Version: 1.3
+Depends: R (>= 2.4.0), survival
+
+Package: coxrobust
+Version: 1.0
+Depends: R (>= 2.0.0), survival
+
+Package: COZIGAM
+Version: 2.0-1
+Depends: R (>= 2.7.1), mgcv
+
+Package: CPE
+Version: 1.4
+Depends: R (>= 2.0.0)
+
+Package: cramer
+Version: 0.8-1
+Depends: R (>= 0.65), boot
+Imports: boot
+
+Package: crank
+Version: 1.0
+
+Package: crawl
+Version: 1.0-4
+Depends: R (>= 2.4.0)
+
+Package: CreditMetrics
+Version: 0.0-2
+Depends: R (>= 2.2.0)
+
+Package: crossdes
+Version: 1.0-9
+Depends: AlgDesign, gtools, MASS
+
+Package: crosshybDetector
+Version: 1.0.4
+Depends: marray, methods
+
+Package: crq
+Version: 0.3
+Depends: R (>= 1.9)
+Suggests: survival, splines
+
+Package: cslogistic
+Version: 0.1-1
+
+Package: CTFS
+Version: 1.00
+Depends: R (>= 2.0.0), graphics, stats, survival, splines
+
+Package: cts
+Version: 1.0-1
+
+Package: CTT
+Version: 1.0
+
+Package: ctv
+Version: 0.5-2
+Depends: R (>= 2.1.0), utils
+Suggests: XML
+
+Package: curvetest
+Version: 1.1
+Depends: locfit
+
+Package: CvM2SL1Test
+Version: 0.0-2
+
+Package: CvM2SL2Test
+Version: 0.0-2
+
+Package: CVThresh
+Version: 1.1.0
+Depends: R (>= 2.1), wavethresh (>= 2.2-10), EbayesThresh (>= 1.3.0)
+
+Package: cwhmisc
+Version: 2.0.1
+Depends: R (>= 2.0), lattice
+
+Package: cyclones
+Version: 1.2-0
+Depends: ncdf, akima, clim.pact, R (>= 2.3.1)
+
+Package: DAAG
+Version: 0.99-3
+Depends: R (>= 2.0.1), MASS
+Suggests: lattice, leaps, oz
+
+Package: DAAGbio
+Version: 0.5-2
+Depends: R (>= 2.4.0), limma (>= 2.9.15)
+Suggests: DAAG
+
+Package: DAAGxtras
+Version: 0.7-7
+Depends: R (>= 2.4.0)
+Suggests: DAAG
+
+Package: Daim
+Version: 1.0.0
+Depends: R (>= 2.6.0)
+Suggests: snow, multicore, MASS, rpart, ipred, e1071, randomForest,
+        mboost
+
+Package: DAKS
+Version: 1.0-0
+Depends: R (>= 2.8.1), relations, sets
+Suggests: Rgraphviz
+
+Package: dataframes2xls
+Version: 0.4.2
+Depends: R (>= 2.0.0)
+
+Package: data.table
+Version: 1.2
+Depends: R (>= 2.4.0), ref
+
+Package: date
+Version: 1.2-27
+Depends: graphics
+
+Package: Davies
+Version: 1.1-4
+
+Package: DBI
+Version: 0.2-4
+Depends: R (>= 2.3.0), methods
+Imports: methods
+
+Package: dblcens
+Version: 1.1.4
+
+Package: DCluster
+Version: 0.2-2
+Depends: R (>= 1.6.2), boot, spdep
+
+Package: ddesolve
+Version: 1.02
+Depends: R (>= 2.4.1)
+
+Package: ddst
+Version: 1.01
+Depends: R (>= 2.1.0), orthopolynom, evd
+
+Package: DEA
+Version: 0.1-2
+
+Package: deal
+Version: 1.2-33
+Depends: R (>= 2.0.0)
+
+Package: debug
+Version: 1.2.0
+Depends: R (>= 2.7), mvbutils, tcltk
+
+Package: Deducer
+Version: 0.0-1
+Depends: R (>= 2.7.0), rJava (>= 0.5-0), ggplot2, JGR (>= 1.6-5)
+
+Package: Defaults
+Version: 1.1-1
+
+Package: degreenet
+Version: 1.0
+Suggests: network
+
+Package: deldir
+Version: 0.0-8
+Depends: R (>= 0.99)
+
+Package: delt
+Version: 0.8.0
+Depends: denpro (>= 0.9)
+
+Package: demogR
+Version: 0.4.2
+
+Package: denpro
+Version: 0.9.0
+
+Package: denstrip
+Version: 1.3
+Suggests: survival,vioplot,lattice,Hmisc
+
+Package: DEoptim
+Version: 1.3-3
+
+Package: Depela
+Version: 0.0
+Depends: stats, stats4, copula, R (>= 2.8.0)
+
+Package: depmix
+Version: 0.9.4
+Depends: R (>= 2.6.0), MASS
+Suggests: Rdonlp2
+
+Package: depmixS4
+Version: 0.2-1
+Depends: R (>= 2.8.1), nnet, methods, MASS
+Suggests: Rdonlp2
+
+Package: depth
+Version: 1.0-1
+Depends: R (>= 2.4.0), grDevices, rgl
+Suggests: robustbase, MASS
+
+Package: descr
+Version: 0.3.0
+Suggests: Hmisc, gmodels
+
+Package: DescribeDisplay
+Version: 0.2.0
+Depends: grid, reshape (>= 0.7.1), ggplot2 (>= 0.8.3), proto
+
+Package: Design
+Version: 2.2-0
+Depends: Hmisc (>= 3.6-0), survival
+Imports: survival
+Suggests: MASS, rpart, nlme
+
+Package: desirability
+Version: 1.02
+Depends: lattice
+
+Package: deSolve
+Version: 1.2-3
+Depends: R (>= 2.01)
+
+Package: Devore5
+Version: 0.4-5
+Depends: R(>= 1.5.0)
+
+Package: Devore6
+Version: 0.5-6
+Depends: R(>= 2.2.0)
+
+Package: Devore7
+Version: 0.7.1
+Depends: R(>= 2.4.0)
+
+Package: dfcrm
+Version: 0.1-2
+Depends: R (>= 1.3.0)
+
+Package: dglm
+Version: 1.6.1
+Depends: R (>= 1.0), statmod(>= 1.0.8)
+
+Package: DiagnosisMed
+Version: 0.2.2.1
+Depends: R (>= 2.7.2),epitools, epicalc, TeachingDemos, tcltk, AMORE
+
+Package: diagram
+Version: 1.4
+Depends: R (>= 2.01) ,shape
+
+Package: diamonds
+Version: 1.0-5
+
+Package: dice
+Version: 1.1
+Depends: R (>= 2.0.0), gtools
+
+Package: dichromat
+Version: 1.2-3
+
+Package: DICOM
+Version: 0.12
+Depends: R (>= 2.0.0)
+
+Package: DierckxSpline
+Version: 1.1-3
+Depends: R (>= 2.4.0), stats, lattice, PolynomF
+Suggests: fda, splines
+
+Package: diffractometry
+Version: 0.1-00
+
+Package: diffusionMap
+Version: 0.0-2
+Depends: R (>= 2.4.0), scatterplot3d
+Imports: scatterplot3d
+
+Package: digeR
+Version: 1.0
+Depends: R (>= 2.6.0), gWidgets, MASS, pls, e1071, adabag,
+        randomForest, ROCR, caTools, class, ellipse
+
+Package: digest
+Version: 0.3.1
+Depends: R (>= 2.4.1)
+
+Package: diptest
+Version: 0.25-2
+
+Package: dirichlet
+Version: 1.0
+
+Package: dirmult
+Version: 0.1.1
+
+Package: diseasemapping
+Version: 0.4
+
+Package: dispmod
+Version: 1.0.1
+Depends: R (>= 2.6)
+
+Package: distr
+Version: 2.1.1
+Depends: R(>= 2.2.0), methods, graphics, startupmsg, sfsmisc,
+        SweaveListingUtils
+Imports: stats
+
+Package: distrDoc
+Version: 2.1
+Depends: R(>= 2.6.0), tools, distr(>= 2.1), startupmsg, distrEx(>=
+        2.1), distrSim(>= 2.1), distrTEst(>= 2.1), distrTeach(>= 2.1),
+        distrMod(>= 2.1)
+Suggests: Biobase
+
+Package: distrEx
+Version: 2.1
+Depends: R(>= 2.6.0), methods, distr(>= 2.1), evd, actuar, startupmsg
+Suggests: tcltk
+
+Package: distributions
+Version: 1.3
+Depends: stats, utils, tools
+
+Package: distrMod
+Version: 2.1
+Depends: R(>= 2.6.0), methods, startupmsg, distr(>= 2.1), distrEx(>=
+        2.1), RandVar(>= 0.6.3), MASS, stats4
+
+Package: distrSim
+Version: 2.1
+Depends: R(>= 2.6.0), methods, graphics, setRNG(>= 2006.2-1), distr(>=
+        2.1), startupmsg
+Suggests: distrEx(>= 2.1)
+
+Package: distrTeach
+Version: 2.1
+Depends: R(>= 2.2.0), methods, distr(>= 2.1), distrEx(>= 2.1),
+        startupmsg
+Suggests: tcltk
+
+Package: distrTEst
+Version: 2.1
+Depends: R(>= 2.6.0), methods, graphics, setRNG(>= 2006.2-1), distr(>=
+        2.1), distrSim(>= 2.1), startupmsg
+Imports: stats
+Suggests: distrEx(>= 2.0)
+
+Package: divagis
+Version: 1.0.0
+Depends: rgdal, sp
+
+Package: diveMove
+Version: 0.9.5
+Depends: R (>= 2.4.0), methods, stats4
+Imports: stats4
+Suggests: KernSmooth, quantreg, tcltk
+
+Package: dlm
+Version: 1.0-2
+Suggests: MASS
+
+Package: dlmap
+Version: 1.0
+Depends: qtl, ibdreg
+Suggests: nlme, asreml
+
+Package: doBy
+Version: 3.9
+Imports: Hmisc
+
+Package: DoE.base
+Version: 0.2
+Depends: R(>= 2.7.1)
+
+Package: dplR
+Version: 1.1.9
+Imports: grid
+Suggests: grid
+
+Package: DPpackage
+Version: 1.0-7
+
+Package: dr
+Version: 3.0.3
+Depends: MASS
+
+Package: drc
+Version: 1.7-0
+Depends: R (>= 2.0.0), alr3, lattice, magic, MASS, nlme, plotrix
+
+Package: drfit
+Version: 0.05-92
+Depends: R (>= 2.1.0),stats,MASS,RODBC
+
+Package: drm
+Version: 0.5-8
+Depends: R(>= 1.0)
+
+Package: dse
+Version: 2008.10-1
+Bundle: dse
+Contains: dse1 dse2
+Depends: R (>= 2.5.0), setRNG (>= 2004.4-1), tframe (>= 2007.5-3)
+
+Package: DSpat
+Version: 0.1.0
+Depends: R (>= 2.0.0), spatstat, RandomFields, gpclib, mgcv
+
+Package: dti
+Version: 0.8-0
+Depends: R (>= 2.5.0), methods, adimpro, fmri, rgl
+Suggests: gsl
+
+Package: DTK
+Version: 2.1
+
+Package: dtt
+Version: 0.1-1
+
+Package: dtw
+Version: 1.12-5
+Depends: proxy
+
+Package: dyad
+Version: 1.0
+Depends: R (>= 2.6.2)
+
+Package: dyn
+Version: 0.2-8
+Depends: R (>= 2.6.0), zoo (>= 1.0-0)
+Suggests: its (>= 1.0.9), MASS, MCMCpack, quantreg (>= 3.82),
+        randomForest, sandwich, tseries
+
+Package: dynamicGraph
+Version: 0.2.2.5
+Depends: R (>= 1.8.1), methods, ggm, tcltk
+
+Package: dynamicTreeCut
+Version: 1.20
+Depends: R (>= 2.3.0), stats
+
+Package: dynamo
+Version: 0.1.3
+Depends: R (>= 2.5)
+
+Package: dynCorr
+Version: 0.1-1
+Depends: lpridge
+
+Package: dynGraph
+Version: 0.99070509
+Depends: R (>= 2.8.0), FactoMineR, rJava
+
+Package: dynlm
+Version: 0.2-2
+Depends: R (>= 2.0.0), stats, zoo, lmtest, car
+Imports: stats, strucchange
+Suggests: sandwich, strucchange
+
+Package: e1071
+Version: 1.5-19
+Depends: class
+Imports: graphics, stats, grDevices, utils
+Suggests: cluster, mlbench, nnet, randomForest, rpart, SparseM, xtable,
+        methods, Matrix
+
+Package: earth
+Version: 2.3-2
+Depends: leaps
+
+Package: eba
+Version: 1.5-3
+Depends: R (>= 1.8.1), nlme
+
+Package: EbayesThresh
+Version: 1.3.0
+
+Package: Ecdat
+Version: 0.1-5
+Depends: R (>= 1.8.0)
+Suggests: car, systemfit, sem, lmtest, sandwich
+
+Package: ecespa
+Version: 1.1-1
+Depends: splancs, spatstat (>= 1.4.0), fields, akima
+
+Package: eco
+Version: 3.1-2
+Depends: R (>= 2.0), MASS
+
+Package: ecodist
+Version: 1.2.2
+Depends: stats
+
+Package: ecolMod
+Version: 1.2.1
+Depends: R (>= 2.01), diagram,rootSolve,
+        deSolve,mapdata,seacarb,scatterplot3d, deldir
+
+Package: EDR
+Version: 0.6-2.2
+Depends: akima
+Suggests: sm
+
+Package: EffectiveDose
+Version: 1.0-6
+Depends: R (>= 2.4.1), methods, locfit
+Imports: graphics
+Suggests: KernSmooth
+
+Package: effects
+Version: 2.0-7
+Depends: R (>= 2.4.0), lattice, grid, MASS, nnet, colorspace
+
+Package: eha
+Version: 1.2-4
+Depends: R (>= 2.2.0), survival, graphics
+
+Package: eigenmodel
+Version: 1.0
+
+Package: eiPack
+Version: 0.1-2
+Depends: R (>= 2.0.0), MASS, coda, msm
+
+Package: elasticnet
+Version: 1.0-5
+Depends: R (>= 1.9.0), lars
+
+Package: elec
+Version: 0.1
+
+Package: ElemStatLearn
+Version: 0.1-6
+Depends: R (>= 2.4.0), stats
+Suggests: gam, splines, MASS, class, mclust02, leaps, mda, lasso2,
+        lars, boot
+
+Package: ellipse
+Version: 0.3-5
+Depends: R (>= 2.0.0),graphics,stats
+
+Package: elliptic
+Version: 1.2-3
+Depends: R (>= 2.5.0), MASS, emulator, calibrator
+
+Package: elrm
+Version: 1.2
+Depends: R(>= 2.7.2), coda, graphics, stats
+
+Package: EMC
+Version: 1.1
+Depends: R (>= 1.9.0), mvtnorm
+
+Package: EMCC
+Version: 1.0
+Depends: R (>= 1.9.0), MASS, mclust, EMC
+
+Package: EMD
+Version: 1.2.0
+Depends: R (>= 2.6), fields (>= 4.1)
+
+Package: emdbook
+Version: 1.1.1.1
+Depends: MASS, lattice
+Suggests: R2WinBUGS, rgl, ellipse, coda
+
+Package: EMJumpDiffusion
+Version: 1.4.1
+Depends: R (>= 2.5.0)
+
+Package: emme2
+Version: 0.8
+Depends: R (>= 1.6.0), graphics
+
+Package: empiricalBayes
+Version: 2.1
+Bundle: empiricalBayes
+Contains: HighProbability localFDR
+
+Package: emplik
+Version: 0.9-5
+Depends: R (>= 2.0), quantreg
+Suggests: rankreg, KMsurv, boot
+
+Package: emplik2
+Version: 1.00
+Depends: R (>= 1.8.0)
+
+Package: emu
+Version: 4.0
+Priority: contrib
+Depends: R (>= 2.0), stats, methods, tcltk, MASS
+
+Package: endogMNP
+Version: 0.1-1
+Depends: R (>= 2.1), utils
+
+Package: energy
+Version: 1.1-0
+Depends: boot
+
+Package: EngrExpt
+Version: 0.1-6
+Depends: R (>= 2.9.0), lattice
+
+Package: EnQuireR
+Version: 0.09
+Depends: FactoMineR, SensoMineR, Rcmdr, MASS
+
+Package: ensembleBMA
+Version: 4.2.2
+Depends: chron
+Suggests: fields, maps, MASS
+
+Package: entropy
+Version: 1.1.3
+Depends: R (>= 2.7.0)
+
+Package: Epi
+Version: 1.0.12
+Suggests: splines, nlme, survival
+
+Package: epibasix
+Version: 1.1
+Depends: R (>= 2.01)
+
+Package: epicalc
+Version: 2.9.0.0
+Depends: R (>= 2.6.2), foreign, survival
+
+Package: epiR
+Version: 0.9-17
+Depends: R (>= 2.0.0)
+
+Package: epitools
+Version: 0.5-3
+Depends: R (>= 2.1.0)
+
+Package: eqtl
+Version: 1.0
+Depends: R (>= 2.6.0), qtl (>= 1.07-12)
+
+Package: equivalence
+Version: 0.5.5
+Depends: lattice, boot, grid
+
+Package: ergm
+Version: 2.2-1
+Depends: network
+Suggests: coda, KernSmooth, sna
+
+Package: eRm
+Version: 0.10-2
+Depends: R (>= 2.7.0), gtools, splines, ROCR
+Imports: graphics, stats, MASS
+
+Package: estout
+Version: 0.4-1
+
+Package: ETC
+Version: 1.3
+Imports: mvtnorm
+Suggests: SimComp, multcomp, mratios
+
+Package: etm
+Version: 0.4-3
+Depends: lattice
+Suggests: changeLOS
+
+Package: evd
+Version: 2.2-4
+Depends: stats
+Suggests: akima
+
+Package: evdbayes
+Version: 1.0-7
+Depends: R (>= 1.8.0)
+
+Package: EVER
+Version: 1.1
+Depends: R (>= 2.5.1)
+Suggests: MASS
+
+Package: evir
+Version: 1.6
+Depends: stats
+
+Package: exactLoglinTest
+Version: 1.3.6
+Depends: R (>= 1.5)
+
+Package: exactmaxsel
+Version: 1.0-4
+Depends: R (>= 2.0.0), combinat
+
+Package: exactRankTests
+Version: 0.8-18
+Depends: R (>= 2.4.0), stats, utils
+
+Package: exams
+Version: 1.0-1
+Depends: R (>= 2.0.0), stats, graphics, tools, utils
+
+Package: ExPD2D
+Version: 1.0.1
+
+Package: experiment
+Version: 1.1-0
+Depends: boot, MASS, R (>= 2.4.0)
+
+Package: expert
+Version: 1.0-0
+Depends: R (>= 2.6.0), stats
+
+Package: extRemes
+Version: 1.60
+Depends: R (>= 2.4.0),tcltk,ismev (>= 1.33),Lmoments
+
+Package: ez
+Version: 1.3
+Depends: R (>= 1.8.0), car, reshape (>= 0.8.3), plyr (>= 0.1.8),
+        ggplot2 (>= 0.8.3)
+
+Package: FactoClass
+Version: 0.7.7
+Depends: R (>= 2.7.0), ade4, xtable
+
+Package: FactoMineR
+Version: 1.12
+Depends: ellipse,lattice,cluster,scatterplot3d
+
+Package: Fahrmeir
+Version: 0.4
+Depends: stats, R (>= 2.1.0)
+Suggests: MASS
+
+Package: FAiR
+Version: 0.4-4
+Depends: R (>= 2.7.0), methods, rgenoud (>= 5.4-7), gWidgetsRGtk2 (>=
+        0.0-31), stats4, rrcov, Matrix
+Imports: stats4, rrcov
+Suggests: corpcor, mvnmle, polycor, nFactors, Rgraphviz, mvnormtest,
+        energy, jit, GPArotation
+
+Package: fame
+Version: 2.6
+Depends: R (>= 2.3), tis
+
+Package: far
+Version: 0.6-2
+Depends: R (>= 2.0.0), nlme
+
+Package: faraway
+Version: 1.0.4
+Depends: R (>= 1.4.1)
+
+Package: fArma
+Version: 290.75
+Depends: R (>= 2.4.0), methods, timeDate, timeSeries, fBasics
+Suggests: RUnit, tcltk
+
+Package: fAsianOptions
+Version: 290.75
+Depends: R (>= 2.4.0), timeDate, timeSeries, fBasics, fOptions
+Suggests: RUnit
+
+Package: fAssets
+Version: 2100.77
+Depends: R (>= 2.6.0), methods, sn, MASS, robustbase, timeDate,
+        timeSeries, fBasics, fCopulae (>= 2100.76)
+Suggests: RUnit
+
+Package: fast
+Version: 0.51
+
+Package: fastICA
+Version: 1.1-11
+Depends: R (>= 2.8.0)
+
+Package: fBasics
+Version: 2100.77
+Depends: R (>= 2.6.0), MASS, methods, timeDate, timeSeries (>= 2100.83)
+Suggests: akima, spatial, RUnit, tcltk
+
+Package: fbati
+Version: 0.6.2
+Depends: pbatR(>= 2.0.0), fgui, rootSolve, tcltk
+Imports: tcltk, fgui
+
+Package: FBN
+Version: 1.0
+
+Package: fBonds
+Version: 270.74
+Depends: R (>= 2.4.0), timeDate, timeSeries, fBasics
+Suggests: RUnit
+
+Package: fCalendar
+Version: 270.78.3
+Depends: R (>= 2.4.0), methods, MASS, fUtilities, fEcofin
+Suggests: RUnit
+
+Package: fCopulae
+Version: 2100.76
+Depends: R (>= 2.4.0), sn, adapt, methods, timeDate, timeSeries,
+        fBasics (>= 2100.77)
+Suggests: RUnit, tcltk
+
+Package: FD
+Version: 1.0-0
+Depends: ade4, ape, geometry, vegan
+
+Package: fda
+Version: 2.1.2
+Depends: R (>= 2.4.0), splines, zoo
+Suggests: graphics, odesolve, R.matlab, quadprog, DierckxSpline, nlme
+
+Package: fdim
+Version: 1.0-6
+Depends: R (>= 2.0.0)
+
+Package: fdrtool
+Version: 1.2.5
+Depends: R (>= 2.7.0)
+
+Package: feature
+Version: 1.2.3
+Depends: R (>= 1.4.0), KernSmooth, rpanel, ks (>= 1.6.3)
+Suggests: misc3d(>= 0.4-0), rgl(>= 0.66)
+
+Package: fechner
+Version: 1.0-0
+Depends: R (>= 2.8.0), base, graphics, stats
+Imports: base, graphics, stats
+
+Package: fEcofin
+Version: 290.76
+Depends: R (>= 2.6.0), utils
+Suggests: RUnit
+
+Package: fExoticOptions
+Version: 290.75
+Depends: R (>= 2.4.0), methods, timeDate, timeSeries, fBasics, fOptions
+Suggests: RUnit
+
+Package: fExtremes
+Version: 290.76
+Depends: R (>= 2.4.0), methods, timeDate, timeSeries, fBasics, fGarch,
+        fTrading
+Suggests: RUnit, tcltk
+
+Package: ff
+Version: 2.0.1
+Depends: R (>= 2.1), utils
+
+Package: ffmanova
+Version: 0.1-1.2
+
+Package: fgac
+Version: 0.6-0
+
+Package: fGarch
+Version: 2100.78
+Depends: R (>= 2.6.0), stats, graphics, methods, timeDate, timeSeries,
+        fBasics (>= 2100.77)
+Suggests: RUnit, tcltk
+
+Package: FGN
+Version: 1.1
+Depends: R (>= 2.1.0), ltsa
+
+Package: fgui
+Version: 1.0-0
+Imports: tcltk
+Suggests: tcltk
+
+Package: fields
+Version: 5.02
+Depends: methods, spam
+
+Package: FieldSim
+Version: 1.2
+Depends: R (>= 2.0.0)
+
+Package: filehash
+Version: 2.0-1
+Depends: R (>= 2.7.0), methods
+Imports: utils
+
+Package: filehashSQLite
+Version: 0.2-2
+Depends: R (>= 2.4.1), methods, filehash (>= 1.0), DBI, RSQLite
+Imports: filehash, DBI
+
+Package: fImport
+Version: 290.76
+Depends: R (>= 2.6.0), methods, timeDate, timeSeries
+Suggests: RUnit
+
+Package: financial
+Version: 0.1
+Depends: R (>= 2.0)
+
+Package: fingerprint
+Version: 3.1.2
+Depends: methods
+
+Package: FinTS
+Version: 0.3-9
+Depends: zoo, graphics
+Suggests: fCalendar, moments, distrEx, tseries, urca, uroot, lmtest,
+        sandwich, psych, GPArotation, fUtilities, chron, polynom,
+        fUnitRoots, e1071
+
+Package: fishmethods
+Version: 0.0-1
+Depends: R (>= 2.8.0), boot, stats, foreign
+
+Package: fit4NM
+Version: 1.0.0
+Depends: gWidgets, tcltk, tkrplot, RGtk2, gWidgetsRGtk2
+
+Package: FitAR
+Version: 1.74
+Depends: R (>= 2.0.0), lattice, leaps, ltsa
+
+Package: fitdistrplus
+Version: 0.1-1
+Depends: R (>= 2.8.0)
+
+Package: FITSio
+Version: 1.0-3
+Depends: R (>= 2.0.0)
+
+Package: FKBL
+Version: 0.50-4
+
+Package: FKF
+Version: 0.0.1
+Depends: R(>= 2.8)
+Imports: graphics
+
+Package: flashClust
+Version: 0.10
+Depends: R (>= 2.3.0)
+
+Package: flexclust
+Version: 1.2-0
+Depends: graphics, grid, lattice, modeltools (>= 0.2-16)
+Imports: methods, stats, stats4
+Suggests: ellipse, clue, cluster, seriation, multicore
+
+Package: flexmix
+Version: 2.2-3
+Depends: lattice, modeltools (>= 0.2-16), multcomp
+Imports: methods, stats, stats4
+Suggests: MASS, ellipse, grid, mvtnorm, nnet
+
+Package: flubase
+Version: 1.0
+Depends: R (>= 2.7), forecast, FinTS
+
+Package: Flury
+Version: 0.1-2
+
+Package: fmri
+Version: 1.3
+Depends: tcltk
+Suggests: tkrplot,fastICA
+
+Package: fMultivar
+Version: 290.75
+Depends: R (>= 2.4.0), methods, sn, timeDate, timeSeries, fBasics
+Suggests: RUnit, tcltk
+
+Package: fNonlinear
+Version: 290.75
+Depends: R (>= 2.4.0), methods, timeDate, timeSeries, fBasics, fGarch
+Suggests: RUnit, tcltk
+
+Package: foba
+Version: 0.1
+Depends: R (>= 2.0.0)
+
+Package: fOptions
+Version: 290.75
+Depends: R (>= 2.4.0), methods, timeDate, timeSeries, fBasics
+Suggests: RUnit, tcltk
+
+Package: forecasting
+Version: 1.24
+Bundle: forecasting
+Contains: forecast fma Mcomp expsmooth
+Depends: R (>= 2.0.0), graphics, stats, tseries
+
+Package: foreign
+Version: 0.8-36
+Priority: recommended
+Depends: R (>= 2.6.0), stats
+Imports: methods, utils
+
+Package: forensic
+Version: 0.2
+Depends: R (>= 2.4.0), genetics, combinat
+
+Package: fork
+Version: 1.2.2
+OS_type: unix
+
+Package: Formula
+Version: 0.1-3
+Depends: R (>= 2.0.0)
+
+Package: fortunes
+Version: 1.3-6
+Depends: R (>= 2.1.0)
+
+Package: forward
+Version: 1.0.2
+Depends: R (>= 2.6), MASS
+
+Package: fossil
+Version: 0.2.1
+Depends: shapefiles
+Suggests: maps
+
+Package: fpc
+Version: 1.2-4
+Depends: R (>= 1.9), MASS
+Suggests: mclust, trimcluster, prabclus, cluster, class
+
+Package: fpca
+Version: 0.1-1
+Depends: sm,splines
+
+Package: fPortfolio
+Version: 2100.77
+Depends: R (>= 2.7.0), methods, MASS, timeDate, timeSeries, fBasics,
+        fCopulae, fAssets (>= 2100.77), quadprog, Rglpk, Rsymphony,
+        robustbase
+Suggests: corpcor, covRobust, RUnit, tcltk
+
+Package: fpow
+Version: 0.0-1
+Depends: R (>= 2.8.0)
+
+Package: fracdiff
+Version: 1.3-2
+
+Package: FracSim
+Version: 0.3
+
+Package: fractal
+Version: 1.0-2
+Depends: R (>= 2.5.1), splus2R (>= 1.0-2), ifultools (>= 1.0-3), sapa
+        (>= 1.0-2), wmtsa (>= 1.0-3), akima, MASS, scatterplot3d
+
+Package: fractalrock
+Version: 1.0.0
+Depends: futile, timeDate, zoo, xts, quantmod
+
+Package: frailtypack
+Version: 2.1-1
+Depends: R (>= 2.0.0), survival
+
+Package: FRB
+Version: 1.4
+Depends: corpcor
+
+Package: fRegression
+Version: 290.75
+Depends: R (>= 2.4.0), methods, mgcv, nnet, polspline, timeDate,
+        timeSeries, fBasics, fTrading, fMultivar
+Suggests: RUnit
+
+Package: freqMAP
+Version: 0.1
+
+Package: FrF2
+Version: 0.93
+Depends: R(>= 2.7.0), BsMD, scatterplot3d, igraph, sfsmisc, DoE.base
+
+Package: frontier
+Version: 0.991-0
+Depends: R (>= 2.0.0), plm (>= 1.0-1), micEcon (>= 0.5-16)
+
+Package: FSelector
+Version: 0.17
+Depends: randomForest, RWeka, digest
+Suggests: mlbench, rpart
+
+Package: fSeries
+Version: 270.76.3
+Depends: R (>= 2.4.0), robustbase, methods, fUtilities, fEcofin,
+        fCalendar
+Suggests: RUnit
+
+Package: fso
+Version: 1.0-1
+Suggests: labdsv
+
+Package: FTICRMS
+Version: 0.7
+Depends: Matrix,lattice,splines
+
+Package: ftnonpar
+Version: 0.1-83
+
+Package: fTrading
+Version: 290.75
+Depends: R (>= 2.4.0), methods, timeDate, timeSeries, fBasics
+Suggests: RUnit, tcltk
+
+Package: fts
+Version: 0.7.5
+Depends: utils, stats
+
+Package: FunCluster
+Version: 1.09
+Depends: R (>= 2.0.0), Hmisc, cluster
+
+Package: fUnitRoots
+Version: 290.75
+Depends: R (>= 2.4.0), urca, methods, timeDate, timeSeries, fBasics
+Suggests: RUnit
+
+Package: FunNet
+Version: 1.00-6
+Depends: R (>= 2.6.0), ade4, cluster, Hmisc, nlme, sna, Cairo
+
+Package: futile
+Version: 1.0.2
+Suggests: zoo, xts, quantmod
+
+Package: fUtilities
+Version: 290.76
+Depends: R (>= 2.4.0), methods, MASS
+Suggests: tcltk, RUnit, akima, spatial, foreign
+
+Package: fuzzyFDR
+Version: 1.0
+
+Package: fuzzyOP
+Version: 1.1
+
+Package: fuzzyRankTests
+Version: 0.3-2
+Depends: R (>= 2.6.0)
+
+Package: fxregime
+Version: 0.2-1
+Depends: R (>= 2.3.0), graphics, stats, zoo, sandwich, strucchange
+Imports: graphics, stats, zoo, sandwich, strucchange, car
+Suggests: lmtest, car
+
+Package: G1DBN
+Version: 2.0
+Depends: R (>= 2.5.1), MASS, sna
+
+Package: gafit
+Version: 0.4.1
+Depends: R (>= 1.2.0)
+
+Package: gam
+Version: 1.0
+Depends: R (>= 2.0), stats, splines, akima
+
+Package: gamair
+Version: 0.0-5
+Depends: R (>= 1.8.0)
+
+Package: GAMBoost
+Version: 1.1
+Suggests: snowfall
+
+Package: gamlss
+Version: 2.0-0
+Depends: R (>= 2.4.0), graphics, stats, splines, utils
+Imports: MASS, survival
+
+Package: gamlss.cens
+Version: 2.0.0
+Depends: R (>= 2.2.1), gamlss
+Imports: survival
+
+Package: gamlss.dist
+Version: 2.0-0
+Depends: R (>= 2.4.0), gamlss
+
+Package: gamlss.mx
+Version: 2.0-0
+Depends: R (>= 2.2.1), gamlss, nnet, MASS
+
+Package: gamlss.nl
+Version: 2.0-0
+Depends: R (>= 2.2.1), gamlss, survival
+
+Package: gamlss.tr
+Version: 2.0-0
+Depends: R (>= 2.2.1), gamlss
+
+Package: gap
+Version: 1.0-17
+Depends: R (>= 2.0.0)
+Suggests: Design, Hmisc, haplo.stats, MASS
+
+Package: gbev
+Version: 0.1.1
+Depends: mvtnorm
+
+Package: gbm
+Version: 1.6-3
+Depends: R (>= 2.5.0), survival, lattice, splines
+
+Package: gbs
+Version: 1.0
+Depends: R (>= 1.8.0), nlme
+
+Package: gcExplorer
+Version: 0.9-1
+Depends: graphics, methods, flexclust (>= 1.0-0), Rgraphviz
+Imports: flexclust, modeltools, Rgraphviz
+Suggests: splines, lattice
+
+Package: gcl
+Version: 1.06.5
+
+Package: gclus
+Version: 1.2
+
+Package: gcmrec
+Version: 1.0-3
+Depends: R (>= 2.0.0), survrec
+
+Package: gdata
+Version: 2.4.2
+Depends: R (>= 2.4.0)
+Imports: gtools
+
+Package: g.data
+Version: 2.0
+
+Package: GDD
+Version: 0.1-13
+Depends: R (>= 1.9.0)
+
+Package: gee
+Version: 4.13-13
+Depends: stats
+
+Package: geepack
+Version: 1.0-16
+
+Package: geiger
+Version: 1.2-14
+Depends: ape (>= 1.9-4), MASS, mvtnorm, msm, ouch
+
+Package: GenABEL
+Version: 1.4-2
+Depends: R (>= 2.4.0), methods, genetics, haplo.stats, qvalue, MASS
+
+Package: genalg
+Version: 0.1.1
+
+Package: gene2pathway
+Version: 1.2.0
+Depends: R (>= 2.6.0), kernlab (>= 0.9), KEGG.db (>= 2.2.0), biomaRt
+        (>= 1.12.1), KEGGSOAP (>= 1.12.0), RBGL,
+        AnnotationDbi,org.Dm.eg.db
+Imports: SSOAP, RCurl
+
+Package: GeneCycle
+Version: 1.1.1
+Depends: R (>= 2.7.0), MASS, longitudinal (>= 1.1.3), fdrtool (>=
+        1.2.5)
+
+Package: GeneF
+Version: 1.0
+
+Package: Geneland
+Version: 3.1.4
+Depends: RandomFields,fields,mapproj,maps,snow,tcltk
+
+Package: GeneNet
+Version: 1.2.3
+Depends: R (>= 2.7.0), corpcor (>= 1.4.8), longitudinal (>= 1.1.4),
+        fdrtool (>= 1.2.5)
+Suggests: graph (>= 1.4.0), Rgraphviz (>= 1.4.0)
+
+Package: GeneNT
+Version: 1.4
+Depends: R (>= 1.9.0), e1071, graph, RBGL
+
+Package: GeneReg
+Version: 1.0
+Depends: splines, igraph
+
+Package: genetics
+Version: 1.3.4
+Depends: combinat, gdata, gtools, MASS, mvtnorm
+
+Package: GenKern
+Version: 1.1-2
+Depends: KernSmooth
+
+Package: GEOmap
+Version: 1.4-2
+Depends: geomapdata, RPMG, akima, splancs
+
+Package: geomapdata
+Version: 1.0-3
+Suggests: GEOmap
+
+Package: geometry
+Version: 0.1-4
+Depends: R (>= 2.5.0)
+Suggests: rgl, R.matlab, tripack
+
+Package: geonames
+Version: 0.8
+Depends: R (>= 2.2.0), rjson
+
+Package: geoR
+Version: 1.6-25
+Depends: R (>= 2.2.0), stats, sp
+Suggests: MASS, splancs, scatterplot3d, RandomFields, methods, tcltk
+
+Package: geoRglm
+Version: 0.8-25
+Depends: R (>= 2.2.0), geoR (>= 1.6-11), stats
+Suggests: coda
+
+Package: GeoXp
+Version: 1.3
+Depends: R (>= 2.4.0), fields, KernSmooth, rgdal, rgl, spdep, splancs,
+        stats, tcltk
+
+Package: geozoo
+Version: 0.4
+Depends: R (>= 1.8.0), rggobi, bitops
+
+Package: getopt
+Version: 1.14
+
+Package: GExMap
+Version: 1.0
+Depends: R (>= 2.0.1),multtest
+
+Package: GFMaps
+Version: 1.1
+Depends: affy, topGO, plotrix, KEGG.db, hgu95av2.db
+Suggests: ALL
+
+Package: ggm
+Version: 1.0.2
+Depends: R (>= 2.1.1)
+
+Package: ggplot2
+Version: 0.8.3
+Depends: R (>= 2.7)
+Imports: reshape (>= 0.8.0), plyr (>= 0.1.6), splines, MASS,
+        RColorBrewer, grid, proto
+Suggests: quantreg, Hmisc, mapproj, maps, digest, colorspace, hexbin,
+        gpclib, maptools
+
+Package: ghyp
+Version: 1.5.1
+Depends: R(>= 2.7), methods, numDeriv, graphics, stats, gplots
+
+Package: gibbs.met
+Version: 1.1-3
+Depends: R (>= 2.5.1)
+
+Package: GillespieSSA
+Version: 0.5-3
+Depends: R (>= 2.0.0)
+
+Package: giRaph
+Version: 0.1-1
+Depends: R (>= 2.4.0), graphics, methods
+Suggests: mathgraph, dynamicGraph
+
+Package: glasso
+Version: 1.4
+
+Package: gld
+Version: 1.8.3
+
+Package: GLDEX
+Version: 1.0.3.1
+Depends: cluster
+
+Package: glmc
+Version: 0.2-2
+Depends: emplik
+
+Package: glmmAK
+Version: 1.3
+Depends: R (>= 2.0.0), smoothSurv, coda, mvtnorm
+
+Package: glmmBUGS
+Version: 1.6
+Depends: MASS, abind
+Suggests: spdep
+
+Package: glmmML
+Version: 0.81-5
+
+Package: glmnet
+Version: 1.1-3
+Depends: Matrix
+
+Package: glmpath
+Version: 0.94
+Depends: survival, R (>= 2.0)
+OS_type: unix
+
+Package: glmulti
+Version: 0.5-1
+Depends: R (>= 2.5.0), rJava (>= 0.5-0)
+Suggests: MASS
+
+Package: glpk
+Version: 4.8-0.5
+
+Package: gmaps
+Version: 0.1
+Depends: maps, grid
+Suggests: mapdata
+
+Package: gmm
+Version: 1.0-6
+Depends: R (>= 2.0.0), sandwich, tseries, mvtnorm
+Imports: stats
+
+Package: gmodels
+Version: 2.15.0
+Depends: R (>= 1.9.0)
+Imports: MASS, gdata
+Suggests: gplots, Matrix, nlme, lme4
+
+Package: gmp
+Version: 0.4-10
+Depends: R (>= 2.0.0)
+
+Package: gmt
+Version: 1.1-3
+
+Package: gmvalid
+Version: 1.2
+Depends: R (>= 2.7.0), grid, epitools, CoCo, CoCoObjects, CoCoRaw,
+        CoCoCore, gtools
+Suggests: mimR
+
+Package: gnm
+Version: 0.9-9
+Depends: R (>= 2.3.0)
+Imports: MASS, stats, graphics, nnet, qvcalc (>= 0.8-3), relimp
+
+Package: goalprog
+Version: 1.0-2
+Depends: R (>= 2.0.1), lpSolve
+
+Package: gof
+Version: 0.6-4
+Depends: R (>= 2.5), survival
+
+Package: GOFSN
+Version: 1.0
+Depends: R(>= 2.7.0), sn
+
+Package: gogarch
+Version: 0.6-9
+Depends: R (>= 2.7.0), methods, stats, graphics, fGarch, fastICA
+Suggests: vars
+
+Package: GOSim
+Version: 1.1.5.4
+Depends: R (>= 2.6.0), GO.db (>= 2.2.0), AnnotationDbi, annotate,
+        org.Dm.eg.db, org.Hs.eg.db, org.Mm.eg.db, org.Pf.plasmo.db,
+        org.Rn.eg.db, org.Sc.sgd.db, topGO, cluster (>= 1.11.7), mclust
+        (>= 3.1), RBGL, graph, Matrix, corpcor
+Suggests: Rgraphviz
+
+Package: GPArotation
+Version: 2009.02-1
+Depends: R (>= 2.0.0)
+
+Package: gpclib
+Version: 1.4-4
+Depends: R (>= 2.9.0), methods
+Imports: graphics
+
+Package: gPdtest
+Version: 0.0.1
+
+Package: gplots
+Version: 2.7.1
+Depends: R (>= 1.9.0), gtools, gdata, stats, caTools, grid
+Suggests: gtools
+
+Package: gpls
+Version: 1.16.0
+Imports: stats
+
+Package: gputools
+Version: 0.1-0
+Depends: R (>= 2.8.0)
+
+Package: grade
+Version: 0.2
+Depends: R (>= 2.4.1)
+
+Package: gRain
+Version: 0.8.0
+Depends: R (>= 2.1.0),methods,gRbase,graph,RBGL
+Imports: graph
+Suggests: Rgraphviz
+
+Package: granova
+Version: 1.2
+Depends: R (>= 2.5.0)
+Imports: Rcmdr
+Suggests: mgcv, rgl, car, tcltk, DAAG, MASS
+
+Package: graph
+Version: 1.22.2
+Depends: R (>= 2.6.0), methods
+Imports: methods, stats, tools, utils
+Suggests: SparseM (>= 0.36), XML, RBGL
+
+Package: graphicsQC
+Version: 1.0-4
+Depends: XML
+Suggests: Sxslt
+
+Package: grasp
+Version: 2.5-7
+Depends: R (>= 2.7), gam, mda
+
+Package: GRASS
+Version: 0.3-7
+Depends: R (>= 2.2.0)
+Suggests: akima, sgeostat, spatial
+
+Package: gRbase
+Version: 1.1.0
+Depends: R (>= 2.7.0),MASS,graph,RBGL
+Suggests: Rgraphviz
+
+Package: gRc
+Version: 0.2.2
+Depends: MASS,gRbase,graph
+Suggests: Rgraphviz
+
+Package: gregmisc
+Version: 2.1.1
+Depends: gdata, gmodels, gplots, gtools
+
+Package: gridBase
+Version: 0.4-3
+Depends: R (>= 2.3.0), graphics, grid
+
+Package: GridR
+Version: 0.9.1
+Depends: codetools
+
+Package: grImport
+Version: 0.4-3
+Depends: R (>= 2.3.0), methods, grid, XML
+
+Package: grnnR
+Version: 1.0
+
+Package: grouped
+Version: 0.5-0
+Depends: R(>= 2.0.0), MASS
+
+Package: GroupSeq
+Version: 1.3.1
+Suggests: tcltk
+
+Package: grplasso
+Version: 0.4-2
+Depends: methods
+
+Package: grpreg
+Version: 1.0
+
+Package: GRRGI
+Version: 1.1
+Depends: nlme, lme4, arm, car
+
+Package: GSA
+Version: 1.0
+Suggests: impute
+
+Package: gsarima
+Version: 0.0-2
+Depends: R (>= 2.4.0)
+Imports: MASS
+Suggests: dse1
+
+Package: gsl
+Version: 1.8-14
+
+Package: GSM
+Version: 0.1-2
+Depends: gtools
+
+Package: gss
+Version: 1.0-5
+Depends: R (>= 1.7.0)
+
+Package: gstat
+Version: 0.9-60
+Depends: R (>= 2.0.0), methods, sp (>= 0.9-10)
+Imports: lattice
+Suggests: rgdal (>= 0.5.2), fields
+
+Package: gsubfn
+Version: 0.3-8
+Depends: R (>= 2.5.0), proto
+Suggests: boot, chron, doBy, grid, lattice, quantreg, reshape, zoo
+
+Package: gtm
+Version: 1.0
+
+Package: gtools
+Version: 2.6.1
+
+Package: gumbel
+Version: 1.01
+Depends: R (>= 2.6.0)
+
+Package: gvlma
+Version: 1.0
+Depends: R (>= 2.1.1)
+
+Package: gWidgets
+Version: 0.0-35
+Depends: methods, utils
+Suggests: gWidgetsRGtk2, gWidgetstcltk
+
+Package: gWidgetsRGtk2
+Version: 0.0-52
+Depends: methods, gWidgets(>= 0.0.32),
+Imports: RGtk2(>= 2.12.8)
+Suggests: cairoDevice (>= 2.3.0)
+
+Package: gWidgetsrJava
+Version: 0.0-15
+Depends: R (>= 2.5.0), methods, gWidgets(>= 0.0.32), rJava(>= 0.5-0)
+
+Package: gWidgetstcltk
+Version: 0.0-26
+Depends: methods, gWidgets(>= 0.0.32), tcltk(>= 2.7.0)
+
+Package: gWidgetsWWW
+Version: 0.0-6
+Depends: methods, proto, Rpad
+
+Package: hacks
+Version: 0.1-8
+Depends: R (>= 1.8.0)
+
+Package: HadoopStreaming
+Version: 0.1
+Depends: getopt
+
+Package: hapassoc
+Version: 1.2-2
+Depends: R (>= 2.6.0), stats
+
+Package: HAPim
+Version: 1.2
+
+Package: Haplin
+Version: 3.0.1
+Depends: MASS, mgcv
+
+Package: haplo.ccs
+Version: 1.3
+Depends: R (>= 2.0.1), haplo.stats, survival
+
+Package: HaploSim
+Version: 1.8
+Depends: methods,utils, R (>= 2.6.0), pedigree (>= 1.1)
+
+Package: haplo.stats
+Version: 1.4.3
+Depends: R (>= 2.7.0)
+Suggests: Design, Hmisc
+
+Package: hapsim
+Version: 0.2
+Depends: MASS
+
+Package: HardyWeinberg
+Version: 1.3
+Depends: R (>= 1.8.0), graphics, stats
+
+Package: hash
+Version: 0.23
+Depends: methods
+
+Package: hbim
+Version: 0.9.5-1
+Depends: R (>= 2.5.0), stats, mvtnorm
+
+Package: hddplot
+Version: 0.52
+Depends: MASS
+
+Package: hdeco
+Version: 0.4.1
+Depends: R(>= 2.0.1)
+
+Package: hdf5
+Version: 1.6.9
+
+Package: hdrcde
+Version: 2.09
+Depends: R (>= 2.0)
+Suggests: locfit, ash, ks
+
+Package: heatmap.plus
+Version: 1.3
+
+Package: helloJavaWorld
+Version: 0.0-6
+Depends: R (>= 2.7.0), rJava (>= 0.5-0)
+
+Package: heplots
+Version: 0.8-6
+Depends: car, graphics, stats
+Suggests: rgl, candisc
+
+Package: hett
+Version: 0.3
+Depends: R (>= 2.0.0), MASS
+
+Package: hexbin
+Version: 1.18.0
+Depends: R (>= 2.0.1), methods, stats, grid, lattice
+Suggests: marray, cluster, affy, Biobase
+
+Package: hexView
+Version: 0.3-1
+Depends: R (>= 1.8.0)
+
+Package: HFWutils
+Version: 0.9.1.2008.05.28
+Depends: R (>= 2.7.0),debug,grDevices,methods,R.oo
+
+Package: HH
+Version: 2.1-29
+Depends: R (>= 2.5.0), lattice, stats, grid, multcomp (>= 0.991-7),
+        mvtnorm, methods, leaps
+
+Package: HI
+Version: 0.3
+Depends: R (>= 1.7.0)
+
+Package: HiddenMarkov
+Version: 1.2-7
+
+Package: hierfstat
+Version: 0.04-4
+
+Package: hier.part
+Version: 1.0-3
+Depends: gtools
+
+Package: hints
+Version: 1.0.1-1
+Suggests: xtable
+
+Package: hlr
+Version: 0.0-4
+Depends: MASS
+
+Package: Hmisc
+Version: 3.6-0
+Depends: R (>= 2.4.0), methods
+Imports: lattice, cluster, survival
+Suggests: lattice, grid, nnet, foreign, chron, acepack, TeachingDemos,
+        Design, cluster
+
+Package: hmm.discnp
+Version: 0.0-9
+Depends: R (>= 0.99)
+
+Package: hoa
+Version: 1.1-2
+Bundle: hoa
+Contains: cond marg nlreg csampling
+Depends: R (>= 2.6.0), statmod, survival
+
+Package: homals
+Version: 0.9-10
+Depends: rgl, ape, scatterplot3d
+Imports: graphics, stats
+
+Package: homtest
+Version: 1.0-4
+Depends: stats
+
+Package: hopach
+Version: 2.4.0
+Depends: R (>= 2.6.0), cluster, Biobase, methods
+
+Package: hot
+Version: 0.3
+
+Package: howmany
+Version: 0.3-0
+Imports: graphics, stats
+
+Package: HSAUR
+Version: 1.2-3
+Depends: R (>= 2.2.0), lattice, MASS, scatterplot3d (>= 0.3-23)
+Suggests: ape (>= 1.6), coin (>= 0.3-3), flexmix (>= 1.1-0), gee (>=
+        4.13-10), ipred (>= 0.8-3), lme4 (>= 0.98-1), mclust (>=
+        3.0-0), party (>= 0.2-8), randomForest (>= 4.5-12), rmeta (>=
+        2.12), vcd (>= 0.9-3), survival
+
+Package: hsmm
+Version: 0.3-5
+Depends: R (>= 2.0.0)
+
+Package: HTMLUtils
+Version: 0.1.2
+Depends: R2HTML
+Suggests: GDD, Cairo
+
+Package: httpRequest
+Version: 0.0.6
+
+Package: hwde
+Version: 0.61
+Depends: R (>= 2.0)
+
+Package: hwriter
+Version: 1.1
+Depends: R (>= 2.4.0)
+
+Package: hybridHclust
+Version: 1.0-3
+Depends: cluster
+
+Package: HybridMC
+Version: 0.2
+Depends: utils, coda
+
+Package: hydrogeo
+Version: 0.0.1.1
+
+Package: HydroMe
+Version: 1.0
+Depends: nlme
+
+Package: hydrosanity
+Version: 0.8.76
+Depends: R (>= 2.5.0), playwith (>= 0.8.24), lattice (>= 0.16)
+Imports: RGtk2, gWidgets, reshape, grid, grDevices, stats, utils
+Suggests: sp, rgdal, tripack, gpclib, akima, oz, maps, mapdata,
+        maptools
+
+Package: HyperbolicDist
+Version: 0.5-3
+Depends: R (>= 2.3.0)
+
+Package: hyperdirichlet
+Version: 1.1-8
+Depends: R (>= 2.7.0), adapt, methods, aylmer, abind, mvtnorm
+
+Package: hypergeo
+Version: 1.1-8
+Depends: R (>= 2.6.0), contfrac, elliptic
+
+Package: ibdreg
+Version: 0.1.2
+Depends: R (>= 2.6.1)
+
+Package: IBrokers
+Version: 0.2-2
+Depends: xts
+
+Package: ic50
+Version: 1.4.1
+Depends: tcltk
+
+Package: ICE
+Version: 0.61
+Depends: R (>= 2.0.1), KernSmooth
+
+Package: ICEinfer
+Version: 0.2-0
+Depends: R (>= 2.5.0), lattice
+
+Package: Icens
+Version: 1.16.0
+Depends: survival
+
+Package: ic.infer
+Version: 1.0-6
+Depends: R(>= 2.5.0), quadprog, mvtnorm, boot, kappalab
+
+Package: icomp
+Version: 0.1
+
+Package: ICS
+Version: 1.2-1
+Depends: R (>= 2.5.0), methods, mvtnorm, survey
+Suggests: pixmap, robustbase, MASS, ICSNP
+
+Package: ICSNP
+Version: 1.0-4
+Depends: R (>= 2.4.0), mvtnorm, ICS
+
+Package: identity
+Version: 0.2
+Depends: R (>= 2.0.0)
+
+Package: IDPmisc
+Version: 1.1.00
+Depends: R(>= 2.8), methods, grid(>= 2.1.1), lattice(>= 0.12-3)
+Suggests: SwissAir(>= 1.08)
+
+Package: ifa
+Version: 5.0
+Depends: mvtnorm
+
+Package: ifs
+Version: 0.1-3
+
+Package: ifultools
+Version: 1.0-6
+Depends: R (>= 2.5.1), splus2R (>= 1.0-2)
+
+Package: ig
+Version: 1.2
+Depends: R (>= 1.8.0), nlme
+
+Package: igraph
+Version: 0.5.2-2
+Depends: stats
+Suggests: stats4, rgl, tcltk, RSQLite, digest, graph, Matrix
+
+Package: iid.test
+Version: 1.5
+Depends: clim.pact, R (>= 2.1.1)
+
+Package: imprProbEst
+Version: 1.0
+Depends: R(>= 2.7.0), inline, lpSolve
+
+Package: impute
+Version: 1.16.0
+Depends: R (>= 1.7.0)
+
+Package: imputeMDR
+Version: 1.0
+
+Package: ineq
+Version: 0.2-8
+Depends: R (>= 2.1.0), stats, graphics, grDevices
+
+Package: inetwork
+Version: 1.2
+
+Package: influence.ME
+Version: 0.6.1
+Depends: lme4, lattice
+
+Package: inline
+Version: 0.3.3
+Depends: R (>= 2.4.0), methods
+
+Package: intcox
+Version: 0.9.2
+Depends: R (>= 1.7.0), survival
+
+Package: integrOmics
+Version: 1.0
+
+Package: intervals
+Version: 0.12.1
+Depends: R (>= 2.9.0), methods
+
+Package: introgress
+Version: 1.1
+Depends: nnet, genetics
+
+Package: iplots
+Version: 1.1-3
+Depends: R (>= 1.5.0), methods, rJava (>= 0.5-0)
+Suggests: maps, CarbonEL
+
+Package: ipptoolbox
+Version: 1.0
+Depends: R (>= 2.7.0), AlgDesign, copula, evd, triangle
+
+Package: ipred
+Version: 0.8-7
+Depends: rpart (>= 3.1-8), MASS, mlbench, survival, nnet, class
+Suggests: mvtnorm
+
+Package: irr
+Version: 0.70
+Depends: R (>= 1.8.0)
+
+Package: irtoys
+Version: 0.1.1
+Depends: sm, ltm
+Suggests: MASS
+
+Package: irtProb
+Version: 1.0
+Depends: R (>= 2.0.0), lattice, methods, stats, moments
+
+Package: ISA
+Version: 1.0-32
+Depends: R (>= 2.4.1), stats, utils, tools
+
+Package: isa2
+Version: 0.1
+Depends: methods
+Suggests: igraph (>= 0.5.2), biclust, lattice
+
+Package: ismev
+Version: 1.33
+Depends: R (>= 1.5.0)
+
+Package: Iso
+Version: 0.0-6
+Depends: R (>= 0.99)
+
+Package: ISOcodes
+Version: 0.2-4
+Depends: R (>= 2.5.0)
+
+Package: IsoGene
+Version: 1.0-14
+Depends: ff(>= 2.0.0)
+
+Package: isotone
+Version: 0.8-1
+
+Package: ISwR
+Version: 2.0-4
+Depends: R (>= 2.6.0)
+Suggests: survival
+
+Package: its
+Version: 1.1.7
+Depends: R (>= 2.0.0), methods, stats, Hmisc
+
+Package: ivivc
+Version: 0.1.4
+Depends: R (>= 2.5.0), stats4, rgenoud, odesolve, reshape, sciplot
+
+Package: JADE
+Version: 1.0-2
+
+Package: JavaGD
+Version: 0.5-2
+Depends: R (>= 2.4.0)
+Suggests: rJava (>= 0.5-0)
+
+Package: JGR
+Version: 1.6-7
+Depends: R (>= 2.5.0), rJava (>= 0.5), JavaGD (>= 0.4-2), iplots (>=
+        1.1-2)
+
+Package: jit
+Version: 1.0-4
+
+Package: JM
+Version: 0.3-0
+Depends: R (>= 2.7.0), MASS, nlme, splines, survival
+
+Package: jointDiag
+Version: 0.1-2
+
+Package: JointGLM
+Version: 1.0-3
+Depends: R (>= 1.8.0), mgcv
+
+Package: JointModeling
+Version: 1.0-0
+Depends: R (>= 1.8.0), mgcv
+
+Package: JudgeIt
+Version: 1.3.3
+Depends: R (>= 2.4)
+
+Package: kappalab
+Version: 0.4-4
+Depends: R(>= 2.1.0), methods, lpSolve, quadprog, kernlab
+
+Package: Kendall
+Version: 2.0
+Depends: R (>= 2.1.0)
+
+Package: kerfdr
+Version: 1.0.1
+Depends: R (>= 2.6.0)
+
+Package: kernelPop
+Version: 0.9.09
+Depends: ape, ade4, MASS
+
+Package: kernlab
+Version: 0.9-8
+Depends: R (>= 2.1.0), methods
+
+Package: KernSmooth
+Version: 2.23-2
+Priority: recommended
+Depends: R (>= 2.5.0), stats
+Suggests: MASS
+
+Package: kin.cohort
+Version: 0.6
+Depends: survival
+
+Package: kinship
+Version: 1.1.0-22
+Depends: methods, survival, nlme, lattice, R (>= 2.0.0)
+
+Package: kknn
+Version: 1.0-6
+Depends: R(>= 2.0.0)
+
+Package: klaR
+Version: 0.5-9
+Depends: R (>= 2.0.0), MASS
+Suggests: scatterplot3d (>= 0.3-22), som, mlbench, rpart, e1071,
+        combinat
+
+Package: klin
+Version: 2007-02-05
+Depends: R (>= 2.0.0), Matrix (>= 0.9975-8)
+
+Package: kmi
+Version: 0.3-2
+Depends: survival, mitools
+
+Package: kml
+Version: 0.9.2
+Depends: methods,clv
+
+Package: KMsurv
+Version: 0.1-3
+Depends: survival
+
+Package: knncat
+Version: 1.1.11
+
+Package: knnflex
+Version: 1.1.1
+Depends: R (>= 2.4.0)
+
+Package: knnTree
+Version: 1.2.4
+
+Package: knorm
+Version: 1.0
+Depends: R (>= 2.4.0), MASS
+
+Package: kohonen
+Version: 2.0.5
+Depends: class
+Suggests: MASS
+
+Package: ks
+Version: 1.6.5
+Depends: R (>= 1.4.0), KernSmooth, mvtnorm
+Suggests: rgl (>= 0.66), misc3d (>= 0.4-0)
+
+Package: kst
+Version: 0.1-9
+Depends: R (>= 2.7.0), proxy, relations (>= 0.4-0), sets (>= 0.3-2)
+Suggests: Rgraphviz
+
+Package: kza
+Version: 1.00
+Imports: ff
+Suggests: ff, polynom
+
+Package: kzft
+Version: 0.17
+Depends: polynom
+Suggests: graphics
+
+Package: kzs
+Version: 1.4
+Depends: R (>= 2.8.0), graphics, lattice, stats
+
+Package: labdsv
+Version: 1.3-1
+Depends: mgcv, MASS
+
+Package: labeltodendro
+Version: 1.0.0
+Depends: R (>= 2.8.1)
+
+Package: labstatR
+Version: 1.0.5
+
+Package: laercio
+Version: 1.0-0
+
+Package: lago
+Version: 0.1-1
+
+Package: LambertW
+Version: 0.1.6
+Depends: moments, gsl, MASS, maxLik, nortest
+
+Package: lancet.iraqmortality
+Version: 0.2-0
+Depends: foreign
+
+Package: languageR
+Version: 0.953
+Depends: R(>= 2.7.1), methods, lattice, zipfR, Matrix, lme4 (>=
+        0.999375-9)
+Imports: methods, lattice, coda, lme4
+Suggests: cluster, e1071, Design, Hmisc, MASS, rpart
+
+Package: lars
+Version: 0.9-7
+
+Package: laser
+Version: 2.2
+Depends: R(>= 2.6), ape, geiger
+
+Package: lasso2
+Version: 1.2-10
+Depends: R (>= 2.5.0)
+
+Package: latentnet
+Version: 2.1-1
+Depends: network, abind, shapes, tools
+Suggests: coda, mclust, KernSmooth, snowFT, ergm
+
+Package: latentnetHRT
+Version: 0.7-18
+Depends: network, locfit, mvtnorm, mclust, shapes, KernSmooth
+Suggests: coda
+
+Package: lattice
+Version: 0.17-25
+Priority: recommended
+Depends: R (>= 2.5.0)
+Imports: grid, grDevices, graphics, stats, utils
+Suggests: grid, KernSmooth
+
+Package: latticeExtra
+Version: 0.6-1
+Depends: R (>= 2.5.0), RColorBrewer, lattice
+Imports: lattice (>= 0.16-3), grid
+Suggests: maps, mapproj, deldir, tripack
+
+Package: latticist
+Version: 0.9-42
+Depends: lattice (>= 0.16-3), latticeExtra (>= 0.5-4), vcd
+Imports: gWidgets (>= 0.0-30)
+Suggests: playwith, gWidgetstcltk, hexbin, deldir, tripack, DAAG, RGtk2
+
+Package: lawstat
+Version: 2.2
+Depends: R (>= 2.6.0), grDevices, stats
+
+Package: lazy
+Version: 1.2-14
+
+Package: lcd
+Version: 0.7-2
+Depends: R(>= 2.6.2), igraph, methods
+Imports: MASS, ggm
+
+Package: lcda
+Version: 0.1
+Depends: R (>= 2.6.0), poLCA
+
+Package: lda.cv
+Version: 1.1-2
+Depends: R (>= 2.1.0), tcltk, MASS
+
+Package: ldbounds
+Version: 1.0-1
+Depends: lattice
+
+Package: ldDesign
+Version: 1.1-0
+
+Package: LDheatmap
+Version: 0.2-7
+Depends: R (>= 2.0.0), grid
+Imports: genetics
+
+Package: LDtests
+Version: 1.0
+
+Package: leaps
+Version: 2.9
+Suggests: biglm
+
+Package: LearnBayes
+Version: 2.0
+
+Package: LearnEDA
+Version: 1.0
+
+Package: lga
+Version: 1.1-1
+Depends: R (>= 2.2.1)
+Imports: boot, lattice
+Suggests: snow
+
+Package: lgtdl
+Version: 1.1.0
+Depends: R(>= 1.2)
+
+Package: lhs
+Version: 0.5
+Depends: R (>= 2.0.1)
+
+Package: LIM
+Version: 1.3
+Depends: R (>= 2.01), limSolve, diagram
+
+Package: limSolve
+Version: 1.5
+Depends: R (>= 2.01), quadprog, lpSolve, MASS
+
+Package: linprog
+Version: 0.5-7
+Depends: R (>= 2.4.0), lpSolve
+
+Package: LIStest
+Version: 1.0
+
+Package: ljr
+Version: 1.2-2
+
+Package: LLAhclust
+Version: 0.2-2
+Depends: R(>= 2.1.0)
+
+Package: lme4
+Version: 0.999375-31
+Depends: methods, R(>= 2.9.0), Matrix(>= 0.999375-24), lattice
+Imports: graphics, stats
+Suggests: mlmRev, MEMSS
+
+Package: lmec
+Version: 1.0
+Depends: mvtnorm
+
+Package: lmeSplines
+Version: 1.0-1
+Depends: nlme(>= 3.1-29)
+
+Package: LMGene
+Version: 1.14.0
+Depends: R (>= 2.0.0), Biobase, multtest, survival
+
+Package: lmm
+Version: 0.3-5
+Depends: R (>= 2.0.0)
+
+Package: lmodel2
+Version: 1.6-3
+
+Package: lmom
+Version: 1.3
+
+Package: lmomco
+Version: 0.96.3
+Depends: R (>= 2.7.0), utils
+
+Package: Lmoments
+Version: 1.1-2
+Depends: R
+Suggests: lmomco
+
+Package: lmomRFA
+Version: 2.0
+Depends: lmom
+
+Package: lmtest
+Version: 0.9-24
+Depends: R (>= 2.1.0), stats, zoo
+Imports: stats, graphics
+Suggests: car, strucchange, sandwich, dynlm, survival
+
+Package: lnMLE
+Version: 1.0-1
+Depends: R (>= 1.9.0)
+
+Package: localdepth
+Version: 0.5-4
+Depends: circular
+
+Package: locfdr
+Version: 1.1-6
+Depends: splines
+
+Package: locfit
+Version: 1.5-4
+Depends: R (>= 2.0.1), akima, lattice
+Suggests: gam
+
+Package: locpol
+Version: 0.2-0
+Depends: R (>= 2.5.0)
+
+Package: lodplot
+Version: 1.1
+Depends: R (>= 0.99), grid, graphics, stats
+
+Package: LogConcDEAD
+Version: 1.3-3
+Depends: R (>= 2.3), akima, MASS, geometry
+Suggests: rgl, logcondens
+
+Package: logcondens
+Version: 1.3.4
+
+Package: LogicReg
+Version: 1.4.8
+Depends: survival
+
+Package: logilasso
+Version: 0.1.0
+Depends: methods, Rgraphviz
+Suggests: gRbase
+
+Package: logistf
+Version: 1.06
+Depends: R (>= 0.99)
+
+Package: loglognorm
+Version: 1.0.0
+Depends: R (>= 2.7.0)
+
+Package: logregperm
+Version: 1.0
+
+Package: logspline
+Version: 2.1.2
+
+Package: lokern
+Version: 1.0-7
+
+Package: longitudinal
+Version: 1.1.4
+Depends: R (>= 2.7.0), corpcor (>= 1.4.8)
+
+Package: longitudinalData
+Version: 0.5
+Depends: methods,codetools,clv
+
+Package: longmemo
+Version: 0.9-6
+Depends: R (>= 2.0.0)
+
+Package: longRPart
+Version: 1.0
+Depends: nlme,rpart
+
+Package: LoopAnalyst
+Version: 1.2-1.1
+Depends: R (>= 1.8.0), nlme
+
+Package: LowRankQP
+Version: 1.0.1
+
+Package: lpc
+Version: 1.0.1
+
+Package: lpridge
+Version: 1.0-4
+Depends: stats, R (>= 2.0.0)
+
+Package: lpSolve
+Version: 5.6.4
+
+Package: lpSolveAPI
+Version: 5.5.0.14
+Depends: R (>= 2.8.1)
+
+Package: lsa
+Version: 0.61
+Depends: Rstem
+
+Package: lspls
+Version: 0.1-1
+Depends: pls
+
+Package: lss
+Version: 0.52
+Depends: R(>= 2.1.0), quantreg
+Suggests: survival
+
+Package: ltm
+Version: 0.9-1
+Depends: R (>= 2.5.0), MASS, msm, mvtnorm, polycor
+
+Package: ltsa
+Version: 1.1
+Depends: R (>= 2.1.0)
+
+Package: luca
+Version: 1.0-5
+Depends: R (>= 2.0.0), survival, genetics
+
+Package: lvplot
+Version: 0.1
+Depends: RColorBrewer
+
+Package: maanova
+Version: 1.14.0
+Depends: R (>= 2.7.0)
+Suggests: qvalue, snow
+
+Package: MAclinical
+Version: 1.0-4
+Depends: R (>= 2.4.1), party, plsgenomics, st, e1071
+
+Package: magic
+Version: 1.4-4
+Depends: R (>= 2.4.0), abind
+
+Package: MAMSE
+Version: 0.1-1
+Depends: R (>= 2.4.0)
+
+Package: mapdata
+Version: 2.1-0
+Depends: R (>= 2.7.0), maps (>= 2.0-7)
+
+Package: mapLD
+Version: 1.0-1
+Depends: R (>= 2.4.1), lattice
+
+Package: mapproj
+Version: 1.1-7.2
+Depends: maps
+
+Package: mapReduce
+Version: 1.01
+Depends: R (>= 2.6.0)
+Suggests: multicore, papply
+
+Package: maps
+Version: 2.1-0
+Depends: R (>= 2.7.0)
+Suggests: mapproj
+
+Package: maptools
+Version: 0.7-25
+Depends: R (>= 2.4), foreign (>= 0.8), sp (>= 0.9-7), methods
+Suggests: spatstat, PBSmapping, maps, gpclib, RArcInfo
+
+Package: maptree
+Version: 1.4-5
+Depends: R (>= 1.0), cluster, rpart
+
+Package: mAr
+Version: 1.1-1
+Depends: MASS
+
+Package: mar1s
+Version: 2.0-1
+Depends: R (>= 2.8.1), cmrutils (>= 1.1-1), fda
+
+Package: marelac
+Version: 1.2-1
+Depends: R (>= 2.01), shape, deSolve, rootSolve, scatterplot3d, seacarb
+
+Package: marginalmodelplots
+Version: 0.4.1
+Depends: R (>= 2.0.1), locfit (>= 1.5-4), grid
+
+Package: marginTree
+Version: 1.00
+Depends: e1071
+
+Package: MarkedPointProcess
+Version: 0.2.9
+Depends: R (>= 2.6.0), RandomFields (>= 1.3.30), adapt
+
+Package: markerSearchPower
+Version: 1.0
+Depends: mvtnorm, adapt, corpcor
+
+Package: MasterBayes
+Version: 2.43
+Depends: coda, genetics, gtools, kinship
+
+Package: Matching
+Version: 4.7-6
+Depends: R (>= 2.6.0), rgenoud (>= 2.12), MASS (>= 7.2-1), graphics,
+        grDevices, stats
+Suggests: snow (>= 0.2-1), rbounds
+
+Package: MatchIt
+Version: 2.4-10
+Depends: R (>= 2.7), MASS
+Suggests: cem, optmatch, Matching, WhatIf, nnet, rpart, mgcv
+
+Package: mathgraph
+Version: 0.9-8
+Depends: R (>= 2.1.1)
+
+Package: matlab
+Version: 0.8-2
+Depends: R (>= 2.7), methods
+
+Package: Matrix
+Version: 0.999375-29
+Priority: recommended
+Depends: R (>= 2.9.0), stats, methods, utils, lattice
+Imports: graphics, lattice, grid, stats
+
+Package: matrixcalc
+Version: 1.0-1
+Depends: R (>= 2.0.1)
+
+Package: matrixStats
+Version: 0.1.6
+Depends: R (>= 2.6.0), methods, R.methodsS3
+Suggests: aroma.light (>= 1.8.0)
+
+Package: maxLik
+Version: 0.5-10
+Depends: R (>= 2.4.0)
+
+Package: maxstat
+Version: 0.7-12
+Depends: R (>= 1.7.0), exactRankTests(>= 0.8-0), mvtnorm(>= 0.5-10),
+        survival
+
+Package: MBA
+Version: 0.0-6
+Depends: R (>= 2.8.0), sp
+
+Package: MBESS
+Version: 2.0.0
+Depends: R (>= 2.6.0)
+Imports: MASS, gsl
+Suggests: MASS, nlme, gsl, sem, boot
+
+Package: mblm
+Version: 0.11
+
+Package: mboost
+Version: 1.1-1
+Depends: R (>= 2.4.0), methods, modeltools (>= 0.2.10), party (>=
+        0.9-993), splines
+Suggests: mlbench, ipred
+
+Package: mc2d
+Version: 0.1-5
+Depends: mvtnorm
+
+Package: MCAPS
+Version: 0.3
+Depends: R (>= 2.4.1), stashR
+
+Package: mcclust
+Version: 1.0
+Depends: lpSolve
+
+Package: MCE
+Version: 1.0
+
+Package: mcgibbsit
+Version: 1.0.5
+Depends: coda
+
+Package: MChtest
+Version: 1.0
+Depends: stats
+
+Package: mclust
+Version: 3.2.1
+Depends: R (>= 2.2.0), stats, utils
+
+Package: mclust02
+Version: 2.1-18
+Depends: R (>= 2.2.0), stats, utils
+
+Package: mcmc
+Version: 0.6
+Depends: R (>= 2.6.0)
+Suggests: xtable, Iso
+
+Package: MCMCglmm
+Version: 1.10
+Depends: MASS, corpcor, tensorA, Matrix, coda, ape, pscl, orthopolynom,
+        combinat, gtools
+Suggests: rgl
+
+Package: MCMCpack
+Version: 0.9-6
+Depends: R (>= 2.8.0), coda (>= 0.11-3), MASS, stats
+
+Package: mco
+Version: 1.0.4
+Depends: R (>= 2.7.0)
+Suggests: scatterplot3d
+
+Package: MCPAN
+Version: 1.1-7
+Depends: R (>= 2.6.0), mvtnorm, multcomp
+
+Package: MCPMod
+Version: 1.0-3
+Depends: mvtnorm, lattice, R (>= 2.4.1)
+
+Package: mcsm
+Version: 1.0
+Depends: stats, MASS, coda
+
+Package: mda
+Version: 0.3-4
+Depends: R (>= 1.9.0), stats, class
+
+Package: meboot
+Version: 1.0-0
+Depends: R (>= 2.0.0), dynlm, plm, kinship, survival, splines, nlme,
+        lattice, zoo
+Suggests: tcltk, geepack, car, lmtest, boot, hdrcde
+
+Package: medAdherence
+Version: 1.01
+
+Package: mediation
+Version: 1.0
+Depends: R (>= 2.7), MASS
+Suggests: mgcv, quantreg
+
+Package: mefa
+Version: 3.1-0
+Suggests: MASS, ade4, vegan
+
+Package: meifly
+Version: 0.1.1
+Depends: reshape(>= 0.8.1), leaps, MASS
+Suggests: rggobi
+
+Package: memisc
+Version: 0.95-19
+Depends: lattice, grid, stats, methods, utils, MASS
+
+Package: MEMSS
+Version: 0.3-5
+Depends: R(>= 2.8.0), lme4(>= 0.999375-25)
+
+Package: merror
+Version: 1.0
+
+Package: meta
+Version: 0.9-19
+Depends: grid
+
+Package: Metabonomic
+Version: 3.1.3.3
+Depends: tcltk, tcltk2, tkrplot, robustbase, PROcess, MASS, gpls, pls,
+        splines, class, nnet, AMORE, neural, caMassClass, clusterSim,
+        hddplot, scatterplot3d, relimp, Icens, waved, Matrix
+
+Package: metacor
+Version: 1.0
+Depends: R (>= 2.8.0), rmeta, gsl
+
+Package: metafor
+Version: 0.5-0
+Depends: R (>= 2.9.0), stats
+
+Package: metaMA
+Version: 1.1
+Depends: R (>= 2.6), limma, SMVar
+
+Package: MFDA
+Version: 1.1-1
+Depends: R (>= 2.1.0), gss, mvtnorm
+
+Package: mFilter
+Version: 0.1-3
+Depends: R (>= 2.2.0), stats
+Suggests: tseries, pastecs, locfit, tseriesChaos, RTisean, tsDyn,
+        forecast
+
+Package: mfp
+Version: 1.4.6
+Depends: survival
+
+Package: mgcv
+Version: 1.5-5
+Priority: recommended
+Depends: R (>= 2.3.0)
+Imports: graphics, stats, nlme
+Suggests: nlme (>= 3.1-64), splines
+
+Package: mhsmm
+Version: 0.2.3
+Depends: mvtnorm
+
+Package: mi
+Version: 0.08-03
+Depends: methods, MASS, nnet, car, arm, lme4, R2WinBUGS, abind
+
+Package: mice
+Version: 1.21
+Depends: MASS, nnet
+
+Package: micEcon
+Version: 0.5-18
+Depends: R (>= 2.4.0), systemfit (>= 1.0-0), lmtest, np (>= 0.30-0)
+Suggests: MASS, plm (>= 1.1-0)
+
+Package: MIfuns
+Version: 3.2.9
+Depends: lattice, MASS, methods, reshape
+Suggests: XML, fork
+
+Package: mimR
+Version: 2.6.1
+Depends: methods,gRbase,graph,rcom,MASS
+Suggests: Rgraphviz
+OS_type: windows
+
+Package: minet
+Version: 1.6.0
+Depends: R (>= 2.3.0)
+
+Package: minpack.lm
+Version: 1.1-1
+
+Package: minxent
+Version: 0.01
+Depends: R (>= 1.6.0)
+
+Package: mirf
+Version: 1.0
+Depends: R (>= 2.5.1), haplo.stats, randomForest
+
+Package: misc3d
+Version: 0.6-3
+Suggests: rgl, tkrplot, MASS
+
+Package: MiscPsycho
+Version: 1.4
+Depends: statmod
+
+Package: mitools
+Version: 2.0
+Suggests: RODBC, DBI
+
+Package: mix
+Version: 1.0-7
+Depends: stats
+
+Package: mixAK
+Version: 0.3
+Depends: R (>= 2.0.0), coda, colorspace
+
+Package: mixdist
+Version: 0.5-2
+Depends: R (>= 1.4.0)
+
+Package: mixer
+Version: 0.2
+Depends: R (>= 2.5.0), methods
+
+Package: mixlow
+Version: 0.01-2
+Depends: R (>= 2.5), nlme (>= 3.1.4)
+
+Package: mixPHM
+Version: 0.7.0
+Depends: survival, lattice
+Imports: graphics, stats
+
+Package: mixRasch
+Version: 0.1
+
+Package: mixreg
+Version: 0.0-2
+Depends: R (>= 0.99)
+
+Package: MixSim
+Version: 0.1-04
+Depends: R (>= 2.4.0), MASS
+
+Package: mixstock
+Version: 0.9
+Depends: coda, plotrix, abind, lattice
+Suggests: R2WinBUGS
+
+Package: mixtools
+Version: 0.4.0
+Depends: boot, R (>= 2.0.0)
+
+Package: MKLE
+Version: 0.05
+
+Package: MKmisc
+Version: 0.4
+Depends: R(>= 2.7.0), stats, graphics, robustbase, RColorBrewer
+Suggests: gplots
+
+Package: mlbench
+Version: 1.1-6
+Suggests: e1071, scatterplot3d
+
+Package: mlCopulaSelection
+Version: 1.3
+
+Package: MLDA
+Version: 1.0-1
+Depends: R (>= 2.7.0)
+
+Package: MLDS
+Version: 0.1-8
+Depends: R (>= 2.6), graphics, stats, utils, base
+Imports: MASS
+
+Package: MLEcens
+Version: 0.1-2
+Depends: R (>= 2.4.0)
+
+Package: mlegp
+Version: 2.2.6
+Suggests: adapt
+
+Package: mlmRev
+Version: 0.99875-1
+Depends: lme4(>= 0.999375-19), Matrix(>= 0.999375-9), R(>= 2.6.0)
+Suggests: MASS, lattice
+
+Package: mlogit
+Version: 0.1-2
+Depends: R (>= 1.8.0), maxLik
+Suggests: Ecdat, lmtest, car
+
+Package: mmcm
+Version: 1.0-1
+
+Package: MMG
+Version: 1.4.0
+Depends: R (>= 2.6.0)
+
+Package: mmlcr
+Version: 1.3.5
+Depends: MASS, nnet, nlme, survival
+
+Package: mnormt
+Version: 1.3-3
+Depends: R (>= 2.2.0)
+
+Package: MNP
+Version: 2.5-6
+Depends: R (>= 2.1), MASS, utils
+
+Package: moc
+Version: 1.0.5.1
+
+Package: modeest
+Version: 1.09
+Depends: R (>= 2.4.0)
+Suggests: stats, evd, fBasics
+
+Package: modehunt
+Version: 1.0.4
+
+Package: ModelMap
+Version: 1.1.13
+Depends: R (>= 2.8.1), randomForest, gbm, PresenceAbsence, rgdal
+
+Package: modeltools
+Version: 0.2-16
+Depends: stats, stats4
+Imports: methods
+
+Package: moduleColor
+Version: 1.08
+Depends: R (>= 2.3.0), stats, impute, grDevices, dynamicTreeCut
+
+Package: mokken
+Version: 1.4
+Depends: R (>= 2.7.0)
+
+Package: mombf
+Version: 1.0.3
+Depends: R (>= 2.5.0), mvtnorm
+
+Package: moments
+Version: 0.11
+
+Package: monomvn
+Version: 1.7-2
+Depends: R (>= 2.4), pls, lars, MASS
+Suggests: quadprog, mvtnorm, accuracy
+
+Package: monoProc
+Version: 1.0-4
+Depends: R (>= 1.9.0), methods
+Imports: graphics
+Suggests: locfit, UsingR, KernSmooth
+
+Package: monreg
+Version: 0.1.1
+Depends: R (>= 2.0.0)
+
+Package: moonsun
+Version: 0.1
+
+Package: mpm
+Version: 1.0-15
+Depends: R (>= 1.5), MASS, geneplotter
+
+Package: mprobit
+Version: 0.9-2
+Depends: R (>= 1.8.0)
+
+Package: MPV
+Version: 1.25
+Depends: R (>= 2.0.1)
+
+Package: mra
+Version: 2.2
+
+Package: mratios
+Version: 1.3.10
+Depends: R (>= 2.2.0)
+Imports: mvtnorm
+Suggests: multcomp
+
+Package: mrdrc
+Version: 1.0-2
+Depends: R (>= 2.6.0), drc, locfit, EffectiveDose
+
+Package: mrt
+Version: 0.2
+Depends: R (>= 2.8.0)
+
+Package: msBreast
+Version: 1.0.2
+Depends: R (>= 2.5.0), RSQLite (>= 0.5-6)
+Suggests: msProcess
+
+Package: MSBVAR
+Version: 0.3.2
+Depends: R (>= 2.7.0), KernSmooth, xtable, coda
+
+Package: msDilution
+Version: 1.0.1
+Depends: R (>= 2.5.0), RSQLite
+Suggests: msProcess
+
+Package: msm
+Version: 0.9.1
+Imports: survival,mvtnorm
+
+Package: msProcess
+Version: 1.0.5
+Depends: R (>= 2.5.0), methods, graphics, RSQLite (>= 0.5-6), wmtsa,
+        robust, XML, stats
+
+Package: msProstate
+Version: 1.0.2
+Depends: R (>= 2.5.0), RSQLite (>= 0.5-6)
+Suggests: msProcess
+
+Package: MSVAR
+Version: 0.0
+Depends: R (>= 2.0.1)
+
+Package: muhaz
+Version: 1.2.4
+Depends: R(>= 2.3)
+Imports: survival
+
+Package: multcomp
+Version: 1.1-0
+Depends: stats, graphics, mvtnorm (>= 0.8-0), survival
+Suggests: lme4 (>= 0.999375-16), nlme, robustbase, mboost, coin, MASS,
+        car, foreign, xtable
+
+Package: multcompView
+Version: 0.1-0
+Depends: grid
+Suggests: multcomp, pgirmess
+
+Package: MultEq
+Version: 2.2
+Suggests: SimComp
+
+Package: multic
+Version: 0.3.2
+Depends: R (>= 2.2.0)
+Suggests: kinship (>= 1.1.0-9)
+OS_type: unix
+
+Package: Multiclasstesting
+Version: 1.2.0
+
+Package: multicore
+Version: 0.1-3
+Depends: R (>= 2.0.0)
+OS_type: unix
+
+Package: multilevel
+Version: 2.3
+Depends: nlme, MASS
+
+Package: multinomRob
+Version: 1.8-2
+Depends: R (>= 1.7.1), rgenoud (>= 2.9), MASS (>= 7.1-8), mvtnorm (>=
+        0.6-3)
+
+Package: multipol
+Version: 1.0-2
+Depends: abind
+
+Package: multtest
+Version: 2.1.1
+Depends: R (>= 2.9.0), methods, Biobase
+Imports: survival, MASS
+
+Package: muS2RC
+Version: 1.5.0
+Depends: R (>= 2.6.0), stats
+
+Package: muscor
+Version: 0.2
+Depends: R (>= 2.0.0)
+
+Package: muStat
+Version: 1.5.0
+Depends: R (>= 2.6.0), muUtil, muS2RC, stats
+
+Package: muUtil
+Version: 1.5.0
+Depends: R (>= 2.6.0), muS2RC, stats
+
+Package: mvbutils
+Version: 2.2.0
+Depends: R (>= 2.7), utils, tools
+
+Package: mvgraph
+Version: 1.1
+Depends: StatDA
+
+Package: mvna
+Version: 1.1-9
+Depends: lattice
+Suggests: Rgraphviz, gridBase
+
+Package: mvnmle
+Version: 0.1-8
+Depends: R (>= 1.2.0)
+
+Package: mvnormtest
+Version: 0.1-7
+Depends: stats
+
+Package: mvoutlier
+Version: 1.4
+Depends: R (>= 1.9.0), robustbase, stats
+
+Package: mvpart
+Version: 1.2-6
+Depends: R (>= 2.2.0)
+Suggests: survival
+
+Package: mvShapiroTest
+Version: 0.0.1
+Depends: stats
+
+Package: mvtBinaryEP
+Version: 1.0
+Depends: mvtnorm
+
+Package: mvtnorm
+Version: 0.9-7
+Depends: R(>= 1.9.0)
+Imports: stats
+
+Package: mvtnormpcs
+Version: 0.1
+Depends: R (>= 2.1.0)
+
+Package: NADA
+Version: 1.5-2
+Depends: methods, survival
+
+Package: ncdf
+Version: 1.6
+
+Package: ncf
+Version: 1.1-3
+Depends: R (>= 2.8.0)
+
+Package: ncomplete
+Version: 1.0-1
+
+Package: NeatMap
+Version: 0.2
+Depends: ggplot2, rgl
+
+Package: negenes
+Version: 0.98-7
+
+Package: NestedCohort
+Version: 1.1-1
+Depends: R (>= 2.9.0), survival, MASS
+
+Package: NetIndices
+Version: 1.3
+Depends: R (>= 2.01), MASS
+Suggests: LIM
+
+Package: netmodels
+Version: 0.2
+Depends: R (>= 2.6.2), igraph (>= 0.5), VGAM (>= 0.7-5)
+
+Package: network
+Version: 1.4-1
+Depends: R (>= 2.0.0), utils
+Suggests: sna, statnet
+
+Package: networksis
+Version: 1.0
+Depends: ergm, network
+Suggests: snow, Hmisc, rpvm
+
+Package: neural
+Version: 1.4.2
+
+Package: neuralnet
+Version: 1.2
+Depends: R (>= 2.7.0),grid, MASS
+
+Package: nFactors
+Version: 2.2
+Depends: R (>= 2.0.0)
+
+Package: nFDR
+Version: 0.0
+Depends: R (>= 2.0.1)
+
+Package: nice
+Version: 0.3
+Depends: R (>= 1.7.0)
+OS_type: unix
+
+Package: NISTnls
+Version: 0.9-12
+Depends: stats, R (>= 2.2.0)
+
+Package: nleqslv
+Version: 1.4
+
+Package: nlme
+Version: 3.1-92
+Priority: recommended
+Depends: graphics, stats, R (>= 2.4.0)
+Imports: lattice
+
+Package: nlmeODE
+Version: 0.3-1
+Depends: R (>= 1.7.1), odesolve, nlme, lattice
+
+Package: nlrwr
+Version: 1.0-6
+Depends: R (>= 2.0.0), alr3, car, drc, HydroMe, lattice, lmtest, MASS,
+        NISTnls, nlme, nls2, nlstools, NRAIA, sandwich
+
+Package: nls2
+Version: 0.1-2
+Depends: R (>= 2.6.0)
+Suggests: nlstools
+
+Package: nlstools
+Version: 0.0-8
+Depends: stats
+
+Package: nlt
+Version: 1.0.1
+Depends: EbayesThresh, adlift (>= 0.9-2)
+
+Package: nltm
+Version: 1.4
+Depends: survival, R (>= 2.8.1)
+
+Package: nlts
+Version: 0.1-5
+Depends: R (>= 2.2.0), locfit (>= 1.5.3), acepack, akima
+
+Package: NMMAPSlite
+Version: 0.3-1
+Depends: R (>= 2.5.0), stashR
+Suggests: utils
+
+Package: NMRS
+Version: 1.0
+Depends: Rwave, FTICRMS, tcltk, tkrplot
+
+Package: nnls
+Version: 1.2
+
+Package: noia
+Version: 0.93
+Depends: stats
+
+Package: nonbinROC
+Version: 1.0.1
+
+Package: nor1mix
+Version: 1.0-7
+Depends: R (>= 2.0.0)
+
+Package: normalp
+Version: 0.6.8
+Depends: R (>= 1.5.0)
+
+Package: NORMT3
+Version: 1.0-1
+
+Package: normwn.test
+Version: 1.2
+
+Package: nortest
+Version: 1.0
+
+Package: noverlap
+Version: 1.0-1
+
+Package: np
+Version: 0.30-3
+Depends: boot
+Suggests: quantreg, MASS
+
+Package: nparcomp
+Version: 1.0-0
+Depends: multcomp, mvtnorm
+
+Package: npde
+Version: 1.2
+
+Package: nplplot
+Version: 4.3
+
+Package: npmc
+Version: 1.0-7
+Depends: mvtnorm, stats, R (>= 2.4.0)
+
+Package: npmlreg
+Version: 0.43
+Depends: R (>= 1.9), statmod
+Suggests: MASS, forward, gamlss, nlme, lattice
+
+Package: NRAIA
+Version: 0.9-7
+Depends: lattice, stats
+
+Package: nsRFA
+Version: 0.6-8
+Depends: stats, graphics
+
+Package: numDeriv
+Version: 2009.2-1
+Depends: R (>= 1.8.1)
+
+Package: nws
+Version: 1.7.0.0
+Depends: R (>= 2.1), methods
+
+Package: OAIHarvester
+Version: 0.0-3
+Imports: XML
+
+Package: Oarray
+Version: 1.4-2
+
+Package: oblique.tree
+Version: 1.0
+Depends: tree
+Imports: nnet, glmnet
+
+Package: obsSens
+Version: 1.0
+
+Package: oc
+Version: 0.04
+Depends: R (>= 2.3.1), pscl (>= 0.59)
+
+Package: oce
+Version: 0.1-76
+Depends: R (>= 0.99)
+
+Package: odesolve
+Version: 0.5-20
+Depends: R (>= 2.3.1)
+
+Package: odfWeave
+Version: 0.7.10
+Depends: R (>= 2.3.1), lattice, XML
+
+Package: odfWeave.survey
+Version: 1.0
+Depends: odfWeave, survey
+
+Package: ofw
+Version: 1.0-0
+Depends: R (>= 2.4.1), e1071
+
+Package: Oncotree
+Version: 0.3
+Depends: R (>= 2.3.1), boot
+Suggests: lattice
+
+Package: onemap
+Version: 1.0-1
+Depends: tcltk, tkrplot, R (>= 2.5.0)
+
+Package: onion
+Version: 1.2-2
+
+Package: OPE
+Version: 0.7
+
+Package: openNLP
+Version: 0.0-6
+Depends: methods, rJava (>= 0.5-0)
+Imports: tm
+Suggests: openNLPmodels
+
+Package: openNLPmodels
+Version: 0.0-3
+
+Package: opentick
+Version: 0.1-1
+Depends: pack, xts
+
+Package: operators
+Version: 0.1-0
+Suggests: RUnit
+
+Package: optBiomarker
+Version: 1.0-20
+Depends: R(>= 2.6.0), rpanel,rgl
+Imports: rgl,MASS, randomForest, e1071,ipred, msm
+
+Package: optmatch
+Version: 0.5-0
+Depends: R (>= 2.4.0)
+Suggests: boot
+
+Package: OrdFacReg
+Version: 1.0.0
+Depends: eha, MASS
+
+Package: OrdMonReg
+Version: 1.0.0
+
+Package: orientlib
+Version: 0.9.2
+Depends: R (>= 2.2.0), R (<= 2.9.9), methods
+Suggests: rgl, scatterplot3d
+
+Package: orloca
+Version: 2.0
+Depends: methods
+Suggests: grDevices, graphics, snow
+
+Package: orloca.es
+Version: 2.0
+Depends: methods, orloca
+Suggests: grDevices, graphics, snow
+
+Package: ORMDR
+Version: 1.3-1
+
+Package: orth
+Version: 1.5
+Depends: methods
+
+Package: orthogonalsplinebasis
+Version: 0.1.1
+Depends: methods, stats, graphics
+
+Package: orthopolynom
+Version: 1.0-1
+Depends: R (>= 2.0.1), polynom
+
+Package: ouch
+Version: 2.5-4
+Depends: R(>= 2.6.1), methods, stats, graphics, subplex
+Suggests: ape
+
+Package: outliers
+Version: 0.13-2
+Depends: R (>= 2.0)
+
+Package: oz
+Version: 1.0-17
+Depends: graphics
+
+Package: pack
+Version: 0.1-1
+
+Package: packClassic
+Version: 0.5.1
+Depends: graphics
+
+Package: packS4
+Version: 0.5
+Depends: methods, graphics
+
+Package: PairViz
+Version: 1.0
+Depends: TSP, gtools,graph,methods
+
+Package: pairwiseCI
+Version: 0.1-15
+Depends: R (>= 2.2.0), stats, exactRankTests, boot, mratios, binMto,
+        MASS, MCPAN
+
+Package: paleoTS
+Version: 0.3-1
+
+Package: paltran
+Version: 1.0-0
+Depends: vegan, MASS, mgcv
+
+Package: pamm
+Version: 0.2
+Depends: R (>= 2.4.0),lme4, mvtnorm, gmodels
+Suggests: rgl
+
+Package: pamr
+Version: 1.42.0
+Depends: cluster, survival
+
+Package: pan
+Version: 0.2-6
+
+Package: panel
+Version: 1.0.6
+
+Package: papply
+Version: 0.1
+Depends: R (>= 2.0.1)
+Suggests: Rmpi
+
+Package: paran
+Version: 1.4.1
+Depends: R (>= 1.8.0), MASS
+
+Package: pARccs
+Version: 0.1-1
+Depends: R (>= 2.4.1), e1071, cba
+
+Package: parcor
+Version: 0.1
+Depends: MASS, lars, ppls, Epi, GeneNet
+
+Package: partDSA
+Version: 0.5.1
+Depends: R (>= 2.5), nws
+
+Package: partitions
+Version: 1.9-6
+Depends: polynom
+
+Package: party
+Version: 0.9-998
+Depends: R (>= 2.0.1), methods, survival, grid, modeltools (>= 0.2-6),
+        coin (>= 0.6-4), zoo, sandwich (>= 1.1-1), strucchange, vcd
+Suggests: ipred, mlbench, colorspace
+
+Package: pastecs
+Version: 1.3-8
+Depends: boot, stats
+
+Package: PASWR
+Version: 1.0
+Depends: e1071, MASS
+
+Package: pbatR
+Version: 2.1.5
+Depends: R (>= 2.0.0), survival
+Imports: tcltk
+Suggests: kinship, tcltk
+
+Package: PBSddesolve
+Version: 1.05
+Depends: R (>= 2.6.0)
+
+Package: PBSmapping
+Version: 2.59
+Depends: R (>= 2.6.0)
+Suggests: foreign, maptools, deldir
+
+Package: PBSmodelling
+Version: 2.06
+Depends: R (>= 2.7.0)
+Suggests: PBSmapping, PBSddesolve, deSolve, BRugs, KernSmooth
+
+Package: pcalg
+Version: 0.1-8
+Depends: methods, MASS, graph, robustbase, Rgraphviz, ggm, mnormt, vcd,
+        RBGL, sfsmisc
+
+Package: pcaPP
+Version: 1.6
+Depends: mvtnorm
+
+Package: PCS
+Version: 1.0
+Depends: statmod, multtest
+
+Package: pcse
+Version: 1.6
+
+Package: pcurve
+Version: 0.6-2
+Depends: R(>= 1.9.0), mgcv, vegan, MASS, stats
+
+Package: Peaks
+Version: 0.2
+Depends: R (>= 2.5)
+
+Package: pear
+Version: 1.0
+Depends: R (>= 2.0.0)
+
+Package: PearsonICA
+Version: 1.2-3
+
+Package: pec
+Version: 1.1.1
+Depends: R (>= 1.9.1), prodlim, survival
+Suggests: Design, timereg, mfp, survnnet, rpart
+
+Package: pedigree
+Version: 1.1
+
+Package: pedigreemm
+Version: 0.2-2
+Depends: methods, R(>= 2.8.1), lme4 (>= 0.999375-28), Matrix (>=
+        0.999375-22)
+Imports: graphics, stats
+
+Package: pegas
+Version: 0.1
+Depends: R (>= 2.6.0), ape, adegenet
+
+Package: penalized
+Version: 0.9-24
+Depends: methods, survival
+Imports: survival
+
+Package: penalizedSVM
+Version: 1.0
+Depends: e1071, MASS, corpcor, statmod
+
+Package: peperr
+Version: 1.1-3
+Depends: snowfall, survival
+Suggests: CoxBoost, locfit, penalized, codetools
+
+Package: PerformanceAnalytics
+Version: 0.9.7.1
+Depends: R (>= 2.4.0), zoo
+Suggests: Hmisc, MASS, tseries, fBasics, fPortfolio, fExtremes,
+        quadprog, sn, robustbase
+
+Package: permax
+Version: 1.2.1
+Depends: R (>= 1.2)
+
+Package: permtest
+Version: 1.1
+
+Package: perturb
+Version: 2.03
+Suggests: car
+
+Package: PET
+Version: 0.4.6
+Depends: adimpro (>= 0.4.2)
+
+Package: pga
+Version: 0.1-1
+
+Package: pgam
+Version: 0.4.9
+Depends: R (>= 2.9.0),stats,utils
+
+Package: pgirmess
+Version: 1.3.8
+Suggests: boot, gstat, maptools, MASS, nlme, sp, spdep, splancs
+
+Package: phangorn
+Version: 0.0-5
+Depends: quadprog, ape
+Imports: ape, stats
+
+Package: pheno
+Version: 1.4
+Depends: R (>= 2.1), nlme, SparseM, quantreg
+
+Package: phmm
+Version: 0.5
+Depends: survival
+Suggests: lme4
+
+Package: phpSerialize
+Version: 0.8-01
+
+Package: PhViD
+Version: 1.0.1
+Depends: LBE, MCMCpack, tcltk
+
+Package: PHYLOGR
+Version: 1.0.6
+Depends: R(>= 1.8.1)
+
+Package: PhySim
+Version: 1.0
+Depends: R (>= 2.0.0)
+
+Package: picante
+Version: 0.7-0
+Depends: ape, vegan, nlme
+Suggests: brglm, circular, quantreg
+
+Package: pinktoe
+Version: 2.0
+
+Package: pixmap
+Version: 0.4-9
+Depends: methods
+
+Package: PK
+Version: 1.01
+Depends: R (>= 2.2.1)
+
+Package: PKfit
+Version: 1.1.8
+Depends: R (>= 2.8.0), stats4, odesolve, rgenoud
+
+Package: PKtools
+Version: 1.4-0
+Depends: lattice, xtable, R2HTML, nlme
+
+Package: plan
+Version: 0.1.0
+Depends: R (>= 0.99)
+
+Package: playwith
+Version: 0.9-44
+Depends: R (>= 2.7.0), lattice (>= 0.16-3), cairoDevice, gWidgetsRGtk2
+        (>= 0.0-45), grid
+Imports: RGtk2 (>= 2.10.11), gWidgets (>= 0.0-30), gridBase, grDevices,
+        graphics, stats, utils
+Suggests: latticist, zoo, MASS, ggplot2
+
+Package: plink
+Version: 1.1-4
+Depends: R (>= 2.9), methods, statmod, lattice, MASS
+
+Package: plm
+Version: 1.1-4
+Depends: R (>= 1.8.0), stats, kinship, nlme, Formula, MASS, sandwich
+Suggests: lmtest, car
+
+Package: plotpc
+Version: 1.0-2
+Depends: grid
+
+Package: plotrix
+Version: 2.6-1
+
+Package: plotSEMM
+Version: 1.0
+
+Package: plRasch
+Version: 0.1
+Depends: survival
+
+Package: pls
+Version: 2.1-0
+
+Package: plsgenomics
+Version: 1.2-4
+Depends: R (>= 2.0.0), MASS
+
+Package: plspm
+Version: 0.1-3
+
+Package: plugdensity
+Version: 0.8-1
+
+Package: plus
+Version: 0.8
+Depends: R (>= 2.4.0), grDevices, graphics, stats, utils
+
+Package: plyr
+Version: 0.1.9
+Depends: R (>= 2.8)
+Suggests: RUnit, abind, tcltk
+
+Package: PMA
+Version: 1.0.2
+Depends: R (>= 1.9.0)
+
+Package: pmg
+Version: 0.9-38
+Depends: lattice, MASS, proto, foreign, gWidgets(>= 0.0-22),
+        gWidgetsRGtk2(>= 0.0-25)
+
+Package: pmml
+Version: 1.2.15
+Depends: XML
+Suggests: arules, nnet, rpart, randomSurvivalForest, randomForest,
+        kernlab
+
+Package: poilog
+Version: 0.4
+
+Package: poLCA
+Version: 1.1
+Depends: scatterplot3d, MASS
+
+Package: polspline
+Version: 1.1.2
+
+Package: polyapost
+Version: 1.1
+Imports: boot
+
+Package: polycor
+Version: 0.7-7
+Depends: R (>= 1.9.0), mvtnorm, sfsmisc
+
+Package: polydect
+Version: 0.1-2
+Depends: R (>= 2.4.1)
+
+Package: polynom
+Version: 1.3-5
+Imports: stats, graphics
+
+Package: PolynomF
+Version: 0.93
+
+Package: Pomic
+Version: 0.9.2
+Depends: stats
+
+Package: pomp
+Version: 0.24-7
+Depends: R(>= 2.8.1), stats, methods, graphics, deSolve, subplex,
+        mvtnorm
+
+Package: popbio
+Version: 1.1.11
+Suggests: quadprog
+
+Package: popgen
+Version: 0.0-4
+
+Package: poplab
+Version: 1.0.2
+Depends: R (>= 1.8.0), MASS
+Suggests: MASS
+
+Package: portfolio
+Version: 0.4-4
+Depends: R (>= 2.4.0), methods, graphics, grid, lattice, nlme
+
+Package: portfolioSim
+Version: 0.2-5
+Depends: R (>= 2.4.0), methods, lattice, portfolio (>= 0.4-0)
+
+Package: POT
+Version: 1.0-9
+Depends: R (>= 1.8.0)
+
+Package: powell
+Version: 1.0-0
+
+Package: powerGWASinteraction
+Version: 1.0.0
+
+Package: powerpkg
+Version: 1.2
+
+Package: powerSurvEpi
+Version: 0.0.5
+Depends: R (>= 2.8.1)
+Imports: stats, survival
+
+Package: ppc
+Version: 1.01
+
+Package: ppls
+Version: 1.03
+Depends: splines, MASS
+
+Package: pps
+Version: 0.94
+
+Package: prabclus
+Version: 2.1-3
+Depends: R (>= 2.0), MASS
+Suggests: mclust, spdep, tripack, maptools, foreign, SparseM, mvtnorm
+
+Package: predbayescor
+Version: 1.1-4
+Depends: R (>= 2.5.1)
+
+Package: PredictiveRegression
+Version: 0.1-1
+
+Package: predmixcor
+Version: 1.1-1
+Depends: R (>= 1.5.0)
+
+Package: prefmod
+Version: 0.8-16
+Depends: stats, gnm, colorspace
+
+Package: PresenceAbsence
+Version: 1.1.3
+Depends: R (>= 2.2.0)
+
+Package: prettyR
+Version: 1.5
+
+Package: prim
+Version: 1.0.6
+Depends: R (>= 1.4.0), ks
+Suggests: rgl (>= 0.66), misc3d (>= 0.4-0)
+
+Package: primer
+Version: 0.2
+Depends: deSolve, lattice
+Suggests: bbmle, gdata, nlme, vegan
+
+Package: princurve
+Version: 1.1-9
+Depends: R (>= 1.9.0), stats, graphics
+
+Package: prob
+Version: 0.9-1
+Suggests: combinat
+
+Package: prodlim
+Version: 1.0.5
+Depends: R (>= 1.9.1), KernSmooth, survival
+
+Package: ProfessR
+Version: 1.0-8
+
+Package: profileModel
+Version: 0.5-6
+Depends: R (>= 2.6.0)
+Suggests: MASS, gnm
+
+Package: profr
+Version: 0.1.1
+Depends: R (>= 2.6.2), digest
+Suggests: ggplot2
+
+Package: proftools
+Version: 0.0-2
+Suggests: graph,Rgraphviz
+
+Package: proj4
+Version: 1.0-4
+Depends: R (>= 2.0.0)
+
+Package: proptest
+Version: 0.1-4
+Depends: survival (>= 2.35-4)
+
+Package: proto
+Version: 0.3-8
+Depends: R (>= 2.3.1)
+Suggests: graph, Rgraphviz
+
+Package: proxy
+Version: 0.4-3
+Depends: R (>= 2.4.0)
+Suggests: cba
+
+Package: PSAgraphics
+Version: 1.3
+Depends: R (>= 2.7.2)
+
+Package: pscl
+Version: 1.03
+Depends: R (>= 2.3.0), MASS, stats, mvtnorm, coda
+Suggests: MCMCpack, car, lmtest, sandwich, zoo
+
+Package: pseudo
+Version: 1.0
+Depends: KMsurv, geepack
+
+Package: PSM
+Version: 0.8-5
+Depends: MASS, numDeriv, odesolve, ucminf
+
+Package: pspearman
+Version: 0.2-5
+
+Package: pspline
+Version: 1.0-13
+Depends: R (>= 2.0.0), stats, graphics
+
+Package: psy
+Version: 0.7
+
+Package: psych
+Version: 1.0-72
+Suggests: polycor, GPArotation, MASS, Rgraphviz
+
+Package: psychometric
+Version: 2.1
+Depends: multilevel, nlme, R(>= 2.3.0)
+Imports: multilevel, nlme
+
+Package: psyphy
+Version: 0.1-1
+Depends: R (>= 2.4.0), stats, graphics
+Suggests: MASS, nlme, lattice
+
+Package: PTAk
+Version: 1.1-20
+Depends: tensor, tensorA
+
+Package: PtProcess
+Version: 3.1-3
+
+Package: pvclust
+Version: 1.2-1
+Depends: R (>= 1.8.0)
+Suggests: MASS, snow, Rmpi
+
+Package: pwr
+Version: 1.1
+Depends: R (>= 1.8.0)
+
+Package: PwrGSD
+Version: 1.15
+Depends: survival
+
+Package: pwt
+Version: 6.2-2
+
+Package: qAnalyst
+Version: 0.5.4
+Depends: lattice, MASS, alr3, SuppDists
+
+Package: QCA
+Version: 0.5-3
+Depends: R (>= 1.9.0), lpSolve
+Suggests: XML
+
+Package: QCAGUI
+Version: 1.3-6
+Depends: R (>= 2.1.0), tcltk, grDevices, utils, QCA (>= 0.4-6), MASS
+Suggests: abind, car (>= 1.1-1), foreign, relimp, XML
+
+Package: qcc
+Version: 1.3
+Depends: R (>= 2.6)
+
+Package: qdg
+Version: 1.0.0
+Depends: pcalg,sem,qtl
+
+Package: qgen
+Version: 0.03-02
+Depends: MASS, lme4, Matrix, methods
+
+Package: qlspack
+Version: 2.1
+Depends: R (>= 2.4.1), geepack (>= 1.0-12), utils
+
+Package: qp
+Version: 0.3-1
+Depends: R (>= 2.2.1)
+
+Package: qpcR
+Version: 1.1-8
+Depends: R (>= 2.0.0), drc, MASS, gtools, gplots
+
+Package: QRMlib
+Version: 1.4.4
+Depends: R(>= 2.7.0), methods, fSeries, mvtnorm, chron
+
+Package: qtl
+Version: 1.11-12
+
+Package: qtlbim
+Version: 1.9.3
+Depends: stats, qtl (>= 1.9.43), lattice, coda, tools, MASS
+
+Package: qtlbook
+Version: 0.17-1
+Depends: qtl
+
+Package: qtlDesign
+Version: 0.92
+
+Package: quadprog
+Version: 1.4-11
+
+Package: qualV
+Version: 0.2-4
+Depends: R (>= 2.0.0), KernSmooth
+
+Package: quantchem
+Version: 0.12-1
+Depends: R (>= 2.0), MASS, outliers
+
+Package: quantmod
+Version: 0.3-10
+Depends: methods,xts(>= 0.6-5),zoo,Defaults,TTR(>= 0.2)
+Suggests: DBI,RMySQL,RSQLite,fSeries,its
+
+Package: QuantPsyc
+Version: 1.3
+
+Package: quantreg
+Version: 4.30
+Depends: R (>= 1.9), stats, SparseM
+Suggests: tripack, akima, MASS, survival, rgl, logspline
+
+Package: quantregForest
+Version: 0.2-2
+Depends: randomForest
+Imports: stats, graphics, grDevices
+
+Package: qvalue
+Version: 1.18.0
+Depends: tcltk
+
+Package: qvcalc
+Version: 0.8-4
+Suggests: relimp
+
+Package: R2HTML
+Version: 1.59-1
+Depends: R (>= 2.0)
+Suggests: boot, splines, survival, stats, cluster, nlme, rpart, nnet,
+        utils
+
+Package: R2jags
+Version: 0.01-23
+Depends: methods, R(>= 2.7.0), coda, R2WinBUGS, rjags(>= 1.0.3-8)
+
+Package: r2lUniv
+Version: 0.9.2
+Depends: R (>= 2.8.1)
+
+Package: R2WinBUGS
+Version: 2.1-14
+Depends: R (>= 2.5.0), coda (>= 0.11-0)
+Suggests: BRugs (>= 0.3-2)
+
+Package: race
+Version: 0.1.56
+
+Package: RadioSonde
+Version: 1.2-8
+
+Package: rainbow
+Version: 1.1
+Depends: R (>= 2.6.0), hdrcde, ks, MASS, pcaPP
+Suggests: tseries
+
+Package: rake
+Version: 1.0
+
+Package: ramps
+Version: 0.6-7
+Depends: R (>= 2.5.1), coda, fields, Matrix (>= 0.999375-10), maps,
+        methods, nlme
+
+Package: randaes
+Version: 0.1
+
+Package: random
+Version: 0.2.0
+Depends: R (>= 2.8.0)
+
+Package: RandomFields
+Version: 1.3.37
+Depends: R (>= 2.6.0)
+
+Package: randomForest
+Version: 4.5-30
+Depends: R (>= 2.0.0), stats
+Suggests: RColorBrewer
+
+Package: randomLCA
+Version: 0.7-1
+Depends: R(>= 2.6.0), lattice, nlme, boot
+
+Package: randomSurvivalForest
+Version: 3.5.1
+Depends: R (>= 2.6.0)
+Suggests: XML
+
+Package: randtoolbox
+Version: 1.07
+Depends: R (>= 2.6.0)
+
+Package: RandVar
+Version: 0.6.7
+Depends: R (>= 2.7.0), methods, startupmsg, distr(>= 2.0), distrEx(>=
+        2.0)
+
+Package: RankAggreg
+Version: 0.3-1
+Depends: R (>= 2.4.0), gtools
+Suggests: clValid
+
+Package: rankreg
+Version: 0.2-2
+Depends: R (>= 2.0.1), quantreg
+
+Package: RArcInfo
+Version: 0.4-7
+Depends: R (>= 2.3.0)
+
+Package: RaschSampler
+Version: 0.8-1
+Depends: stats
+
+Package: rateratio.test
+Version: 1.0
+Depends: R (>= 2.4.1), stats
+
+Package: Ratings
+Version: 0.1-1
+Depends: R (>= 2.2.0), coda (>= 0.10-3)
+
+Package: rattle
+Version: 2.4.79
+Depends: R (>= 2.2.0), pmml (>= 1.2.13)
+Suggests: RGtk2, ada, amap, arules, bitops, brew, cairoDevice, car,
+        cba, colorspace, combinat, doBy, e1071, ellipse, fEcofin,
+        fCalendar, fBasics, foreign, fpc, gdata, grid, gtools, gplots,
+        gWidgetsRGtk2, Hmisc, kernlab, latticist, MASS, Matrix, mice,
+        network, nnet, odfWeave, party, randomForest, reshape, rggobi,
+        ROCR, RODBC, rpart, RSvgDevice, XML
+
+Package: rbenchmark
+Version: 0.2
+
+Package: RBGL
+Version: 1.20.0
+Depends: graph, methods
+Imports: methods
+
+Package: RBloomberg
+Version: 0.1-11
+Depends: RDCOMClient, zoo, chron
+OS_type: windows
+
+Package: rbounds
+Version: 0.3
+Depends: R (>= 2.7.1), Matching (>= 4.6-2)
+
+Package: rbugs
+Version: 0.3-6
+
+Package: R.cache
+Version: 0.1.7
+Depends: R (>= 2.3.0), R.oo, R.utils (>= 1.0.0)
+Suggests: digest (>= 0.3.0)
+
+Package: Rcapture
+Version: 1.2-0
+Imports: stats, graphics
+
+Package: rcdd
+Version: 1.1-2
+Depends: R (>= 2.4.1)
+
+Package: rcdk
+Version: 2.9.2
+Depends: R (>= 2.0.0), rJava, rcdklibs, fingerprint, methods
+Suggests: xtable
+
+Package: rcdklibs
+Version: 1.2.1
+Depends: R (>= 2.0.0), rJava
+
+Package: Rcmdr
+Version: 1.4-10
+Depends: R (>= 2.6.0), tcltk, grDevices, utils
+Suggests: abind, aplpack, car (>= 1.2-1), effects (>= 1.0-7), foreign,
+        grid, lattice, lmtest, MASS, mgcv, multcomp (>= 0.991-2), nlme,
+        nnet, relimp, rgl, RODBC
+
+Package: RcmdrPlugin.epack
+Version: 1.2.1
+Depends: Rcmdr (>= 1.3-9), rgl, TeachingDemos, tseries, abind,MASS
+
+Package: RcmdrPlugin.Export
+Version: 0.2-1
+Depends: R (>= 2.6.0), Rcmdr (>= 1.3-12), xtable
+
+Package: RcmdrPlugin.FactoMineR
+Version: 1.00
+Depends: R (>= 2.5.0), FactoMineR, Rcmdr, tcltk
+
+Package: RcmdrPlugin.HH
+Version: 1.1-24
+Depends: R (>= 2.5.1), Rcmdr (>= 1.4-6), HH (>= 2.1-28), car, multcomp
+        (>= 0.991-7), leaps, lattice, grid, grDevices
+Suggests: mgcv, abind, rgl
+
+Package: RcmdrPlugin.IPSUR
+Version: 0.1-5
+Depends: Rcmdr (>= 1.3-0), rgl
+Suggests: abind, distr, distrEx, e1071, effects (>= 1.0-7), foreign,
+        grid, lattice, lmtest, MASS, mgcv, multcomp (>= 0.991-2), nlme,
+        nnet, qcc, relimp, rgl, RODBC
+
+Package: RcmdrPlugin.orloca
+Version: 1.0
+Depends: Rcmdr (>= 1.3), tcltk, orloca (>= 2.0)
+
+Package: RcmdrPlugin.qcc
+Version: 1.0-5
+Depends: Rcmdr (>= 1.3-0), tcltk, qcc
+
+Package: RcmdrPlugin.survival
+Version: 0.7-4
+Depends: Rcmdr (>= 1.4-0), tcltk, survival, date
+
+Package: RcmdrPlugin.SurvivalT
+Version: 1.0-7
+Depends: Rcmdr (>= 1.3), survival
+
+Package: RcmdrPlugin.TeachingDemos
+Version: 1.0-3
+Depends: Rcmdr (>= 1.3-0), tcltk, rgl, TeachingDemos
+
+Package: RColorBrewer
+Version: 1.0-2
+Depends: R (>= 2.0.0)
+
+Package: rcom
+Version: 2.2-1
+Depends: R (>= 2.8.0), rscproxy, utils
+OS_type: windows
+
+Package: rcompgen
+Version: 0.1-17
+Priority: recommended
+Depends: R (>= 2.5.0), R (<= 2.6.2)
+Imports: utils, methods
+
+Package: rconifers
+Version: 0.0-10
+Depends: R (>= 2.5.0), utils
+
+Package: Rcplex
+Version: 0.2-1
+Depends: R (>= 2.6.0)
+
+Package: Rcpp
+Version: 0.6.5
+Depends: R (>= 2.0.0)
+
+Package: Rcsdp
+Version: 0.1-4
+Suggests: Matrix
+
+Package: RCurl
+Version: 0.98-1
+Depends: R (>= 2.7.0), methods, bitops
+Suggests: Rcompression
+
+Package: rda
+Version: 1.0.2
+Depends: R (>= 1.8.1)
+
+Package: rdetools
+Version: 1.0
+
+Package: RDieHarder
+Version: 0.1.1
+Depends: R (>= 2.5.0)
+
+Package: RDS
+Version: 0.01
+
+Package: ReadImages
+Version: 0.1.2
+Depends: R (>= 1.6)
+
+Package: Read.isi
+Version: 0.5.1
+
+Package: realized
+Version: 0.81
+Depends: R (>= 1.8.0)
+
+Package: ref
+Version: 0.96
+Depends: R (>= 1.5.1)
+
+Package: registry
+Version: 0.1
+Depends: R (>= 2.6.0)
+
+Package: regress
+Version: 1.1-2
+
+Package: regsubseq
+Version: 0.10
+
+Package: regtest
+Version: 0.04
+Depends: R (>= 2.5.1)
+
+Package: rela
+Version: 4.0
+
+Package: relaimpo
+Version: 2.1-2
+Depends: R(>= 2.2.1), MASS, boot, survey, methods, mitools
+
+Package: relations
+Version: 0.5-1
+Depends: R (>= 2.7.0), sets (>= 0.4)
+Imports: cluster, stats
+Suggests: Rgraphviz, clue (>= 0.3-26), lpSolve (>= 5.6.3), Rglpk (>=
+        0.2-6), Rsymphony (>= 0.1-6)
+
+Package: relax
+Version: 1.2.1
+Depends: R (>= 2.6.0), tcltk
+
+Package: relaxo
+Version: 0.1-1
+Depends: lars
+Imports: graphics, utils, stats
+
+Package: reldist
+Version: 1.5-5.1
+Suggests: locfit, mgcv
+
+Package: Reliability
+Version: 0.0-2
+Depends: R (>= 2.4.0)
+
+Package: relimp
+Version: 1.0-1
+Depends: R (>= 2.0.0)
+Imports: tcltk
+Suggests: nnet
+
+Package: relsurv
+Version: 1.5.1
+Depends: survival, splines, date
+
+Package: remMap
+Version: 0.1-0
+
+Package: repolr
+Version: 1.0
+Depends: gee
+
+Package: reporttools
+Version: 1.0.3
+Depends: xtable
+
+Package: REQS
+Version: 0.7-2
+Depends: gtools
+
+Package: ResearchMethods
+Version: 1.01
+Depends: tcltk,irr,gplots,ellipse
+
+Package: reshape
+Version: 0.8.3
+Depends: R (>= 2.6.1), plyr
+
+Package: ResistorArray
+Version: 1.0-25
+
+Package: resper
+Version: 0.3.2
+
+Package: reweight
+Version: 1.02
+
+Package: RExcelInstaller
+Version: 3.0-15
+Depends: R (>= 2.8.1), rcom (>= 2.1-3)
+Suggests: Rcmdr (>= 1.3-13)
+OS_type: windows
+
+Package: RFA
+Version: 0.0-8
+Depends: R (>= 1.8.0), tcltk
+
+Package: R.filesets
+Version: 0.5.2
+Depends: R (>= 2.6.0), R.methodsS3 (>= 1.0.3), R.oo (>= 1.4.5), R.utils
+        (>= 1.1.3), digest (>= 0.3.1)
+
+Package: RFOC
+Version: 1.0-5
+Depends: MASS
+
+Package: RFreak
+Version: 0.2-5
+Depends: R (>= 2.6.0), rJava (>= 0.5.0)
+Imports: methods
+
+Package: Rfwdmv
+Version: 0.72-2
+Depends: R (>= 2.4.0), MASS
+
+Package: rgcvpack
+Version: 0.1-2
+Depends: R (>= 2.1.0)
+
+Package: rgdal
+Version: 0.6-8
+Depends: R (>= 2.3.0), methods, sp
+
+Package: rgenoud
+Version: 5.5-1
+Depends: R (>= 2.0.0), utils
+Suggests: snow (>= 0.2-1)
+
+Package: rggobi
+Version: 2.1.14
+Depends: R (>= 2.5.1)
+Imports: RGtk2, utils, methods
+Suggests: reshape
+
+Package: rgl
+Version: 0.84
+Depends: R (>= 2.7.0),stats,grDevices
+Suggests: MASS
+
+Package: Rglpk
+Version: 0.2-9
+Depends: R (>= 2.7.0)
+
+Package: RgoogleMaps
+Version: 1.1.3
+Depends: ReadImages
+Suggests: rgdal
+
+Package: rgr
+Version: 1.0.3
+Depends: akima, MASS
+
+Package: RGrace
+Version: 0.6-6
+Depends: R (>= 2.5), RGtk2 (>= 2.11), grid, cairoDevice (>= 2.3)
+
+Package: RGraphics
+Version: 1.0-8
+Depends: R (>= 2.0.0), grDevices, graphics, grid, lattice
+Suggests: CircStats, cluster, gridBase, ipred, maps, mapproj, oz,
+        party, pixmap, vcd
+
+Package: rgrs
+Version: 0.2-10
+Suggests: tcltk, odfWeave, R2HTML, RColorBrewer, sp
+
+Package: RGtk2
+Version: 2.12.13
+Depends: R (>= 2.5.0)
+
+Package: RHmm
+Version: 1.3.1
+Depends: R (>= 2.3.0), MASS, nlme
+
+Package: rhosp
+Version: 1.04
+
+Package: RHRV
+Version: 1.6.2
+Depends: tcltk(>= 2.6.2), tkrplot(>= 0.0-18)
+
+Package: R.huge
+Version: 0.1.8
+Depends: R (>= 2.0.0), R.oo, R.utils (>= 1.0.3)
+
+Package: RiboSort
+Version: 1.1
+Depends: MASS
+
+Package: richards
+Version: 0.5.0
+Depends: R (>= 2.4.0), methods
+
+Package: Rigroup
+Version: 0.83.0
+Depends: R (>= 2.1)
+
+Package: RII
+Version: 0.4-1
+Depends: splines
+
+Package: rimage
+Version: 0.5-8
+Depends: R (>= 1.6)
+
+Package: RImageJ
+Version: 0.0-142
+Depends: R (>= 2.9.0), rJava
+
+Package: rindex
+Version: 0.09
+Depends: R (>= 2.6.0), regtest
+
+Package: risksetROC
+Version: 1.0.2
+Depends: R (>= 1.6.1), survival
+
+Package: RItools
+Version: 0.1-6
+Depends: R (>= 2.2.0), methods
+Imports: graphics, stats, lattice, grid, SparseM, xtable
+Suggests: optmatch, xtable
+
+Package: RJaCGH
+Version: 2.0.0
+Depends: R (>= 2.7.0)
+
+Package: rjacobi
+Version: 0.9.2
+Depends: R (>= 2.2.0)
+
+Package: rjags
+Version: 1.0.3-9
+Depends: R (>= 2.7.0), coda (>= 0.13)
+
+Package: rJava
+Version: 0.6-3
+Depends: R (>= 2.5.0), methods
+
+Package: RJDBC
+Version: 0.1-5
+Depends: methods, DBI, rJava (>= 0.4-15), R (>= 2.4.0)
+
+Package: rjson
+Version: 0.1.5
+Depends: R (>= 2.5.0)
+
+Package: RKEA
+Version: 0.0-1
+Depends: rJava (>= 0.5-0), RWeka, Snowball
+Imports: tm
+
+Package: Rlabkey
+Version: 0.0.7
+Depends: RCurl, rjson (>= 0.1.3)
+
+Package: RLadyBug
+Version: 0.5-0
+Depends: R (>= 2.6.0), methods, rJava, coda
+Imports: graphics, stats, grDevices, utils, MASS, boa, quadprog
+
+Package: rlecuyer
+Version: 0.2
+
+Package: RLMM
+Version: 1.6.0
+Depends: R (>= 2.1.0), MASS
+
+Package: RLRsim
+Version: 2.0-2
+Suggests: nlme, lme4 (>= 0.999375-20), SemiPar, mgcv
+
+Package: Rlsf
+Version: 1.1.1
+Depends: snow, gdata, chron
+
+Package: RM2
+Version: 0.0
+Depends: R (>= 2.7.1), msm
+
+Package: R.matlab
+Version: 1.2.4
+Depends: R (>= 2.0.0), R.oo
+Suggests: R.utils, Matrix, SparseM, Rcompression
+
+Package: rmeta
+Version: 2.15
+Depends: grid
+
+Package: rmetasim
+Version: 1.1.05
+Depends: ape, ade4
+
+Package: R.methodsS3
+Version: 1.0.3
+Depends: R (>= 2.2.0)
+Imports: utils
+
+Package: Rmpi
+Version: 0.5-7
+Depends: R (>= 2.2.0)
+Suggests: rsprng, rlecuyer
+
+Package: RMTstat
+Version: 0.1
+
+Package: RMySQL
+Version: 0.7-4
+Depends: R (>= 2.8.0), methods, DBI (>= 0.2-2), utils
+
+Package: RNetCDF
+Version: 1.2-1
+Depends: R (>= 1.7.0)
+
+Package: rngwell19937
+Version: 0.5-2
+
+Package: RobAStBase
+Version: 0.1.5
+Depends: R(>= 2.7.0), methods, distr(>= 2.0), distrEx(>= 2.0),
+        distrMod(>= 2.0), RandVar(>= 0.6.3)
+
+Package: robCompositions
+Version: 1.2.2
+Depends: utils, robustbase, car, e1071, MASS, compositions
+
+Package: robfilter
+Version: 2.5
+Depends: R (>= 2.5.0), robustbase, MASS
+
+Package: RobLox
+Version: 0.6.1
+Depends: R(>= 2.7.0), stats, distrMod(>= 2.0.1), RobAStBase(>= 0.1.1)
+Suggests: Biobase
+
+Package: RobRex
+Version: 0.6.1
+Depends: R (>= 2.4.0), ROptRegTS(>= 0.6.1)
+
+Package: robust
+Version: 0.3-4
+Depends: R (>= 2.6.0), MASS, lattice, robustbase, rrcov, stats
+
+Package: robustbase
+Version: 0.4-5
+Depends: R (>= 2.5.1), stats, graphics, methods
+Suggests: MASS
+
+Package: robustX
+Version: 1.1-0
+Depends: robustbase
+
+Package: ROCR
+Version: 1.0-2
+Depends: gplots
+
+Package: RODBC
+Version: 1.2-6
+Depends: R (>= 2.7.0), utils
+Imports: stats
+
+Package: R.oo
+Version: 1.4.8
+Depends: R (>= 2.2.0), R.methodsS3, utils
+Imports: methods
+Suggests: tools
+
+Package: rootSolve
+Version: 1.3
+Depends: R (>= 2.01)
+
+Package: ROptEst
+Version: 0.6.3
+Depends: R(>= 2.7.0), methods, distr(>= 2.0), distrEx(>= 2.0),
+        distrMod(>= 2.0), RandVar(>= 0.6.4), RobAStBase
+
+Package: ROptEstOld
+Version: 0.5.2
+Depends: R(>= 2.4.0), methods, distr(>= 2.0), distrEx(>= 2.0),
+        RandVar(>= 0.6)
+
+Package: ROptRegTS
+Version: 0.6.1
+Depends: R (>= 2.4.0), methods, distr(>= 1.9), distrEx(>= 1.9),
+        RandVar(>= 0.6), ROptEstOld(>= 0.5.2)
+
+Package: ROracle
+Version: 0.5-9
+Depends: R (>= 2.3.0), methods, DBI (>= 0.1-11)
+
+Package: roxygen
+Version: 0.1
+Suggests: Rgraphviz (>= 1.19.2)
+
+Package: Rpad
+Version: 1.3.0
+Depends: graphics, utils, grDevices
+Suggests: tcltk, R2HTML
+
+Package: rpanel
+Version: 1.0-5
+Depends: R (>= 2.5), tcltk
+Suggests: tkrplot, rgl, sp, geoR, RandomFields, sm
+
+Package: rpart
+Version: 3.1-44
+Priority: recommended
+Depends: R (>= 2.7.0), graphics, stats, grDevices
+Suggests: survival
+
+Package: RPMG
+Version: 1.0-2
+
+Package: rPorta
+Version: 0.1-9
+Depends: R (>= 2.6.0)
+Imports: methods
+
+Package: RPostgreSQL
+Version: 0.1-4
+Depends: R (>= 2.7.0), methods, DBI (>= 0.1-4)
+
+Package: rpubchem
+Version: 1.4.2
+Depends: R (>= 2.0.0), XML, car
+
+Package: rpvm
+Version: 1.0.2
+Depends: R (>= 1.8.0)
+Suggests: rsprng
+
+Package: RPyGeo
+Version: 0.9-1
+Depends: shapefiles, RSAGA
+OS_type: windows
+
+Package: RQDA
+Version: 0.1-7
+Depends: R (>= 2.5.0), DBI, RSQLite, gWidgets (>= 0.0-31),
+        gWidgetsRGtk2 (>= 0.0-36)
+Imports: RGtk2, methods
+Suggests: tm
+
+Package: rqmcmb2
+Version: 1.0.2-1
+Depends: quantreg
+
+Package: RQuantLib
+Version: 0.2.11
+Depends: R (>= 2.7.0), Rcpp (>= 0.6.4)
+
+Package: rrcov
+Version: 0.5-01
+Depends: methods, robustbase, pcaPP, mvtnorm
+Imports: stats4
+
+Package: rrp
+Version: 2.9
+Depends: rpart
+
+Package: R.rsp
+Version: 0.3.4
+Depends: R (>= 2.0.0), R.oo, R.utils
+Suggests: tcltk
+
+Package: Rsac
+Version: 0.1-7
+Depends: stats
+
+Package: RSAGA
+Version: 0.9-5
+Suggests: gstat, shapefiles
+OS_type: windows
+
+Package: RScaLAPACK
+Version: 0.5.1
+Depends: R (>= 1.6.1)
+
+Package: rscproxy
+Version: 1.3-1
+
+Package: RSEIS
+Version: 2.1-6
+Depends: RPMG
+Suggests: Rwave
+
+Package: RSeqMeth
+Version: 1.0.2
+
+Package: Rserve
+Version: 0.5-3
+Depends: R (>= 1.5.0)
+
+Package: Rsge
+Version: 0.6.3
+Depends: snow
+
+Package: RSiteSearch
+Version: 1.0-3
+Imports: brew
+
+Package: rsm
+Version: 1.12
+
+Package: rsprng
+Version: 0.4
+Depends: R (>= 1.2.0)
+
+Package: RSQLite
+Version: 0.7-1
+Depends: R (>= 2.6.0), methods, DBI (>= 0.2-3)
+Imports: methods, DBI (>= 0.2-3)
+
+Package: rstream
+Version: 1.2.3
+Depends: R (>= 2.0.0), methods
+
+Package: Rsundials
+Version: 1.6
+Depends: R (>= 2.3.0)
+
+Package: RSurvey
+Version: 0.4.5
+Depends: R (>= 2.8.0), tcltk, rgl, MBA, gpclib, sp, mgcv, tripack
+
+Package: RSvgDevice
+Version: 0.6.4.1
+Depends: R (>= 2.6.0)
+
+Package: RSVGTipsDevice
+Version: 1.0-1
+Depends: R (>= 2.6)
+
+Package: Rsymphony
+Version: 0.1-8
+Depends: R (>= 2.6.0)
+
+Package: rSymPy
+Version: 0.1-2
+Depends: rJava
+
+Package: RthroughExcelWorkbooksInstaller
+Version: 1.1-13
+Depends: R (>= 2.5.1), rcom (>= 1.5-2), HH (>= 2.1-27)
+Imports: RExcelInstaller (>= 3.0-6)
+OS_type: windows
+
+Package: rtiff
+Version: 1.4
+Depends: pixmap
+
+Package: RTisean
+Version: 3.0.10
+Depends: R (>= 2.5.0), tcltk
+
+Package: RTOMO
+Version: 1.0-6
+Depends: GEOmap, RSEIS
+
+Package: rtv
+Version: 0.2.2
+
+Package: RUnit
+Version: 0.4.22
+Depends: R (>= 2.4.0), utils (>= 2.4.0), methods (>= 2.4.0)
+
+Package: runjags
+Version: 0.9.4-2
+Depends: R (>= 2.6), coda, lattice, stats, utils
+
+Package: Runuran
+Version: 0.10.0
+Depends: R (>= 2.4.0), methods
+
+Package: R.utils
+Version: 1.1.7
+Depends: R (>= 2.4.0), R.oo
+Suggests: digest
+
+Package: rv
+Version: 1.0
+Depends: R(>= 2.4.1), utils, grDevices, graphics
+Suggests: R2WinBUGS
+
+Package: Rvelslant
+Version: 0.2-3
+Depends: MASS
+
+Package: Rwave
+Version: 1.24-2
+Depends: R (>= 2.6.0)
+
+Package: RWeka
+Version: 0.3-19
+Depends: R (>= 2.6.0)
+Imports: graphics, stats, utils, rJava (>= 0.6-0), grid
+Suggests: party (>= 0.8-0), mlbench, e1071
+
+Package: RWinEdt
+Version: 1.8-1
+Depends: R (>= 2.7.0), utils
+OS_type: windows
+
+Package: rwm
+Version: 1.27
+
+Package: rwt
+Version: 0.9.2
+Depends: R (>= 1.9), matlab
+
+Package: RxCEcolInf
+Version: 0.1-1
+Depends: MASS, MCMCpack, mvtnorm
+
+Package: RXshrink
+Version: 1.0-4
+Depends: R (>= 1.8.0), lars
+
+Package: Ryacas
+Version: 0.2-9
+Depends: R (>= 2.5.1), XML (>= 2.1-0)
+
+Package: s20x
+Version: 3.1-5
+
+Package: sabreR
+Version: 1.0
+
+Package: sac
+Version: 1.0.1
+Depends: R (>= 1.4)
+
+Package: sampfling
+Version: 0.6-3
+Depends: R (>= 1.5)
+
+Package: sampleSelection
+Version: 0.6-4
+Depends: R (>= 2.4.0), maxLik (>= 0.5-1), systemfit (>= 1.0-0)
+Suggests: VGAM, mvtnorm, plm
+
+Package: sampling
+Version: 2.1
+Depends: MASS, lpSolve
+Imports: lpSolve
+
+Package: samr
+Version: 1.26
+Depends: impute
+
+Package: sandwich
+Version: 2.2-1
+Depends: R (>= 2.0.0), stats, zoo
+Imports: stats
+Suggests: car, lmtest, strucchange, AER, survival, MASS
+
+Package: sapa
+Version: 1.0-2
+Depends: R (>= 2.5.1), ifultools (>= 1.0-3), splus2R (>= 1.0-2)
+
+Package: SASmixed
+Version: 0.4-4
+Suggests: lattice, lme4 (>= 0.999375-19)
+
+Package: SASPECT
+Version: 0.1-1
+
+Package: SASxport
+Version: 1.2.3
+Depends: R (>= 2.4.0)
+Imports: chron
+
+Package: sbgcop
+Version: 0.95
+
+Package: sca
+Version: 0.8-6
+
+Package: scagnostics
+Version: 0.2-3
+Depends: rJava
+
+Package: scaleboot
+Version: 0.3-2
+Depends: R (>= 2.0.0)
+Suggests: pvclust (>= 1.2.0), snow, Rmpi
+
+Package: scape
+Version: 1.0-9
+Depends: R (>= 2.1.1), gdata, grid, Hmisc, lattice
+
+Package: scapeMCMC
+Version: 1.0-4
+Depends: R (>= 2.1.1), coda, gdata, gplots, grid, gtools, lattice
+
+Package: scatterplot3d
+Version: 0.3-28
+Depends: R (>= 2.7.0)
+
+Package: schoolmath
+Version: 0.2
+Depends: R (>= 2.1.0)
+
+Package: sciplot
+Version: 1.0-5
+Depends: stats
+
+Package: ScottKnott
+Version: 1.0.0
+Depends: R (>= 2.6.0), stats, base
+
+Package: scout
+Version: 1.0
+Depends: R (>= 1.9.0), glasso, lars
+
+Package: scrime
+Version: 1.1.6
+Suggests: MASS, RSQLite (>= 0.4-15), oligoClasses (>= 1.1.9)
+
+Package: scuba
+Version: 1.2-2
+Depends: R (>= 2.7.0)
+
+Package: sda
+Version: 1.1.0
+Depends: R (>= 2.7.0), lattice, entropy (>= 1.1.3), corpcor (>= 1.5.2),
+        fdrtool (>= 1.2.5)
+
+Package: SDaA
+Version: 0.1-1
+Depends: survey, ggplot2 (>= 0.8.2), roxygen
+
+Package: sdcMicro
+Version: 2.5.8
+Depends: car, robustbase, tcltk, cluster, MASS, far, e1071, mclust
+
+Package: sdcTable
+Version: 0.0.2
+Depends: lpSolve
+
+Package: SDDA
+Version: 1.0-4
+Depends: MASS
+
+Package: sddpack
+Version: 0.9
+
+Package: sde
+Version: 2.0.6
+Depends: MASS, stats4, fda, zoo
+
+Package: sdtalt
+Version: 1.0-1
+Depends: lme4, boot
+
+Package: sdtoolkit
+Version: 2.22
+
+Package: seacarb
+Version: 2.1.2
+
+Package: seas
+Version: 0.3-8
+Suggests: MASS
+
+Package: seewave
+Version: 1.5.4
+Depends: R(>= 2.2.0), sound
+Suggests: rgl, rpanel, tcltk, signal, tuneR, audio
+
+Package: segclust
+Version: 0.74
+Depends: R (>= 2.4)
+
+Package: segmented
+Version: 0.2-4
+
+Package: selectiongain
+Version: 1.0
+Depends: R (>= 1.8.0), mvtnorm
+
+Package: sem
+Version: 0.9-17
+Depends: R (>= 1.6.0), stats
+Suggests: boot
+
+Package: SemiPar
+Version: 1.0-2
+Depends: cluster, nlme, MASS
+
+Package: SEMModComp
+Version: 1.0
+Depends: mvtnorm
+
+Package: sendplot
+Version: 3.7.0
+Depends: R (>= 2.7.0), rtiff
+
+Package: sensitivity
+Version: 1.4-0
+Depends: R (>= 2.7.0), boot
+Suggests: rgl
+
+Package: SensoMineR
+Version: 1.09
+Depends: FactoMineR
+
+Package: sensR
+Version: 1.0.0
+Suggests: MASS
+
+Package: SenSrivastava
+Version: 0.1-13
+Depends: R (>= 2.5.0), stats
+Suggests: leaps, car
+
+Package: seqinr
+Version: 2.0-3
+Depends: R (>= 2.5.0)
+Suggests: ade4, segmented
+
+Package: SeqKnn
+Version: 1.0.1
+Depends: R (>= 2.0.0)
+
+Package: seqmon
+Version: 0.2
+
+Package: seriation
+Version: 1.0-0
+Depends: stats, cluster, TSP, gclus, grid
+Suggests: MASS
+
+Package: session
+Version: 1.0.2
+
+Package: setRNG
+Version: 2008.3-1
+Depends: R (>= 2.5.0)
+
+Package: sets
+Version: 0.7
+Depends: R (>= 2.7.0)
+Imports: stats
+
+Package: sfsmisc
+Version: 1.0-7
+Depends: R (>= 2.5.0), stats, methods, utils
+Suggests: datasets, MASS, tcltk
+
+Package: SGCS
+Version: 0.9
+Depends: spatstat
+
+Package: sgeostat
+Version: 1.0-21
+Depends: stats
+
+Package: SGP
+Version: 0.0-4
+Depends: R (>= 2.7.0), splines, quantreg, grid, gtools
+
+Package: shape
+Version: 1.2.2
+Depends: R (>= 2.01), stats
+
+Package: shapefiles
+Version: 0.6
+Depends: R (>= 1.6.0), foreign
+
+Package: shapes
+Version: 1.1-3
+Depends: scatterplot3d, rgl
+
+Package: SharedHT2
+Version: 2.0
+Suggests: affy, Biobase, tools, affyio, hgu95av2
+
+Package: siar
+Version: 4.0
+Depends: hdrcde, coda, MASS
+
+Package: sigma2tools
+Version: 1.2.5
+Depends: stats, utils, tools
+
+Package: signal
+Version: 0.5
+Depends: stats, graphics, grDevices, MASS
+
+Package: signalextraction
+Version: 2.0.3
+Suggests: tcltk
+
+Package: SigWinR
+Version: 1.0
+
+Package: simba
+Version: 0.2-5
+Depends: R (>= 2.5.0), stats, vegan, gplots, geoR, plotrix
+
+Package: simco
+Version: 1.01
+Depends: R(>= 1.8.0), gtools
+
+Package: SimComp
+Version: 1.3
+Imports: mvtnorm, multcomp, mratios
+Suggests: multcomp, mratios
+
+Package: simctest
+Version: 1.0-0
+Depends: R (>= 2.2.0), methods, stats
+
+Package: simecol
+Version: 0.6-6
+Depends: R (>= 2.3.0), deSolve, methods
+Suggests: tcltk
+
+Package: simex
+Version: 1.4
+Depends: stats
+Suggests: mgcv, nlme
+
+Package: SimHap
+Version: 1.0.0
+Depends: stats, survival, nlme
+
+Package: similarityRichards
+Version: 0.5.0
+Depends: R (>= 2.0.0), richards (>= 0.5), methods
+
+Package: simone
+Version: 0.1-3
+Depends: R (>= 2.4.0)
+
+Package: simpleboot
+Version: 1.1-3
+Depends: R (>= 2.7.0), boot
+Imports: stats, graphics
+
+Package: SimpleTable
+Version: 0.1-1
+Depends: R (>= 2.5.1), hdrcde, locfit, MCMCpack, tcltk
+
+Package: SIN
+Version: 0.3
+Depends: R (>= 1.8.0)
+
+Package: singlecase
+Version: 0.1
+
+Package: sisus
+Version: 0.09-011
+Depends: R (>= 2.7.0), annotate, ash, Biobase, coda, ellipse, gclus,
+        gdata, geneplotter, gplots, gtools, hdrcde, moments, mvtnorm,
+        polyapost, rcdd, RColorBrewer, stats, sm
+
+Package: SiZer
+Version: 0.1-0
+Depends: R (>= 2.4.0), splines, boot
+
+Package: skewt
+Version: 0.1
+
+Package: SLmisc
+Version: 1.4.1
+Depends: R(>= 2.4.0), stats, graphics, plotrix(>= 2.1.6)
+Suggests: gplots, RColorBrewer
+
+Package: sm
+Version: 2.2-3
+Depends: R (>= 2.7.0)
+Suggests: rpanel, tkrplot, rgl, misc3d, akima, gam
+
+Package: sma
+Version: 0.5.15
+Depends: R (>= 1.3.0)
+
+Package: smacof
+Version: 0.9-6
+Depends: R (>= 2.8.0), polynom, rgl, scatterplot3d
+Imports: graphics, stats
+
+Package: smatr
+Version: 2.1
+
+Package: SMC
+Version: 1.0
+Depends: R (>= 1.9.0)
+
+Package: SMIR
+Version: 0.02
+Depends: R (>= 2.6.0),
+Suggests: lattice, foreign, gdata, car, dglm, gnm, MASS, npmlreg,
+        survival
+
+Package: smoothSurv
+Version: 0.4
+Depends: R (>= 2.9.0), survival
+
+Package: smoothtail
+Version: 1.1.3
+Depends: logcondens
+
+Package: SMPracticals
+Version: 1.3
+Depends: R (>= 1.8.0), ellipse
+
+Package: SMVar
+Version: 1.3.2
+Depends: R (>= 2.6.0)
+
+Package: sn
+Version: 0.4-12
+Depends: R (>= 2.2.0), mnormt (>= 1.3-1)
+
+Package: sna
+Version: 2.0-1
+Depends: R (>= 2.0.0), utils
+Suggests: network, rgl, numDeriv, SparseM, statnet
+
+Package: snow
+Version: 0.3-3
+Depends: R (>= 2.3), utils
+Suggests: Rmpi,rpvm,rlecuyer,rsprng,nws
+
+Package: Snowball
+Version: 0.0-6
+Imports: RWeka (>= 0.3-19), rJava (>= 0.6-0)
+
+Package: snowfall
+Version: 1.70
+Depends: snow
+Suggests: Rmpi
+
+Package: snowFT
+Version: 1.0-1
+Depends: R (>= 2.3), snow (>= 0.3-3), rpvm (>= 1.0.2)
+Suggests: rlecuyer, rsprng
+
+Package: SNPassoc
+Version: 1.5-8
+Depends: R (>= 2.4.0), haplo.stats, survival, mvtnorm, gdata
+
+Package: SNPMaP
+Version: 1.0.2
+Depends: methods, SNPMaP.cdm, affxparser, R.huge, R.utils, R (>= 2.4.0)
+
+Package: SNPMaP.cdm
+Version: 1.0.0
+Depends: R (>= 2.4.0)
+
+Package: SNPmaxsel
+Version: 1.0-3
+Depends: R (>= 2.2.1), mvtnorm, combinat
+Suggests: mvtnorm, combinat
+
+Package: snp.plotter
+Version: 0.2
+Depends: R (>= 2.0.0), genetics, grid
+
+Package: snpXpert
+Version: 1.0
+Depends: tcltk, gap, tcltk2,tkrplot,ORMDR
+Imports: genetics
+
+Package: SoDA
+Version: 1.0-3
+Depends: R(>= 2.5),methods,graphics
+
+Package: som
+Version: 0.3-4
+Depends: R (>= 1.9.0)
+
+Package: SoPhy
+Version: 1.0.36
+Depends: R (>= 2.2.0), RandomFields (>= 1.3.27)
+
+Package: sound
+Version: 1.2
+Depends: R (>= 1.4.1)
+
+Package: sp
+Version: 0.9-37
+Depends: R (>= 2.4.0), methods
+Imports: utils, lattice, grid
+Suggests: RColorBrewer
+
+Package: space
+Version: 0.1-1
+
+Package: spam
+Version: 0.15-4
+Depends: R (>= 2.4), methods
+Suggests: SparseM (>= 0.72), Matrix
+
+Package: sparseLDA
+Version: 0.1-5
+Depends: lars, elasticnet, MASS, mda
+
+Package: SparseM
+Version: 0.80
+Depends: R (>= 1.9), methods, stats, utils
+
+Package: spatclus
+Version: 1.0-3
+Depends: spatstat, mgcv
+
+Package: spatcounts
+Version: 1.0
+
+Package: spatgraphs
+Version: 2.1
+
+Package: spatialCovariance
+Version: 0.6-4
+
+Package: SpatialExtremes
+Version: 1.3-0
+Depends: R (>= 1.8.0), RandomFields
+
+Package: spatialkernel
+Version: 0.4-9
+Depends: R (>= 1.9.0)
+
+Package: SpatialNP
+Version: 1.00
+Depends: ICSNP
+
+Package: spatialsegregation
+Version: 1.93
+Depends: spatgraphs (>= 2.0)
+
+Package: spatstat
+Version: 1.15-4
+Depends: R (>= 2.7.0), stats, graphics, utils, mgcv, gpclib, deldir (>=
+        0.0-7)
+Suggests: sm, maptools
+
+Package: spBayes
+Version: 0.1-3
+Depends: R (>= 1.8.0), coda, magic, lattice, abind
+Suggests: MBA, geoR, MASS
+
+Package: spc
+Version: 0.3
+Depends: R (>= 1.4.0)
+
+Package: spcosa
+Version: 0.1-3
+Depends: R (>= 2.8.0), rJava (>= 0.6-1), methods, ggplot2 (>= 0.8.3),
+        rgdal
+Imports: sp (>= 0.9-28)
+Suggests: classGraph, gpclib, gstat, rgl
+
+Package: spdep
+Version: 0.4-34
+Depends: R (>= 2.4.0), methods, tripack, sp (>= 0.9), maptools (>=
+        0.5-4), boot, spam(>= 0.13-1), Matrix (>= 0.999375-9)
+
+Package: spe
+Version: 1.1.2
+
+Package: SpectralGEM
+Version: 0.2.1
+Depends: survival, optmatch, R (>= 2.0)
+
+Package: spectralGP
+Version: 1.2
+Imports: graphics,stats
+
+Package: spectrino
+Version: 1.5.0
+Depends: R (>= 2.0.0),rcom
+OS_type: windows
+
+Package: spgrass6
+Version: 0.6-6
+Depends: R (>= 2.4), sp (>= 0.9), rgdal (>= 0.5.26), XML
+
+Package: spgwr
+Version: 0.5-12
+Depends: R (>= 2.6), sp (>= 0.8-3), maptools (>= 0.5-2)
+Suggests: spdep, gpclib
+
+Package: SpherWave
+Version: 1.1.0
+Depends: R (>= 2.0), fields (>= 2.3)
+
+Package: splancs
+Version: 2.01-24
+Depends: R (>= 2.2.0), sp (>= 0.8-14)
+
+Package: spls
+Version: 1.1-0
+Depends: pls
+
+Package: splus2R
+Version: 1.0-5
+Depends: R (>= 2.5.1), methods
+
+Package: spssDDI
+Version: 0.1.1
+
+Package: spsurvey
+Version: 2.0
+Depends: sp
+Imports: MASS, foreign
+
+Package: spuRs
+Version: 1.0.3
+Depends: MASS
+
+Package: sqldf
+Version: 0-1.5
+Depends: R (>= 2.5.1), DBI, RSQLite (>= 0.5-5), gsubfn, proto
+
+Package: SQLiteDF
+Version: 0.1.34
+Depends: R (>= 2.4.0), DBI (>= 0.1-10), utils
+Suggests: biglm (>= 0.7)
+
+Package: SQLiteMap
+Version: 0.3
+Depends: R (>= 2.7.0), RSQLite, sp, maptools
+
+Package: SRPM
+Version: 0.1-5
+Depends: R (>= 2.4.1), methods, stashR
+Imports: utils, filehash, cacheSweave, stashR
+
+Package: ssanv
+Version: 1.0
+Depends: R (>= 2.1.1), stats
+
+Package: ssize.fdr
+Version: 1.1
+
+Package: sspir
+Version: 0.2.3
+Depends: R (>= 2.1.0),MASS,mvtnorm
+
+Package: sspline
+Version: 0.1-5
+Depends: R (>= 0.99)
+
+Package: st
+Version: 1.1.3
+Depends: R (>= 2.7.0), sda (>= 1.1.0), fdrtool (>= 1.2.5)
+Suggests: limma, samr
+
+Package: stab
+Version: 0.0.5
+Depends: R (>= 2.7.0), stats4, MASS, reshape
+
+Package: STAR
+Version: 0.2-2
+Depends: survival, mgcv, R2HTML, gss
+Suggests: lattice, HiddenMarkov, snow, rstream
+
+Package: staRt
+Version: 1.1.12
+Depends: stats, utils, tools
+
+Package: startupmsg
+Version: 0.6
+Depends: R(>= 1.8.0)
+
+Package: stashR
+Version: 0.3-3
+Depends: R (>= 2.8.0), methods, filehash
+Imports: tools, digest
+
+Package: StatDA
+Version: 1.1
+Depends: akima, car, cluster, e1071, class, geoR, sp, leaps, MASS,
+        mclust, pixmap, robustbase, rgl, mgcv, methods
+
+Package: StatDataML
+Version: 1.0-18
+Depends: R (>= 2.0.0), XML, utils
+
+Package: StatFingerprints
+Version: 1.3
+Depends:
+        rgl,car,MASS,ffmanova,akima,labdsv,RColorBrewer,vegan,tcltk2,tcltk,maptools,sciplot
+
+Package: StatMatch
+Version: 0.7
+Depends: R (>= 2.7.0), proxy, lpSolve
+Suggests: optmatch
+
+Package: statmod
+Version: 1.4.0
+Depends: R (>= 1.6.1)
+Suggests: MASS, tweedie
+
+Package: statnet
+Version: 2.1
+Depends: R (>= 2.6), network (>= 1.3), ergm (>= 2.1), latentnet (>=
+        2.1-1), degreenet (>= 1.0), sna (>= 1.5), networksis (>= 1.0),
+        abind, shapes, tools, utils
+
+Package: Stem
+Version: 1.0
+Depends: R (>= 2.7.0), mvtnorm, MASS
+
+Package: stepPlr
+Version: 0.91
+Depends: R (>= 2.0)
+OS_type: unix
+
+Package: stepwise
+Version: 0.2-4
+Depends: R (>= 2.5.0)
+
+Package: stinepack
+Version: 1.3
+
+Package: stochasticGEM
+Version: 0.0-1
+Depends: R (>= 2.4.0), coda
+
+Package: stochmod
+Version: 1.2
+Depends: R (>= 2.4.0), mvtnorm
+
+Package: StreamMetabolism
+Version: 0.03-3
+Depends: zoo, chron, maptools
+
+Package: stream.net
+Version: 1.0.6
+Depends: R (>= 2.4)
+
+Package: strucchange
+Version: 1.3-7
+Depends: R (>= 2.1.0), graphics, stats, zoo, sandwich
+Imports: graphics, stats
+Suggests: lmtest, car, dynlm, e1071, tseries
+
+Package: SubpathwayMiner
+Version: 1.1
+Depends: R (>= 2.8.0),KEGG.db(>= 2.2.5),RBGL(>= 1.18.0),fdrtool(>=
+        1.2.4)
+Suggests: Rgraphviz(>= 1.20.3),XML(>= 1.94)
+
+Package: subplex
+Version: 1.1-3
+Depends: R (>= 2.5.1)
+
+Package: subselect
+Version: 0.9-9993
+
+Package: sudoku
+Version: 2.2
+Suggests: tkrplot
+
+Package: sugaR
+Version: 0.0-5
+Depends: R (>= 2.9.0), stats, grDevices, graphics
+
+Package: supclust
+Version: 1.0-5
+
+Package: superpc
+Version: 1.06
+Depends: survival
+
+Package: SuppDists
+Version: 1.1-4
+
+Package: surv2sample
+Version: 0.1-2
+Depends: survival
+
+Package: survBayes
+Version: 0.2.2
+Depends: survival, coda
+
+Package: survcomp
+Version: 1.1.2
+Depends: survival, ipred, prodlim, survivalROC, SuppDists, bootstrap, R
+        (>= 2.3.0)
+Suggests: Hmisc, Design
+
+Package: surveillance
+Version: 1.0-2
+Depends: methods,utils,xtable,spc,sp,maptools,vcd,msm
+Suggests: RUnit,digest,coda
+
+Package: survey
+Version: 3.16
+Depends: R (>= 2.2.0)
+Suggests: survival, MASS, KernSmooth, hexbin, mitools, lattice,
+        RSQLite, RODBC, quantreg, splines, Matrix
+
+Package: surveyNG
+Version: 0.3
+Depends: R (>= 2.2.0), RSQLite, Matrix, survival, KernSmooth, survey
+Suggests: MASS, hexbin
+
+Package: survival
+Version: 2.35-4
+Priority: recommended
+Depends: stats, utils, graphics, splines, R (>= 2.0.0)
+
+Package: survivalROC
+Version: 1.0.0
+Depends: R (>= 1.6.1)
+
+Package: survrec
+Version: 1.1-7
+Depends: R (>= 1.8.0), boot
+
+Package: svcm
+Version: 0.1.2
+Depends: R (>= 2.4.0), Matrix, splines
+
+Package: svcR
+Version: 1.4.2
+Depends: R (>= 2.3), spdep, quadprog, ade4, methods
+
+Package: svGUI
+Version: 0.9-44
+Depends: R (>= 2.6.0), svMisc, svSocket
+
+Package: svIDE
+Version: 0.9-45
+Depends: R (>= 2.6.0), tcltk, svMisc
+Imports: utils
+
+Package: svMisc
+Version: 0.9-46
+Depends: R (>= 2.6.0)
+Imports: utils, methods
+
+Package: svmpath
+Version: 0.92
+Depends: R
+
+Package: svSocket
+Version: 0.9-43
+Depends: R (>= 2.6.0), tcltk, svMisc
+
+Package: SweaveListingUtils
+Version: 0.2
+Depends: R(>= 2.0.0), startupmsg
+Imports: stats
+
+Package: SwissAir
+Version: 1.0.9
+Depends: R(>= 2.5)
+Suggests: IDPmisc(>= 0.94)
+
+Package: SyNet
+Version: 1.0
+Depends: deldir
+
+Package: Synth
+Version: 0.1-6
+Depends: kernlab
+Suggests: rgenoud
+
+Package: systemfit
+Version: 1.1-2
+Depends: R (>= 1.8.0), Matrix, car, lmtest
+Suggests: plm (>= 1.0-1), MASS, sem
+
+Package: taskPR
+Version: 0.34
+Depends: R (>= 2.4.0)
+OS_type: unix
+
+Package: tawny
+Version: 1.1.0
+Depends: R (>= 2.8.0), futile, zoo, xts, quantmod
+Suggests: PerformanceAnalytics
+
+Package: tcltk2
+Version: 1.0-8
+Depends: R (>= 2.4.0), tcltk
+Suggests: utils
+
+Package: tdist
+Version: 0.1-1.1
+Depends: R (>= 1.8.0)
+
+Package: tdm
+Version: 2.1.1
+Depends: R (>= 2.0.0), BRugs
+OS_type: windows
+
+Package: tdthap
+Version: 1.1-2
+Depends: R (>= 1.5.0)
+
+Package: TeachingDemos
+Version: 2.3
+Suggests: tkrplot, lattice, MASS, rgl, sgeostat, mapproj, tcltk, tcltk2
+
+Package: TeachingSampling
+Version: 0.8.1
+Depends: R (>= 2.6.0)
+
+Package: tensor
+Version: 1.4
+
+Package: tensorA
+Version: 0.31
+Depends: R (>= 2.2.0)
+
+Package: termstrc
+Version: 1.1
+Depends: R (>= 2.6.0)
+
+Package: tframe
+Version: 2009.2-1
+Depends: R (>= 2.5.0)
+Imports: stats
+
+Package: tframePlus
+Version: 2009.02-1
+Depends: R (>= 2.5.0), tframe
+Imports: tframe
+Suggests: zoo, its
+
+Package: tgp
+Version: 2.2-2
+Depends: R (>= 2.4)
+Suggests: akima, maptree
+
+Package: tiger
+Version: 0.1
+Depends: R (>= 1.8.0), e1071, hexbin, qualV
+
+Package: tileHMM
+Version: 1.0-2
+Depends: R (>= 2.4.0), methods
+Suggests: st, affy, geneplotter
+
+Package: time
+Version: 1.0
+
+Package: timeDate
+Version: 290.85
+Depends: R (>= 2.6.0), graphics, utils, stats, methods
+Suggests: RUnit
+
+Package: timereg
+Version: 1.2-2
+Depends: survival, lars, R (>= 2.4.0)
+
+Package: timeSeries
+Version: 2100.83
+Depends: R (>= 2.6.0), graphics, grDevices, methods, stats, utils,
+        timeDate (>= 290.85)
+Suggests: robustbase, RUnit
+
+Package: TIMP
+Version: 1.8
+Depends: R (>= 2.7.0), methods, tcltk, vcd, fields (>= 4.1), gplots,
+        splines, gclus, nnls (>= 1.1), odesolve, minpack.lm (>= 1.1-1)
+
+Package: timsac
+Version: 1.2.1
+Depends: R (>= 2.4.0)
+
+Package: TinnR
+Version: 1.0.3
+Depends: R (>= 2.6.0), utils, tcltk, Hmisc, R2HTML
+
+Package: tis
+Version: 1.6
+Depends: R (>= 2.3)
+
+Package: titan
+Version: 1.0-15.1
+Depends: R (>= 2.7.0), MASS, boot, tcltk, splines, lattice
+
+Package: titecrm
+Version: 0.1-1
+Depends: R (>= 1.3.0)
+
+Package: tkrgl
+Version: 0.6.1
+Depends: R (>= 2.0.0), tcltk, rgl (>= 0.66)
+
+Package: tkrplot
+Version: 0.0-18
+Depends: R (>= 2.2), grDevices, tcltk
+
+Package: tlemix
+Version: 0.0.5
+Depends: flexmix
+Imports: methods, flexmix, modeltools, stats4
+Suggests: mvtnorm, flexmix, tcltk
+
+Package: tlnise
+Version: 1.0-1
+Depends: R (>= 2.8.0)
+Imports: stats
+Suggests: MASS
+
+Package: tm
+Version: 0.3-4.1
+Depends: R (>= 2.7.0), methods
+Suggests: filehash, proxy, Rgraphviz, Rmpi, RWeka, snow, Snowball, XML
+
+Package: tmvtnorm
+Version: 0.5-1
+Depends: R (>= 1.9.0), mvtnorm, utils
+Imports: stats, graphics
+
+Package: tnet
+Version: 0.1.0
+Depends: R (>= 2.7.0), graph, RBGL
+Suggests: network, sna, statnet
+
+Package: topmodel
+Version: 0.6.2
+
+Package: tossm
+Version: 1.2
+Depends: splancs,grid,gpclib,hierfstat,mvbutils,rmetasim,wombsoft
+
+Package: tpr
+Version: 0.2-4
+Depends: stats, lgtdl, Matrix
+
+Package: trackObjs
+Version: 0.8-3
+Depends: R (>= 2.1.0)
+
+Package: tractor.base
+Version: 1.1.0
+Depends: R (>= 2.5.0)
+
+Package: tradeCosts
+Version: 0.3-0
+Depends: R (>= 2.4.0), methods, tools, graphics
+
+Package: TraMineR
+Version: 1.2-1
+Depends: R (>= 2.7.1), RColorBrewer, boot
+Suggests: cluster
+
+Package: TRAMPR
+Version: 1.0-5
+Depends: R (>= 2.4)
+
+Package: tree
+Version: 1.0-26
+Depends: R (>= 2.3.0), grDevices, graphics, stats
+
+Package: treelet
+Version: 0.1-0
+Depends: R (>= 2.0.1)
+
+Package: TRIANG
+Version: 1.1
+
+Package: triangle
+Version: 0.5
+Depends: R (>= 2.0.1)
+
+Package: trimcluster
+Version: 0.1-2
+Depends: R (>= 1.9.0)
+Suggests: fpc
+
+Package: trip
+Version: 1.1-2
+Depends: methods, sp
+
+Package: tripack
+Version: 1.3-3
+
+Package: tripEstimation
+Version: 0.0-24
+Depends: zoo, mgcv, lattice
+Suggests: rgdal
+
+Package: TripleR
+Version: 0.1.1
+
+Package: truncgof
+Version: 0.5-2
+Depends: R (>= 2.4.0)
+
+Package: truncnorm
+Version: 1.0.0
+Depends: R (>= 2.7.0)
+
+Package: truncreg
+Version: 0.1-1
+Depends: R (>= 1.8.0), maxLik
+
+Package: trust
+Version: 0.1-2
+Depends: R (>= 2.4.1)
+
+Package: TSA
+Version: 0.97
+Depends: R (>= 2.5.1),leaps, locfit, mgcv, tseries
+
+Package: TSdbi
+Version: 2009.5-2
+Depends: R (>= 2.8.0), methods, tframe (>= 2008.5-1)
+Imports: methods, DBI
+Suggests: zoo, tseries
+
+Package: tsDyn
+Version: 0.6-1
+Depends: mgcv, Matrix
+Imports: nnet, tseriesChaos, tseries, utils
+Suggests: tcltk, sm, scatterplot3d, rgl
+
+Package: tseries
+Version: 0.10-18
+Depends: R (>= 2.4.0), quadprog, stats, zoo
+Imports: graphics, stats, utils
+Suggests: its
+
+Package: tseriesChaos
+Version: 0.1-8
+Depends: R (>= 2.2.0), odesolve
+Suggests: scatterplot3d
+
+Package: tsfa
+Version: 2009.02-1
+Depends: R (>= 2.1.0), GPArotation (>= 2006.9-1), setRNG (>= 2004.4-1),
+        tframe (>= 2009.2-1), dse1 (>= 2006.1-1), dse2 (>= 2006.1-1)
+Suggests: CDNmoney, MASS
+
+Package: TSfame
+Version: 2009.3-1
+Depends: R (>= 2.8.0), methods, tframePlus, TSdbi, DBI, fame, tis, zoo
+Imports: methods, TSdbi (>= 2009.1-1), DBI, tframe
+Suggests: tseries, TShistQuote
+
+Package: TShistQuote
+Version: 2009.1-1
+Depends: R (>= 2.8.0), methods, DBI, TSdbi (>= 2009.1-1), tseries,
+        tframe, tframePlus, zoo
+Imports: DBI, methods
+
+Package: TSHRC
+Version: 0.1-2
+Depends: R (>= 2.4.1)
+
+Package: tslars
+Version: 1.0
+
+Package: tsModel
+Version: 0.5-1
+Depends: R (>= 2.7.0)
+Imports: splines, stats, tlnise, MASS
+Suggests: gam, NMMAPSlite
+
+Package: TSMySQL
+Version: 2009.3-2
+Depends: R (>= 2.8.0), methods, tframePlus, TSdbi, RMySQL
+Imports: methods, TSdbi (>= 2009.1-1), DBI, RMySQL (>= 0.6-0)
+Suggests: zoo, tseries, TShistQuote
+
+Package: TSodbc
+Version: 2009.3-3
+Depends: R (>= 2.8.0), methods, tframePlus, TSdbi, DBI, RODBC
+Imports: methods, TSdbi (>= 2009.1-1), DBI, RODBC (>= 0.6-0)
+Suggests: zoo, tseries, TShistQuote
+
+Package: TSP
+Version: 1.0-0
+Suggests: maps, sp, maptools
+
+Package: TSpadi
+Version: 2009.6-1
+Depends: R (>= 2.8.0), methods, DBI, TSdbi, tframe (>= 2008.5-1)
+Imports: methods, DBI, TSdbi (>= 2009.5-1)
+Suggests: tframePlus
+OS_type: unix
+
+Package: TSPostgreSQL
+Version: 2009.3-2
+Depends: R (>= 2.8.0), methods, tframePlus, TSdbi, RPostgreSQL
+Imports: methods, TSdbi (>= 2009.1-1), DBI, RPostgreSQL
+Suggests: zoo, tseries, TShistQuote
+
+Package: TSSQLite
+Version: 2009.3-1
+Depends: R (>= 2.8.0), methods, tframePlus, TSdbi, RSQLite
+Imports: methods, DBI, TSdbi (>= 2009.1-1), RSQLite
+Suggests: zoo, tseries, TShistQuote
+
+Package: TTR
+Version: 0.2
+Depends: xts (>= 0.6.4)
+
+Package: tuneR
+Version: 0.2-10
+Depends: R (>= 2.5.0), methods
+Suggests: pastecs
+
+Package: tutoR
+Version: 0.3.2
+
+Package: twang
+Version: 1.0-1
+Depends: R (>= 2.2), gbm (>= 1.5-3), survey, xtable
+
+Package: tweedie
+Version: 1.6.6
+Depends: R (>= 1.0), statmod(>= 1.0.8)
+Suggests: fBasics
+
+Package: TWIX
+Version: 0.2.6
+Depends: R (>= 1.8.0), rpart
+Suggests: mlbench, ElemStatLearn
+
+Package: TwoWaySurvival
+Version: 2.2
+Depends: splines
+
+Package: twslm
+Version: 1.0.2
+Depends: splines
+
+Package: TwslmSpikeWeight
+Version: 1.0.1
+Depends: splines
+
+Package: ucminf
+Version: 1.0-5
+Depends: numDeriv, R (>= 1.9.0)
+
+Package: udunits
+Version: 1.3
+
+Package: Umacs
+Version: 0.924
+Depends: R(>= 2.5.1), methods, utils
+Suggests: rv, R2WinBUGS
+
+Package: ump
+Version: 0.5-2
+Depends: R (>= 1.8.0)
+
+Package: unbalhaar
+Version: 1.0
+
+Package: uncompress
+Version: 1.31
+
+Package: UNF
+Version: 1.16
+Depends: R (>= 2.0)
+Imports: utils
+
+Package: uniCox
+Version: 1.0
+Depends: survival
+
+Package: untb
+Version: 1.4-2
+Depends: partitions,Brobdingnag
+
+Package: urca
+Version: 1.2-2
+Depends: R (>= 2.0.0), methods
+Imports: nlme, graphics, stats
+
+Package: urn
+Version: 1.2
+Depends: R (>= 2.3.0)
+
+Package: UsingR
+Version: 0.1-12
+Suggests: zoo
+
+Package: USPS
+Version: 1.2-0
+Depends: R (>= 1.8.0), cluster, lattice, gss
+
+Package: vabayelMix
+Version: 0.3
+Depends: mclust
+
+Package: VaR
+Version: 0.2
+Depends: R (>= 1.4.1)
+
+Package: VarianceGamma
+Version: 0.1-2
+Depends: R (>= 2.3.0), HyperbolicDist
+
+Package: varmixt
+Version: 0.2-4
+Depends: R (>= 2.0),MASS,stats, qvalue
+
+Package: vars
+Version: 1.4-5
+Depends: R (>= 2.0.0), MASS, strucchange, urca (>= 1.1-6)
+
+Package: varSelRF
+Version: 0.7-1
+Depends: R (>= 2.0.0), randomForest
+Suggests: snow, Rmpi
+
+Package: vbmp
+Version: 1.12.0
+Depends: R (>= 2.5)
+Suggests: Biobase, statmod
+
+Package: vcd
+Version: 1.2-4
+Depends: R (>= 2.4.0), MASS, grid, colorspace
+Imports: stats, utils, MASS, grDevices
+Suggests: KernSmooth, mvtnorm, kernlab, HSAUR
+
+Package: VDCutil
+Version: 1.15
+Depends: R (>= 2.1.0), Zelig, R2HTML, accuracy
+Suggests: UNF, foreign
+
+Package: vegan
+Version: 1.15-3
+Suggests: MASS, mgcv, lattice, cluster, scatterplot3d, rgl, ellipse,
+        tcltk
+
+Package: verification
+Version: 1.29
+Depends: methods, waveslim, fields, boot, CircStats
+
+Package: VGAM
+Version: 0.7-9
+Depends: R (>= 2.5.0), splines, methods, stats, stats4
+
+Package: VhayuR
+Version: 1.1.2
+Depends: chron, zoo
+Imports: utils, stats
+
+Package: VIM
+Version: 1.3
+Depends: car, graphics, grDevices, robustbase, stats, tcltk, tkrplot,
+        sp, utils
+Imports: car, grDevices, robustbase, stats, tcltk, sp, utils
+
+Package: vioplot
+Version: 0.2
+Depends: sm
+
+Package: VLMC
+Version: 1.3-10
+Depends: stats, MASS
+
+Package: vowels
+Version: 1.0-2
+
+Package: VR
+Version: 7.2-47
+Priority: recommended
+Bundle: VR
+Contains: MASS class nnet spatial
+Depends: R (>= 2.5.0), grDevices, graphics, stats, utils
+Suggests: lattice, nlme, survival
+
+Package: vrmlgen
+Version: 1.0
+Suggests: misc3d
+
+Package: vrtest
+Version: 0.94
+
+Package: wasim
+Version: 1.0
+Depends: R (>= 1.8.0), MASS, qualV
+
+Package: waved
+Version: 1.1
+
+Package: wavelets
+Version: 0.2-4
+Depends: R (>= 2.0.0), methods
+
+Package: waveslim
+Version: 1.6.1
+Depends: R (>= 2.0), stats, graphics, grDevices
+
+Package: wavethresh
+Version: 2.2-11
+Depends: R (>= 2.1.0)
+
+Package: wccsom
+Version: 1.2.3
+Depends: class, MASS
+
+Package: wgaim
+Version: 0.2-2
+Depends: R (>= 2.0.0), qtl
+
+Package: WhatIf
+Version: 1.5-5
+Depends: R (>= 2.3.1), lpSolve
+
+Package: wikibooks
+Version: 0.2
+Depends: R (>= 2.1.0)
+
+Package: WilcoxCV
+Version: 1.0-2
+Depends: R (>= 2.0.0)
+
+Package: WINRPACK
+Version: 1.0-8
+Depends: RSEIS
+OS_type: unix
+
+Package: wle
+Version: 0.9-3
+Depends: circular
+
+Package: wmtsa
+Version: 1.0-4
+Depends: R (>= 2.5.1), splus2R (>= 1.0-2), ifultools (>= 1.0-3),
+        graphics, stats, MASS
+
+Package: wnominate
+Version: 0.94
+Depends: R (>= 2.3.1), pscl (>= 0.59)
+
+Package: wombsoft
+Version: 2.0
+
+Package: wordnet
+Version: 0.1-3
+Depends: rJava (>= 0.5-0)
+
+Package: write.snns
+Version: 0.0-4.2
+
+Package: WriteXLS
+Version: 1.8.0
+
+Package: WWGbook
+Version: 1.0.0
+Depends: R (>= 1.4.1)
+
+Package: x12
+Version: 0.0-6
+Depends: R (>= 2.7.0),tcltk,stats,utils,grDevices
+
+Package: xgobi
+Version: 1.2-14
+Depends: R (>= 1.2)
+
+Package: XML
+Version: 2.5-1
+Depends: R (>= 1.2.0), methods, utils
+
+Package: XReg
+Version: 1.0
+Depends: R (>= 2.3.1)
+
+Package: xtable
+Version: 1.5-5
+Depends: R (>= 2.6.0)
+
+Package: xterm256
+Version: 0.0
+
+Package: xts
+Version: 0.6-6
+Depends: zoo
+Suggests: timeSeries,timeDate,tseries,its,chron,fts,tis
+
+Package: yacca
+Version: 1.1
+Depends: R (>= 1.8.0), utils
+
+Package: yaImpute
+Version: 1.0-9
+Depends: R (>= 2.4.0)
+Suggests: vegan, randomForest, gam, fastICA, sp
+
+Package: YaleToolkit
+Version: 3.1
+Depends: grid, lattice, vcd, MASS, colorspace
+
+Package: yaml
+Version: 1.0.1
+
+Package: yest
+Version: 0.4-1
+Depends: R (>= 2.4.0), graphics, MASS
+
+Package: YourCast
+Version: 0.9-7
+Depends: R (>= 1.9.0), sma
+
+Package: Zelig
+Version: 3.4-5
+Depends: R (>= 2.6.0), MASS, boot
+Suggests: VGAM (>= 0.7-5), MCMCpack (>= 0.8-2), mvtnorm, survival,
+        sandwich (>= 2.1-0), zoo (>= 1.5-0), coda, nnet, sna, gee,
+        systemfit, mgcv, lme4, anchors (>= 2.0), survey
+
+Package: ZIGP
+Version: 3.5
+
+Package: zipfR
+Version: 0.6-5
+Depends: R (>= 2.7.0)
+
+Package: zoeppritz
+Version: 1.0-2
+
+Package: zoo
+Version: 1.5-6
+Depends: R (>= 2.4.1), stats
+Imports: stats, utils, graphics, grDevices, lattice
+Suggests: chron, DAAG, fCalendar, fSeries, its, lattice, strucchange,
+        timeDate, timeSeries, tseries, xts
+
+Package: zyp
+Version: 0.9-1
+Depends: R (>= 2.4.0), Kendall
+
+Package: orientlib
+Version: 0.10.1
+Depends: R (>= 2.10), methods
+Suggests: rgl, scatterplot3d
+Path: 2.10.0/Other
