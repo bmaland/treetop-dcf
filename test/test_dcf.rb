@@ -2,9 +2,6 @@
 require File.dirname(__FILE__) + '/helper'
 
 class TestDcfParser < Test::Unit::TestCase
-  should "not accept spaces in keys" do
-    assert_nil Dcf.parse("As df: Value\n")
-  end
 
   should "parse a description file" do
     description = <<EOF
@@ -127,4 +124,5 @@ EOF
     assert_match "Sébastien Auclair", parse["Author"]
     assert_equal "Tue May 26 10:40:31 2009; #{match}", parse["Packaged"]
   end
+
 end

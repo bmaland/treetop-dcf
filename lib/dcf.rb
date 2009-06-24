@@ -1,6 +1,6 @@
 require "rubygems"
 require "treetop"
-require "dcf_grammar"
+require File.join(File.dirname(__FILE__) + "/dcf_grammar")
 
 module Dcf
   # @param [String] input

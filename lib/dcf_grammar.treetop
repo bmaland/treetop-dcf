@@ -1,6 +1,6 @@
 grammar Dcf
   rule paragraphs
-    (paragraph eol?)*
+    (paragraph eol?)+
   end
 
   rule paragraph
@@ -8,25 +8,25 @@ grammar Dcf
   end
 
   rule field
-    attribute separator value white*
+    attribute separator value
   end
 
   rule attribute
-    (!eol !":" !" " .)+
+    (!":" !eol .)+
   end
 
   rule value
-    eol? valid_value_symbols (eol white+ valid_value_symbols)*
+    eol? (!eol .)+ (eol white+ (!eol .)+)*
     {
       def text_value
         # I don't really like this, but it works for the files I'm parsing, so..
-        super.strip.gsub(/[\r\n] */, ' ')
+        super.strip.gsub(/\n */, ' ')
       end
     }
   end
 
-  rule valid_value_symbols
-    (!eol .)+
+  rule next_record
+    "\n" [a-zA-Z]
   end
 
   rule separator
@@ -34,7 +34,7 @@ grammar Dcf
   end
 
   rule eol
-    "\r\n" / [\n\r]
+    "\n"
   end
 
   rule white
