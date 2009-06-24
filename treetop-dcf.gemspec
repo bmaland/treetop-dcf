@@ -2,11 +2,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{treetop-dcf}
-  s.version = "0.1.2"
+  s.version = "0.2.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Bjorn Arild Maeland"]
-  s.date = %q{2009-06-06}
+  s.date = %q{2009-06-25}
   s.description = %q{Easy to use parser for Debian Control Files.}
   s.email = %q{bjorn.maeland@gmail.com}
   s.extra_rdoc_files = [
@@ -22,9 +22,9 @@ Gem::Specification.new do |s|
   s.rubygems_version = %q{1.3.4}
   s.summary = %q{Easy to use parser for Debian Control Files.}
   s.test_files = [
-    "test/helper.rb",
-     "test/suite.rb",
-     "test/test_dcf.rb"
+    "test/test_dcf.rb",
+     "test/helper.rb",
+     "test/suite.rb"
   ]
 
   if s.respond_to? :specification_version then
