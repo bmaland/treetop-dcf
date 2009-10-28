@@ -19,7 +19,7 @@ Its much faster but fails on certain valid files.
 
 ## Installation
 
-sudo gem install Chrononaut-treetop-dcf
+    gem install treetop-dcf
 
 ## Acknowledgements
 

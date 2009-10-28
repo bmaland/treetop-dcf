@@ -3,7 +3,7 @@ require 'rake'
 require 'rake/testtask'
 
 begin
-  gem 'jeweler', '>= 0.11.0'
+  gem 'jeweler', '>= 1.3.0'
   require 'jeweler'
   Jeweler::Tasks.new do |s|
     s.name = "treetop-dcf"
@@ -11,14 +11,16 @@ begin
     s.email = "bjorn.maeland@gmail.com"
     s.homepage = "http://github.com/Chrononaut/treetop-dcf"
     s.description = "Easy to use parser for Debian Control Files."
-    s.authors = ["Bjorn Arild Maeland"]
+    s.authors = ["Bjørn Arild Mæland"]
     s.files = "lib/*.*"
     s.add_dependency('treetop', '>= 1.2.5')
   end
 rescue LoadError
-  puts "Jeweler not available. Install it with: sudo gem install jeweler --version '>= 0.11.0'"
+  puts "Jeweler not available. Install it with: sudo gem install jeweler --version '>= 1.3.0'"
   exit(1)
 end
+
+Jeweler::GemcutterTasks.new
 
 Rake::TestTask.new do |t|
   t.libs << 'lib'
