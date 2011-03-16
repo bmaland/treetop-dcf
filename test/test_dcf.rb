@@ -41,6 +41,11 @@ EOF
     assert_equal "rgl,car,MASS,ffmanova,akima,labdsv,RColorBrewer,vegan,tcltk2,tcltk,maptools,sciplot", stat["Depends"]
   end
 
+  should "parse fields with blank values" do
+    parse = Dcf.parse("A: \nB: b")
+    assert_equal [{"A"=>"", "B"=>"b"}], parse
+  end
+
   should "parse a simple entry" do
     parse = Dcf.parse("Attr: Value\n").first
     assert_equal ["Attr"], parse.keys

@@ -16,7 +16,7 @@ grammar Dcf
   end
 
   rule value
-    eol? (!eol .)+ (eol white+ (!eol .)+)*
+    (!next_record !parasep .)*
     {
       def text_value
         # I don't really like this, but it works for the files I'm parsing, so..
@@ -31,6 +31,10 @@ grammar Dcf
 
   rule separator
     ':' white*
+  end
+
+  rule parasep
+    "\n" "\n"
   end
 
   rule eol
